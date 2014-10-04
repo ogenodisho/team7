@@ -9,6 +9,13 @@ public class Agent7ControlUI : MonoBehaviour
 	Rect jumpButton;
 	Rect shootButton;
 
+	bool fingerOnTrigger = false;
+
+	bool leftPressed = false;
+	bool rightPressed = false;
+	bool jumpPressed = false;
+	bool shootPressed = false;
+
 	void Awake()
 	{
 		character = GetComponent<PlatformerCharacter2D>();
@@ -17,22 +24,45 @@ public class Agent7ControlUI : MonoBehaviour
 		jumpButton = new Rect (  Screen.width / 2  , Screen.height - 80, Screen.width / 4, 80);
 		shootButton = new Rect(3 * Screen.width / 4, Screen.height - 80, Screen.width / 4, 80);
 	}
-	
-	void Update ()
-	{
+
+	void Update () {
+
+		leftPressed = false;
+		rightPressed = false;
+		jumpPressed = false;
+		shootPressed = false;
+
 		for (int i = 0; i < Input.touchCount; i++) {
 			if (leftButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height - Input.GetTouch(i).position.y, 0))) {
-				character.Move(-1, false, false);
+				leftPressed = true;
 			}
 			if (rightButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
-				character.Move(1, false, false);
+				rightPressed = true;
 			}
 			if (jumpButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
-				character.Jump();
+				jumpPressed = true;
 			}
 			if (shootButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
-				
+				shootPressed = true;
 			}
+		}
+
+		if (leftPressed) {
+			character.Move (-1, false, false);
+		}
+		if (rightPressed) {
+			character.Move (1, false, false);
+		}
+		if (jumpPressed) {
+			character.Jump ();
+		}
+		if (shootPressed) {
+			if (!fingerOnTrigger) {
+				character.Shoot();
+				fingerOnTrigger = true;
+			}
+		} else {
+			fingerOnTrigger = false;
 		}
 	}
 	
@@ -40,6 +70,6 @@ public class Agent7ControlUI : MonoBehaviour
 		GUI.RepeatButton (leftButton, "<-");
 		GUI.RepeatButton (rightButton, "->");
 		GUI.RepeatButton (jumpButton, "Jump");
-		GUI.RepeatButton (shootButton, "Shoot");
+		GUI.Button (shootButton, "Shoot");
 	}
 }

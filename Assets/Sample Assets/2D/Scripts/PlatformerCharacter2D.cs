@@ -12,13 +12,23 @@ public class PlatformerCharacter2D : MonoBehaviour
 	
 	[SerializeField] bool airControl = false;			// Whether or not a player can steer while jumping;
 	[SerializeField] LayerMask whatIsGround;			// A mask determining what is ground to the character
-	
+
+	public Transform MissilePrefab;
+
 	Transform groundCheck;								// A position marking where to check if the player is grounded.
 	float groundedRadius = .2f;							// Radius of the overlap circle to determine if grounded
 	bool grounded = false;								// Whether or not the player is grounded.
 	Transform ceilingCheck;								// A position marking where to check for ceilings
 	float ceilingRadius = .01f;							// Radius of the overlap circle to determine if the player can stand up
 	Animator anim;										// Reference to the player's animator component.
+
+	// shooting variables
+	public float fireRate = 0;
+	public float Damage = 10;
+	public LayerMask whatToHit;
+	
+	float timeToFire = 0;
+	Transform firePoint;
 
 
     void Awake()
@@ -27,8 +37,27 @@ public class PlatformerCharacter2D : MonoBehaviour
 		groundCheck = transform.Find("GroundCheck");
 		ceilingCheck = transform.Find("CeilingCheck");
 		anim = GetComponent<Animator>();
+
+		// set up shooting
+		firePoint = transform.FindChild ("FirePoint");
+		if (firePoint == null) {
+			Debug.LogError ("No firePoint? WHAT?!");
+		}
 	}
 
+	/*void Update () {
+		if (fireRate == 0) {
+			if (Input.GetButtonDown ("Fire1")) {
+				Shoot();
+			}
+		}
+		else {
+			if (Input.GetButton ("Fire1") && Time.time > timeToFire) {
+				timeToFire = Time.time + 1/fireRate;
+				Shoot();
+			}
+		}
+	}*/
 
 	void FixedUpdate()
 	{
@@ -38,6 +67,10 @@ public class PlatformerCharacter2D : MonoBehaviour
 
 		// Set the vertical animation
 		anim.SetFloat("vSpeed", rigidbody2D.velocity.y);
+
+		anim.SetFloat("Speed", Mathf.Abs(rigidbody2D.velocity.x));
+
+		//Debug.Log (firePoint.position.x + " " + firePoint.position.y);
 	}
 
 
@@ -63,11 +96,11 @@ public class PlatformerCharacter2D : MonoBehaviour
 			move = (crouch ? move * crouchSpeed : move);
 
 			// The Speed animator parameter is set to the absolute value of the horizontal input.
-			anim.SetFloat("Speed", Mathf.Abs(move));
+			//anim.SetFloat("Speed", Mathf.Abs(move));
 
 			// Move the character
 			rigidbody2D.velocity = new Vector2(move * maxSpeed, rigidbody2D.velocity.y);
-			
+
 			// If the input is moving the player right and the player is facing left...
 			if(move > 0 && !facingRight)
 				// ... flip the player.
@@ -93,6 +126,23 @@ public class PlatformerCharacter2D : MonoBehaviour
 			anim.SetBool("Ground", false);
 			rigidbody2D.AddForce(new Vector2(0f, 120f));
 		}
+	}
+
+	public void Shoot () {
+		Vector2 firePointPosition = new Vector2 (firePoint.position.x, firePoint.position.y);
+		Vector2 mousePosition = new Vector2 (facingRight ? firePoint.position.x + 100 : firePoint.position.x - 100, firePoint.position.y);
+		RaycastHit2D hit = Physics2D.Raycast (firePointPosition, mousePosition-firePointPosition, 100, whatToHit);
+		Effect();
+		if (hit.collider != null) {
+			Debug.DrawLine (firePointPosition, hit.point, Color.red);
+			Debug.Log ("We hit " + hit.collider.name + " and did " + Damage + " damage.");
+		} else {
+			Debug.DrawLine (firePointPosition, (mousePosition-firePointPosition)*100, Color.red);
+		}
+	}
+
+	void Effect() {
+		Instantiate (MissilePrefab, firePoint.position, firePoint.rotation);
 	}
 	
 	void Flip ()
