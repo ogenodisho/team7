@@ -33,6 +33,8 @@ public class PlatformerCharacter2D : MonoBehaviour
 
 	private Quaternion rotateOneEightyAroundZ;
 
+	Agent7StatsUI statsUi;
+
     void Awake()
 	{
 		// Setting up references.
@@ -50,6 +52,8 @@ public class PlatformerCharacter2D : MonoBehaviour
 		if (runningFirePoint == null) {
 			Debug.LogError ("No runningFirePoint? WHAT?!");
 		}
+
+		statsUi = GetComponent<Agent7StatsUI>();
 
 		rotateOneEightyAroundZ = new Quaternion(0, 0, 1, 0);
 
@@ -170,4 +174,21 @@ public class PlatformerCharacter2D : MonoBehaviour
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
+
+	public void LoseHealth() {
+		statsUi.setHp (statsUi.getHp() - 1);
+	}
+
+	public void GainHealth() {
+		statsUi.setHp (statsUi.getHp() + 1);
+	}
+
+	public void LoseScore(int amount) {
+		statsUi.setScore (statsUi.getScore() - amount);
+	}
+	
+	public void GainScore(int amount) {
+		statsUi.setScore (statsUi.getScore() + amount);
+	}
+
 }

@@ -49,16 +49,20 @@ public class Agent7ControlUI : MonoBehaviour
 
 		if (leftPressed) {
 			character.Move (-1, false, false);
+			character.LoseScore(1);
 		}
 		if (rightPressed) {
 			character.Move (1, false, false);
+			character.GainScore(1);
 		}
 		if (jumpPressed) {
 			character.Jump ();
+			character.GainHealth();
 		}
 		if (shootPressed) {
 			if (!fingerOnTrigger) {
 				character.Shoot();
+				character.LoseHealth();
 				fingerOnTrigger = true;
 			}
 		} else {
