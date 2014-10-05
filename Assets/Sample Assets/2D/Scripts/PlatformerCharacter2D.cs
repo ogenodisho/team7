@@ -2,7 +2,7 @@
 
 public class PlatformerCharacter2D : MonoBehaviour 
 {
-	bool facingRight = true;							// For determining which way the player is currently facing.
+	public bool facingRight = true;							// For determining which way the player is currently facing.
 
 	[SerializeField] float maxSpeed = 10f;				// The fastest the player can travel in the x axis.
 	[SerializeField] float jumpForce = 400f;			// Amount of force added when the player jumps.	
@@ -30,6 +30,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 	float timeToFire = 0;
 	Transform firePoint;
 
+	private Quaternion rotateOneEightyAroundZ;
 
     void Awake()
 	{
@@ -43,21 +44,10 @@ public class PlatformerCharacter2D : MonoBehaviour
 		if (firePoint == null) {
 			Debug.LogError ("No firePoint? WHAT?!");
 		}
-	}
 
-	/*void Update () {
-		if (fireRate == 0) {
-			if (Input.GetButtonDown ("Fire1")) {
-				Shoot();
-			}
-		}
-		else {
-			if (Input.GetButton ("Fire1") && Time.time > timeToFire) {
-				timeToFire = Time.time + 1/fireRate;
-				Shoot();
-			}
-		}
-	}*/
+		rotateOneEightyAroundZ = new Quaternion(0, 0, 1, 0);
+
+	}
 
 	void FixedUpdate()
 	{
@@ -142,7 +132,12 @@ public class PlatformerCharacter2D : MonoBehaviour
 	}
 
 	void Effect() {
-		Instantiate (MissilePrefab, firePoint.position, firePoint.rotation);
+		if (facingRight) {
+			Instantiate (MissilePrefab, firePoint.position, firePoint.rotation);
+		} else {
+			// If Agent_7 is not facing right, rotate the prefab 180 around the z-axis
+			Instantiate (MissilePrefab, firePoint.position, rotateOneEightyAroundZ * firePoint.rotation);
+		}
 	}
 	
 	void Flip ()
