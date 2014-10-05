@@ -28,7 +28,8 @@ public class PlatformerCharacter2D : MonoBehaviour
 	public LayerMask whatToHit;
 	
 	float timeToFire = 0;
-	Transform firePoint;
+	Transform idleFirePoint;
+	Transform runningFirePoint;
 
 	private Quaternion rotateOneEightyAroundZ;
 
@@ -40,9 +41,14 @@ public class PlatformerCharacter2D : MonoBehaviour
 		anim = GetComponent<Animator>();
 
 		// set up shooting
-		firePoint = transform.FindChild ("FirePoint");
-		if (firePoint == null) {
-			Debug.LogError ("No firePoint? WHAT?!");
+		idleFirePoint = transform.FindChild ("IdleFirePoint");
+		runningFirePoint = transform.FindChild ("RunningFirePoint");
+
+		if (idleFirePoint == null) {
+			Debug.LogError ("No idleFirePoint? WHAT?!");
+		}
+		if (runningFirePoint == null) {
+			Debug.LogError ("No runningFirePoint? WHAT?!");
 		}
 
 		rotateOneEightyAroundZ = new Quaternion(0, 0, 1, 0);
@@ -119,6 +125,13 @@ public class PlatformerCharacter2D : MonoBehaviour
 	}
 
 	public void Shoot () {
+		float currSpeed = anim.GetFloat("Speed");
+		Transform firePoint;
+		if (currSpeed > 2) {
+			firePoint = runningFirePoint;
+		} else {
+			firePoint = idleFirePoint;
+		}
 		Vector2 firePointPosition = new Vector2 (firePoint.position.x, firePoint.position.y);
 		Vector2 mousePosition = new Vector2 (facingRight ? firePoint.position.x + 100 : firePoint.position.x - 100, firePoint.position.y);
 		RaycastHit2D hit = Physics2D.Raycast (firePointPosition, mousePosition-firePointPosition, 100, whatToHit);
@@ -132,6 +145,13 @@ public class PlatformerCharacter2D : MonoBehaviour
 	}
 
 	void Effect() {
+		float currSpeed = anim.GetFloat("Speed");
+		Transform firePoint;
+		if (currSpeed > 2) {
+			firePoint = runningFirePoint;
+		} else {
+			firePoint = idleFirePoint;
+		}
 		if (facingRight) {
 			Instantiate (MissilePrefab, firePoint.position, firePoint.rotation);
 		} else {
