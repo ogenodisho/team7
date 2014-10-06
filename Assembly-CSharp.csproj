@@ -49,7 +49,7 @@
      <Compile Include="Assets\Sample Assets\2D\Scripts\Agent7ControlUI.cs" />
      <Compile Include="Assets\Sample Assets\2D\Scripts\Agent7StatsUI.cs" />
      <Compile Include="Assets\Sample Assets\2D\Scripts\Camera2DFollow.cs" />
-     <Compile Include="Assets\Sample Assets\2D\Scripts\MissileTrail.cs" />
+     <Compile Include="Assets\Sample Assets\2D\Scripts\MissileScript.cs" />
      <Compile Include="Assets\Sample Assets\2D\Scripts\PlatformerCharacter2D.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

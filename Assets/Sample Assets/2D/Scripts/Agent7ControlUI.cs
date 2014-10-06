@@ -18,11 +18,12 @@ public class Agent7ControlUI : MonoBehaviour
 
 	void Awake()
 	{
+		// Initialise script and rectangles for the ui
 		character = GetComponent<PlatformerCharacter2D>();
-		leftButton = new Rect (          0         , Screen.height - 80, Screen.width / 4, 80);
-		rightButton = new Rect(  Screen.width / 4  , Screen.height - 80, Screen.width / 4, 80);
-		jumpButton = new Rect (  Screen.width / 2  , Screen.height - 80, Screen.width / 4, 80);
-		shootButton = new Rect(3 * Screen.width / 4, Screen.height - 80, Screen.width / 4, 80);
+		leftButton = new Rect (          0          , Screen.width - 150, Screen.height / 4, 150);
+		rightButton = new Rect(  Screen.height / 4  , Screen.width - 150, Screen.height / 4, 150);
+		shootButton = new Rect(  Screen.height / 2  , Screen.width - 150, Screen.height / 4, 150);
+		jumpButton = new Rect (3 * Screen.height / 4, Screen.width - 150, Screen.height / 4, 150);
 	}
 
 	void Update () {
@@ -32,6 +33,8 @@ public class Agent7ControlUI : MonoBehaviour
 		jumpPressed = false;
 		shootPressed = false;
 
+		// Iterate through the touches to determine
+		// which buttons are currently being pressed
 		for (int i = 0; i < Input.touchCount; i++) {
 			if (leftButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height - Input.GetTouch(i).position.y, 0))) {
 				leftPressed = true;
@@ -47,29 +50,30 @@ public class Agent7ControlUI : MonoBehaviour
 			}
 		}
 
+		// Perform appropriate logic based on pressed buttons
 		if (leftPressed) {
 			character.Move (-1, false, false);
-			character.LoseScore(1);
 		}
 		if (rightPressed) {
 			character.Move (1, false, false);
-			character.GainScore(1);
 		}
 		if (jumpPressed) {
 			character.Jump ();
-			character.GainHealth();
 		}
 		if (shootPressed) {
+			// Alter the finger on trigger boolean so you
+			// have to release the button in order to shoot again.
+			// This fixes the problem of being able to shoot non stop
 			if (!fingerOnTrigger) {
 				character.Shoot();
-				character.LoseHealth();
 				fingerOnTrigger = true;
 			}
 		} else {
 			fingerOnTrigger = false;
 		}
 	}
-	
+
+	// This method is called by Unity and just draws the boxes
 	void OnGUI() {
 		GUI.RepeatButton (leftButton, "<-");
 		GUI.RepeatButton (rightButton, "->");

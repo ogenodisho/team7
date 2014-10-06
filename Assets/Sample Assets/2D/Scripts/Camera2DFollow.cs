@@ -1,6 +1,9 @@
 using UnityEngine;
 using System.Collections;
 
+/**
+ * Taken from Brackeys 2D Platformer tutorial. Just follows a target.
+ * */
 public class Camera2DFollow : MonoBehaviour {
 	
 	public Transform target;

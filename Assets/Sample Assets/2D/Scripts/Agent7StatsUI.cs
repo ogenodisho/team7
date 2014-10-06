@@ -12,11 +12,14 @@ public class Agent7StatsUI : MonoBehaviour {
 	Rect scoreDisplay;
 	Rect powerupDisplay;
 
-	int hp = 3;
+	// Initial hp and score
+	int hp = 2;
 	int score = 0;
 
 	GUIStyle customScoreText;
 	GUIStyle customHealth;
+
+	// Getters and setters for status variables
 
 	public void setHp(int newHp) {
 		hp = newHp;
@@ -47,8 +50,8 @@ public class Agent7StatsUI : MonoBehaviour {
 	}
 
 	void Awake() {
-		healthDisplay = new Rect ((Screen.width / 2) - (Screen.width / 5 / 2), 0, Screen.width / 5, 50);
-		scoreDisplay = new Rect (0, 0, Screen.width / 5, 50);
+		healthDisplay = new Rect ((Screen.height / 2) - (Screen.height / 5 / 2), 0, Screen.height / 5, 50);
+		scoreDisplay = new Rect (0, 0, Screen.height / 5, 50);
 
 		customScoreText = new GUIStyle();
 		customScoreText.normal.textColor = Color.white;
@@ -59,6 +62,8 @@ public class Agent7StatsUI : MonoBehaviour {
 		customHealth = new GUIStyle();
 	}
 
+	// Everytime this method is called, check the health value
+	// so you can display the appropriate health texture
 	void OnGUI() {
 		GUI.Box(scoreDisplay, score.ToString(), customScoreText);
 		switch (hp) {
@@ -73,7 +78,6 @@ public class Agent7StatsUI : MonoBehaviour {
 			break;
 		case 0:
 			GUI.Box(healthDisplay, zeroHp, customHealth);
-			Debug.Log ("AGENT_7 DIED - GAME OVER!");
 			break;
 		}
 	}

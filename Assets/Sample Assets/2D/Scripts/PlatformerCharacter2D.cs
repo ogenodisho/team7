@@ -1,5 +1,9 @@
 ﻿using UnityEngine;
 
+/** This class takes care of Agent_7's functionality.
+ * It also handles his collisions with other objects.
+ * 
+ * */
 public class PlatformerCharacter2D : MonoBehaviour 
 {
 	public bool facingRight = true;							// For determining which way the player is currently facing.
@@ -35,6 +39,10 @@ public class PlatformerCharacter2D : MonoBehaviour
 
 	Agent7StatsUI statsUi;
 
+	void Start() {
+		Screen.orientation = ScreenOrientation.LandscapeLeft;
+	}
+
     void Awake()
 	{
 		// Setting up references.
@@ -69,8 +77,6 @@ public class PlatformerCharacter2D : MonoBehaviour
 		anim.SetFloat("vSpeed", rigidbody2D.velocity.y);
 
 		anim.SetFloat("Speed", Mathf.Abs(rigidbody2D.velocity.x));
-
-		//Debug.Log (firePoint.position.x + " " + firePoint.position.y);
 	}
 
 
@@ -129,6 +135,9 @@ public class PlatformerCharacter2D : MonoBehaviour
 	}
 
 	public void Shoot () {
+		// Agent_7's gun is higher up when he's running
+		// so calculate his speed to determine the height
+		// to fire the missile from for realism
 		float currSpeed = anim.GetFloat("Speed");
 		Transform firePoint;
 		if (currSpeed > 2) {
@@ -136,30 +145,12 @@ public class PlatformerCharacter2D : MonoBehaviour
 		} else {
 			firePoint = idleFirePoint;
 		}
-		Vector2 firePointPosition = new Vector2 (firePoint.position.x, firePoint.position.y);
-		Vector2 mousePosition = new Vector2 (facingRight ? firePoint.position.x + 100 : firePoint.position.x - 100, firePoint.position.y);
-		RaycastHit2D hit = Physics2D.Raycast (firePointPosition, mousePosition-firePointPosition, 100, whatToHit);
-		Effect();
-		if (hit.collider != null) {
-			Debug.DrawLine (firePointPosition, hit.point, Color.red);
-			Debug.Log ("We hit " + hit.collider.name + " and did " + Damage + " damage.");
-		} else {
-			Debug.DrawLine (firePointPosition, (mousePosition-firePointPosition)*100, Color.red);
-		}
-	}
 
-	void Effect() {
-		float currSpeed = anim.GetFloat("Speed");
-		Transform firePoint;
-		if (currSpeed > 2) {
-			firePoint = runningFirePoint;
-		} else {
-			firePoint = idleFirePoint;
-		}
+		// Create the missile.
 		if (facingRight) {
 			Instantiate (MissilePrefab, firePoint.position, firePoint.rotation);
 		} else {
-			// If Agent_7 is not facing right, rotate the prefab 180 around the z-axis
+			// If Agent_7 is not facing right, rotate the missile prefab 180 around the z-axis
 			Instantiate (MissilePrefab, firePoint.position, rotateOneEightyAroundZ * firePoint.rotation);
 		}
 	}
@@ -175,6 +166,8 @@ public class PlatformerCharacter2D : MonoBehaviour
 		transform.localScale = theScale;
 	}
 
+	// The following 4 methods are for
+	// increasing and decreasing hp and score
 	public void LoseHealth() {
 		statsUi.setHp (statsUi.getHp() - 1);
 	}
@@ -189,6 +182,23 @@ public class PlatformerCharacter2D : MonoBehaviour
 	
 	public void GainScore(int amount) {
 		statsUi.setScore (statsUi.getScore() + amount);
+	}
+
+	// This method is called when Agent_7 collides with something
+	void OnCollisionEnter2D(Collision2D collision) {
+		if (collision.gameObject.name.Equals("HealthPickup")) {
+			// Agent_7 collided with a health pickup. Increment health
+			// and destroy the pickup
+			Debug.Log("+1 HP!");
+			GainHealth ();
+			Destroy (collision.gameObject, 0);
+		} else if (collision.gameObject.name.Equals("x2Pickup")) {
+
+		} else if (collision.gameObject.name.Equals("InvulnerabilityPickup")) {
+
+		} else if (collision.gameObject.name.Equals("Enemy")) {
+			// you hit an enemy
+		}
 	}
 
 }
