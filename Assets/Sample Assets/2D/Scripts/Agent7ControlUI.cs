@@ -16,8 +16,8 @@ public class Agent7ControlUI : MonoBehaviour
 	bool jumpPressed = false;
 	bool shootPressed = false;
 	
-	double lastShotTime = 0;
-	double shootingThreshold = 0.7;
+	float lastShotTime = 0f;
+	float shootingThreshold = 0.7f;
 
 	void Awake()
 	{
