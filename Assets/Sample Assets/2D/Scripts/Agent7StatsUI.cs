@@ -1,7 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[RequireComponent(typeof(PlatformerCharacter2D))]
 public class Agent7StatsUI : MonoBehaviour {
+	
+	private PlatformerCharacter2D character;
+	public float fallingThreshold = -100;
 
 	public Texture threeHp;
 	public Texture twoHp;
@@ -50,6 +54,8 @@ public class Agent7StatsUI : MonoBehaviour {
 	}
 
 	void Awake() {
+		character = GetComponent<PlatformerCharacter2D>();
+		
 		healthDisplay = new Rect ((Screen.height / 2) - (Screen.height / 5 / 2), 0, Screen.height / 5, 50);
 		scoreDisplay = new Rect (0, 0, Screen.height / 5, 50);
 
@@ -60,6 +66,12 @@ public class Agent7StatsUI : MonoBehaviour {
 		// this empty gui style will remove the black
 		// tint from behind the default GUI.Box()
 		customHealth = new GUIStyle();
+	}
+	
+	void Update() {
+		if (character.transform.position.y > fallingThreshold) {
+			hp = 0;
+		}
 	}
 
 	// Everytime this method is called, check the health value
