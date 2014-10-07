@@ -10,6 +10,8 @@ public class Agent7ControlUI : MonoBehaviour
 	Rect shootButton;
 	Rect menuButton;
 	Rect resumeButton;
+	Rect optionsButton;
+	Rect quitButton;
 	
 	bool fingerOnTrigger = false;
 	
@@ -19,6 +21,8 @@ public class Agent7ControlUI : MonoBehaviour
 	bool shootPressed = false;
 	bool menuPressed = false;
 	bool resumePressed = false;
+	bool optionsPressed = false;
+	bool quitPressed = false;
 	
 	bool paused = false;
 	
@@ -37,14 +41,18 @@ public class Agent7ControlUI : MonoBehaviour
 			menuButton = new Rect ( 2 * Screen.width / 5, Screen.height - 150, Screen.width / 5, 150);
 			shootButton = new Rect( 3 * Screen.width / 5, Screen.height - 150, Screen.width / 5, 150);
 			jumpButton = new Rect ( 4 * Screen.width / 5, Screen.height - 150, Screen.width / 5, 150);
-			resumeButton = new Rect (Screen.width / 2, 50, 150,  80);
+			resumeButton = new Rect  (Screen.width / 2,  50, 150,  80);
+			optionsButton = new Rect (Screen.width / 2, 150, 150,  80);
+			quitButton = new Rect    (Screen.width / 2, 250, 150,  80);
 		} else {
 			leftButton = new Rect (          0           , Screen.width - 150, Screen.height / 5, 150);
 			rightButton = new Rect(  Screen.height / 5   , Screen.width - 150, Screen.height / 5, 150);
 			menuButton = new Rect ( 2 * Screen.height / 5, Screen.width - 150, Screen.height / 5, 150);
 			shootButton = new Rect( 3 * Screen.height / 5, Screen.width - 150, Screen.height / 5, 150);
 			jumpButton = new Rect ( 4 * Screen.height / 5, Screen.width - 150, Screen.height / 5, 150);
-			resumeButton = new Rect (Screen.height / 2, 50, 150,  80);
+			resumeButton = new Rect  (Screen.height / 2,  50, 150,  80);
+			optionsButton = new Rect (Screen.height / 2, 150, 150,  80);
+			quitButton = new Rect    (Screen.height / 2, 250, 150,  80);
 		}
 	}
 	
@@ -56,6 +64,8 @@ public class Agent7ControlUI : MonoBehaviour
 		shootPressed = false;
 		menuPressed = false;
 		resumePressed = false;
+		optionsPressed = false;
+		quitPressed = false;
 		
 		// Iterate through the touches to determine
 		// which buttons are currently being pressed
@@ -79,6 +89,12 @@ public class Agent7ControlUI : MonoBehaviour
 			} else {
 				if (resumeButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
 					resumePressed = true;
+				}
+				if (optionsButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
+					optionsPressed = true;
+				}
+				if (quitButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
+					quitPressed = true;
 				}
 			}
 		}
@@ -115,6 +131,12 @@ public class Agent7ControlUI : MonoBehaviour
 				paused = false;
 				Time.timeScale = 1;
 			}
+			else if (optionsPressed) {
+				// options menu
+			}
+			else if (quitPressed) {
+				// quit to title
+			}
 		}
 	}
 	
@@ -128,6 +150,8 @@ public class Agent7ControlUI : MonoBehaviour
 			GUI.Button (shootButton, "Shoot");
 		} else {
 			GUI.Button (resumeButton, "Resume");
+			GUI.Button (optionsButton, "Options");
+			GUI.Button (quitButton, "Quit to Title");
 		}
 	}
 }
