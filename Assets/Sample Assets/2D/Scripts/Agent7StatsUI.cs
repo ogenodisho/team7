@@ -69,7 +69,7 @@ public class Agent7StatsUI : MonoBehaviour {
 	}
 	
 	void Update() {
-		if (character.transform.position.y > fallingThreshold) {
+		if (character.transform.position.y < fallingThreshold) {
 			hp = 0;
 		}
 	}
