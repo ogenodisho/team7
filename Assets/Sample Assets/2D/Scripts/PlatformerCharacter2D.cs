@@ -35,6 +35,9 @@ public class PlatformerCharacter2D : MonoBehaviour
 	Transform idleFirePoint;
 	Transform runningFirePoint;
 
+	// time To Be Hurt
+	float timeToBeHurt = 0;
+
 	private Quaternion rotateOneEightyAroundZ;
 
 	Agent7StatsUI statsUi;
@@ -77,6 +80,10 @@ public class PlatformerCharacter2D : MonoBehaviour
 		anim.SetFloat("vSpeed", rigidbody2D.velocity.y);
 
 		anim.SetFloat("Speed", Mathf.Abs(rigidbody2D.velocity.x));
+
+		if (timeToBeHurt != 0) {
+			timeToBeHurt--;
+		}
 	}
 
 
@@ -198,7 +205,16 @@ public class PlatformerCharacter2D : MonoBehaviour
 
 		} else if (collision.gameObject.name.Equals("Enemy")) {
 			// you hit an enemy
-		}
+		} 
 	}
 
+	void OnTriggerEnter2D(Collider2D collider) {
+		if(timeToBeHurt == 0){
+			if (collider.gameObject.name.Equals ("Fire")) {
+				Debug.Log("-1 HP!");
+				LoseHealth ();
+			}
+			timeToBeHurt = 5;
+		}
+	}
 }
