@@ -16,8 +16,8 @@ public class Agent7ControlUI : MonoBehaviour
 	bool jumpPressed = false;
 	bool shootPressed = false;
 	
-	float lastShotTime = 0;
-	float shootingThreshold = 0.7;
+	double lastShotTime = 0;
+	double shootingThreshold = 0.7;
 
 	void Awake()
 	{
@@ -69,7 +69,7 @@ public class Agent7ControlUI : MonoBehaviour
 			// This fixes the problem of being able to shoot non stop
 			if (!fingerOnTrigger && Time.realtimeSinceStartup - lastShotTime > shootingThreshold) {
 				character.Shoot();
-				lastShotTime = Time.realTimeSinceStartup;
+				lastShotTime = Time.realtimeSinceStartup;
 				fingerOnTrigger = true;
 			}
 		} else {
