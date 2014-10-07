@@ -10,6 +10,8 @@ public class Agent7ControlUI : MonoBehaviour
 	Rect shootButton;
 	Rect menuButton;
 
+	Rect resumeButton;
+
 	bool fingerOnTrigger = false;
 
 	bool leftPressed = false;
@@ -32,6 +34,8 @@ public class Agent7ControlUI : MonoBehaviour
 		menuButton = new Rect ( 2 * Screen.height / 5, Screen.width - 150, Screen.height / 5, 150);
 		shootButton = new Rect( 3 * Screen.height / 5, Screen.width - 150, Screen.height / 5, 150);
 		jumpButton = new Rect ( 4 * Screen.height / 5, Screen.width - 150, Screen.height / 5, 150);
+
+		resumeButton = new Rect(Screen.height/2, 10, Screen.height/4, 100);
 	}
 
 	void Update () {
@@ -57,12 +61,9 @@ public class Agent7ControlUI : MonoBehaviour
 			if (shootButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
 				shootPressed = true;
 			}
-			if (menuButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
-				menuPressed = true;
-			}
 		}
 
-		if (!paused) {
+		if (!paused) { // control buttons can only work when game is not paused
 			// Perform appropriate logic based on pressed buttons
 			if (leftPressed) {
 				character.Move (-1, false, false);
@@ -86,24 +87,24 @@ public class Agent7ControlUI : MonoBehaviour
 				fingerOnTrigger = false;
 			}
 		}
-		
-		if (menuPressed) {
-			if (paused) { // unpause
-				paused = false;
-				Time.timeScale = 1;
-			} else {
-				paused = true;
-				Time.timeScale = 0;
-			}
-		}
 	}
 
 	// This method is called by Unity and just draws the boxes
 	void OnGUI() {
-		GUI.RepeatButton (leftButton, "<-");
-		GUI.RepeatButton (rightButton, "->");
-		GUI.Button (menuButton, "Menu");
-		GUI.RepeatButton (jumpButton, "Jump");
-		GUI.Button (shootButton, "Shoot");
+		if (paused == false) { // only show these buttons is game is not paused
+			GUI.RepeatButton (leftButton, "<-");
+			GUI.RepeatButton (rightButton, "->");
+			if(GUI.Button (menuButton, "Menu")) { // pause game
+				paused = true;
+				Time.timeScale = 0;
+			}
+			GUI.RepeatButton (jumpButton, "Jump");
+			GUI.Button (shootButton, "Shoot");
+		} else {
+			if(GUI.Button(resumeButton ,"Resume")) {
+				paused = false;
+				Time.timeScale = 1;
+			}
+		}
 	}
 }
