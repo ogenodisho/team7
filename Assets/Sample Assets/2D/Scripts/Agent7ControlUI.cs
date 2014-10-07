@@ -9,61 +9,81 @@ public class Agent7ControlUI : MonoBehaviour
 	Rect jumpButton;
 	Rect shootButton;
 	Rect menuButton;
-
 	Rect resumeButton;
-
+	
 	bool fingerOnTrigger = false;
-
+	
 	bool leftPressed = false;
 	bool rightPressed = false;
 	bool jumpPressed = false;
 	bool shootPressed = false;
 	bool menuPressed = false;
+	bool resumePressed = false;
 	
 	bool paused = false;
 	
 	float lastShotTime = 0f;
 	float shootingThreshold = 0.7f;
-
+	
+	bool testingUsingUnityRemote = true;
+	
 	void Awake()
 	{
 		// Initialise script and rectangles for the ui
 		character = GetComponent<PlatformerCharacter2D>();
-		leftButton = new Rect (          0           , Screen.width - 150, Screen.height / 5, 150);
-		rightButton = new Rect(  Screen.height / 5   , Screen.width - 150, Screen.height / 5, 150);
-		menuButton = new Rect ( 2 * Screen.height / 5, Screen.width - 150, Screen.height / 5, 150);
-		shootButton = new Rect( 3 * Screen.height / 5, Screen.width - 150, Screen.height / 5, 150);
-		jumpButton = new Rect ( 4 * Screen.height / 5, Screen.width - 150, Screen.height / 5, 150);
-
-		resumeButton = new Rect(Screen.height/2, 10, Screen.height/4, 100);
+		if (testingUsingUnityRemote) {
+			leftButton = new Rect (          0          , Screen.height - 150, Screen.width / 5, 150);
+			rightButton = new Rect(  Screen.width / 5   , Screen.height - 150, Screen.width / 5, 150);
+			menuButton = new Rect ( 2 * Screen.width / 5, Screen.height - 150, Screen.width / 5, 150);
+			shootButton = new Rect( 3 * Screen.width / 5, Screen.height - 150, Screen.width / 5, 150);
+			jumpButton = new Rect ( 4 * Screen.width / 5, Screen.height - 150, Screen.width / 5, 150);
+			resumeButton = new Rect (Screen.width / 2, 50, 150,  80);
+		} else {
+			leftButton = new Rect (          0           , Screen.width - 150, Screen.height / 5, 150);
+			rightButton = new Rect(  Screen.height / 5   , Screen.width - 150, Screen.height / 5, 150);
+			menuButton = new Rect ( 2 * Screen.height / 5, Screen.width - 150, Screen.height / 5, 150);
+			shootButton = new Rect( 3 * Screen.height / 5, Screen.width - 150, Screen.height / 5, 150);
+			jumpButton = new Rect ( 4 * Screen.height / 5, Screen.width - 150, Screen.height / 5, 150);
+			resumeButton = new Rect (Screen.height / 2, 50, 150,  80);
+		}
 	}
-
+	
 	void Update () {
-
+		
 		leftPressed = false;
 		rightPressed = false;
 		jumpPressed = false;
 		shootPressed = false;
 		menuPressed = false;
-
+		resumePressed = false;
+		
 		// Iterate through the touches to determine
 		// which buttons are currently being pressed
 		for (int i = 0; i < Input.touchCount; i++) {
-			if (leftButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height - Input.GetTouch(i).position.y, 0))) {
-				leftPressed = true;
-			}
-			if (rightButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
-				rightPressed = true;
-			}
-			if (jumpButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
-				jumpPressed = true;
-			}
-			if (shootButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
-				shootPressed = true;
+			if (!paused) {
+				if (leftButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height - Input.GetTouch(i).position.y, 0))) {
+					leftPressed = true;
+				}
+				if (rightButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
+					rightPressed = true;
+				}
+				if (jumpButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
+					jumpPressed = true;
+				}
+				if (shootButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
+					shootPressed = true;
+				}
+				if (menuButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
+					menuPressed = true;
+				}
+			} else {
+				if (resumeButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
+					resumePressed = true;
+				}
 			}
 		}
-
-		if (!paused) { // control buttons can only work when game is not paused
+		
+		if (!paused) {
 			// Perform appropriate logic based on pressed buttons
 			if (leftPressed) {
 				character.Move (-1, false, false);
@@ -86,25 +106,28 @@ public class Agent7ControlUI : MonoBehaviour
 			} else {
 				fingerOnTrigger = false;
 			}
-		}
-	}
-
-	// This method is called by Unity and just draws the boxes
-	void OnGUI() {
-		if (paused == false) { // only show these buttons is game is not paused
-			GUI.RepeatButton (leftButton, "<-");
-			GUI.RepeatButton (rightButton, "->");
-			if(GUI.Button (menuButton, "Menu")) { // pause game
+			if (menuPressed && !paused) {
 				paused = true;
 				Time.timeScale = 0;
 			}
-			GUI.RepeatButton (jumpButton, "Jump");
-			GUI.Button (shootButton, "Shoot");
 		} else {
-			if(GUI.Button(resumeButton ,"Resume")) {
+			if (resumePressed) {
 				paused = false;
 				Time.timeScale = 1;
 			}
+		}
+	}
+	
+	// This method is called by Unity and just draws the boxes
+	void OnGUI() {
+		if (!paused) {
+			GUI.Button (leftButton, "<-");
+			GUI.Button (rightButton, "->");
+			GUI.Button (menuButton, "Menu");
+			GUI.Button (jumpButton, "Jump");
+			GUI.Button (shootButton, "Shoot");
+		} else {
+			GUI.Button (resumeButton, "Resume");
 		}
 	}
 }
