@@ -141,9 +141,6 @@ public class Agent7ControlUI : MonoBehaviour
 			}
 			else if (quitPressed) {
 				// quit to title
-				paused = false;
-				Time.timeScale = 1;
-				Application.LoadLevel("HomeScreenScene");
 			}
 		}
 	}

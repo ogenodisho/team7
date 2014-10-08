@@ -35,9 +35,6 @@ public class MissileScript : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D collision) {
 		if (collision.gameObject.name.Equals("Enemy")) {
 			Debug.Log ("You hit an enemy!");
-		} else if (collision.gameObject.name.Equals("Ground") || collision.gameObject.name.Equals("Box")) {
-			Debug.Log ("You hit the ground!");
-			Destroy(gameObject);
 		}
 	}
 }
