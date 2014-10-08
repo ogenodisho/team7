@@ -30,35 +30,35 @@ public class Agent7ControlUI : MonoBehaviour
 	float lastShotTime = 0f;
 	float shootingThreshold = 0.7f;
 	
-	public static bool testingUsingUnityRemote = true;
+	//public static bool testingUsingUnityRemote = true;
 	
 	void Awake()
 	{
 		// Initialise script and rectangles for the ui
 		character = GetComponent<PlatformerCharacter2D>();
-		if (testingUsingUnityRemote) {
-			leftButton = new Rect (          0          , Screen.height - 150, Screen.width / 5, 150);
-			rightButton = new Rect(  Screen.width / 5   , Screen.height - 150, Screen.width / 5, 150);
-			menuButton = new Rect ( 2 * Screen.width / 5, Screen.height - 150, Screen.width / 5, 150);
-			shootButton = new Rect( 3 * Screen.width / 5, Screen.height - 150, Screen.width / 5, 150);
-			jumpButton = new Rect ( 4 * Screen.width / 5, Screen.height - 150, Screen.width / 5, 150);
+		//if (testingUsingUnityRemote) {
+			leftButton = new Rect (          0          , Screen.height - 150, Screen.width / 4, 150);
+			rightButton = new Rect(  Screen.width / 4   , Screen.height - 150, Screen.width / 4, 150);
+			menuButton = new Rect ( Screen.width - 150, 0, 150, 50);
+			shootButton = new Rect( 2 * Screen.width / 4, Screen.height - 150, Screen.width / 4, 150);
+			jumpButton = new Rect ( 3 * Screen.width / 4, Screen.height - 150, Screen.width / 4, 150);
 
 			menuBackground = new Rect(Screen.width / 4     ,             Screen.height / 6             , Screen.width / 2     , 2 * Screen.height / 3);
 			resumeButton = new Rect  (Screen.width / 4 + 10,         Screen.height / 6 + 20 + 10       , Screen.width / 2 - 20,   Screen.height / 6  );
 			optionsButton = new Rect (Screen.width / 4 + 10,       Screen.height / 3 + 20 + 10 + 10    , Screen.width / 2 - 20,   Screen.height / 6  );
 			quitButton = new Rect    (Screen.width / 4 + 10,    Screen.height / 2 + 20 + 10 + 10 + 10  , Screen.width / 2 - 20,   Screen.height / 6  );
-		} else {
-			leftButton = new Rect (          0           , Screen.width - 150, Screen.height / 5, 150);
-			rightButton = new Rect(  Screen.height / 5   , Screen.width - 150, Screen.height / 5, 150);
-			menuButton = new Rect ( 2 * Screen.height / 5, Screen.width - 150, Screen.height / 5, 150);
-			shootButton = new Rect( 3 * Screen.height / 5, Screen.width - 150, Screen.height / 5, 150);
-			jumpButton = new Rect ( 4 * Screen.height / 5, Screen.width - 150, Screen.height / 5, 150);
+		/*} else {
+			leftButton = new Rect (          0          , Screen.width - 150, Screen.height / 4, 150);
+			rightButton = new Rect(  Screen.height / 4   , Screen.width - 150, Screen.height / 4, 150);
+			menuButton = new Rect ( Screen.height - 150, 0, 150, 50);
+			shootButton = new Rect( 2 * Screen.height / 4, Screen.width - 150, Screen.height / 4, 150);
+			jumpButton = new Rect ( 3 * Screen.height / 4, Screen.width - 150, Screen.height / 4, 150);
 
 			menuBackground = new Rect(Screen.height / 4     ,             Screen.width / 6             , Screen.height / 2     , 2 * Screen.width / 3);
 			resumeButton = new Rect  (Screen.height / 4 + 10,         Screen.width / 6 + 20 + 10       , Screen.height / 2 - 20,   Screen.width / 6  );
 			optionsButton = new Rect (Screen.height / 4 + 10,       Screen.width / 3 + 20 + 10 + 10    , Screen.height / 2 - 20,   Screen.width / 6  );
 			quitButton = new Rect    (Screen.height / 4 + 10,    Screen.width / 2 + 20 + 10 + 10 + 10  , Screen.height / 2 - 20,   Screen.width / 6  );
-		}
+		}*/
 	}
 	
 	void Update () {

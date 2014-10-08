@@ -1,7 +1,7 @@
 ﻿using UnityEngine; 
 using System.Collections;
 
-public class WelcomeManuScene : MonoBehaviour{ 
+public class WelcomeMenuScene : MonoBehaviour{ 
   	
 	// Declare variables
 	private string demoLabel;

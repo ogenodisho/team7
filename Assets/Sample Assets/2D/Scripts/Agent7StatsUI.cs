@@ -56,13 +56,13 @@ public class Agent7StatsUI : MonoBehaviour {
 	void Awake() {
 		character = GetComponent<PlatformerCharacter2D>();
 
-		if (Agent7ControlUI.testingUsingUnityRemote) {
+		//if (Agent7ControlUI.testingUsingUnityRemote) {
 			healthDisplay = new Rect ((Screen.width / 2) - (Screen.width / 5 / 2), 0, Screen.width / 5, 50);
 			scoreDisplay = new Rect (0, 0, Screen.width / 5, 50);
-		} else {
+		/*} else {
 			healthDisplay = new Rect ((Screen.height / 2) - (Screen.height / 5 / 2), 0, Screen.height / 5, 50);
 			scoreDisplay = new Rect (0, 0, Screen.height / 5, 50);
-		}
+		}*/
 
 		customScoreText = new GUIStyle();
 		customScoreText.normal.textColor = Color.white;
