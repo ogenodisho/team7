@@ -83,7 +83,7 @@ public class WelcomeManuScene : MonoBehaviour{
 		// Displays 'Yes' button 
 		if (GUI.Button (new Rect ((400 - 230) / 2, (200 - 30) / 2 + 40, 100, 30), "Yes")) 
 		{
-			Application.Quit;
+			Application.Quit ();
 		}
 
 		// Displays 'cancel' button 

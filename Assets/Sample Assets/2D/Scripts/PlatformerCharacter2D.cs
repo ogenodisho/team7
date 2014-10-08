@@ -193,17 +193,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 
 	// This method is called when Agent_7 collides with something
 	void OnCollisionEnter2D(Collision2D collision) {
-		if (collision.gameObject.name.Equals("HealthPickup")) {
-			// Agent_7 collided with a health pickup. Increment health
-			// and destroy the pickup
-			Debug.Log("+1 HP!");
-			GainHealth ();
-			Destroy (collision.gameObject, 0);
-		} else if (collision.gameObject.name.Equals("x2Pickup")) {
-
-		} else if (collision.gameObject.name.Equals("InvulnerabilityPickup")) {
-
-		} else if (collision.gameObject.name.Equals("Enemy")) {
+		if (collision.gameObject.name.Equals("Enemy")) {
 			// you hit an enemy
 		} 
 	}
@@ -213,8 +203,20 @@ public class PlatformerCharacter2D : MonoBehaviour
 			if (collider.gameObject.name.Equals ("Fire")) {
 				Debug.Log("-1 HP!");
 				LoseHealth ();
+			} else if (collider.gameObject.name.Equals("HealthPickup")) {
+				// Agent_7 collided with a health pickup. Increment health
+				// and destroy the pickup
+				Debug.Log("+1 HP!");
+				GainHealth ();
+				Destroy (collider.gameObject, 0);
+			} else if (collider.gameObject.name.Equals("x2Pickup")) {
+				
+			} else if (collider.gameObject.name.Equals("InvulnerabilityPickup")) {
+				
+			} else {
+				
 			}
 			timeToBeHurt = 5;
-		}
+		} 
 	}
 }
