@@ -35,8 +35,11 @@ public class MissileScript : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D collision) {
-		if (collision.gameObject.name.Equals("Enemy")) {
+		if (collision.gameObject.layer == 8) {
 			Debug.Log ("You hit an enemy!");
+			//collision.collider.gameObject
+			Destroy (explosion.gameObject, 0.5f);
+			Destroy(collision.collider.gameObject);
 		} else if (collision.gameObject.name.Equals("Ground") || collision.gameObject.name.Equals("Box")) {
 			Debug.Log ("You hit the ground!");
 			explosion = (Transform)Instantiate (ExplosionPrefab, transform.position, transform.rotation);
