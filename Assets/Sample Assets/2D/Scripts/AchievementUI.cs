@@ -6,7 +6,7 @@ public class AchievementUI : MonoBehaviour
 	private string message;
 
 	private float timer = 0.0f;
-	private float timerMax = 3.0f;
+	private float timerMax = 3.0f; // 3 seconds for displaying the achievement message
 	
 	void Awake() {
 		//if (Agent7ControlUI.testingUsingUnityRemote) {
@@ -20,8 +20,8 @@ public class AchievementUI : MonoBehaviour
 		if (AchievementManager.Instance.getQueue().Count > 0) {
 			timer += Time.deltaTime;
 
-			if (timer >= timerMax) {
-				AchievementManager.Instance.queueDequeue();
+			if (timer >= timerMax) { // 3 seconds for displaying the achievement message
+				AchievementManager.Instance.queueDequeue(); // remove achievement message
 				Debug.Log("timerMax reached!");
 				
 				// reset timer
@@ -31,8 +31,8 @@ public class AchievementUI : MonoBehaviour
 	}
 
 	void OnGUI() {
-		if (AchievementManager.Instance.getQueue().Count > 0) {
-			GUI.Box(achBackground, AchievementManager.Instance.getQueue()[0]);
+		if (AchievementManager.Instance.getQueue().Count > 0) { // there is a achievement message in the queue
+			GUI.Box(achBackground, AchievementManager.Instance.getQueue()[0]); // display message at 0 index
 		}
 	}
 }

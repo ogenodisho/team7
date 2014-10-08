@@ -15,6 +15,7 @@ public class AchievementManager
 	// list of user's unlocked achievements by achievement id
 	private List<int> userAchievements = new List<int>();
 
+	// list of recently unlocked achievements that have yet to be displayed
 	private List<string> achievementQueue = new List<string> ();
 	public List<string> getQueue() {
 		return achievementQueue;
@@ -54,12 +55,12 @@ public class AchievementManager
 		// shoot = 1231
 		
 		// all achievements
-		allAchievements.Add(new Achievement(1, AchievementType.Play, 1, "First Time Playing!"));
-		allAchievements.Add(new Achievement(2, AchievementType.Die, 1, "First Time Dying!"));
-		allAchievements.Add(new Achievement(3, AchievementType.Jump, 1, "Fly High... First Leap of Faith!" ));
-		allAchievements.Add(new Achievement(5, AchievementType.Shoot, 5, "5 Shots Fired! Keep it up!"));
-		allAchievements.Add(new Achievement(6, AchievementType.Shoot, 10, "10 Shots Fired!"));
-		allAchievements.Add(new Achievement(7, AchievementType.Play, 3, "Have you had enough of this game yet?"));
+		allAchievements.Add(new Achievement(1, AchievementType.Play, 1, "First Time Playing!")); // first play
+		allAchievements.Add(new Achievement(2, AchievementType.Die, 1, "First Time Dying!")); // first death
+		allAchievements.Add(new Achievement(3, AchievementType.Jump, 1, "Fly High... First Leap of Faith!" )); // first jump
+		allAchievements.Add(new Achievement(5, AchievementType.Shoot, 5, "5 Shots Fired! Keep it up!")); // 5 shots fired
+		allAchievements.Add(new Achievement(6, AchievementType.Shoot, 10, "10 Shots Fired!")); // 10 shots fired
+		allAchievements.Add(new Achievement(7, AchievementType.Play, 3, "Have you had enough of this game yet?")); // 3rd time playing
 
 		// for all achievements set any user unlocked achievements to unlocked
 		foreach(Achievement ach in allAchievements) {
@@ -126,7 +127,8 @@ public class AchievementManager
 		private int countToUnlock;
 		private bool unlocked = false;
 		private string message;
-		
+
+		// id should be unique
 		public Achievement(int id, AchievementType type, int countToUnlock, string message) {
 			this.id = id;
 			this.type = type;
