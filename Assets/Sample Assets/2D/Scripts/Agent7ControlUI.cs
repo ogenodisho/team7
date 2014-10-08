@@ -36,6 +36,8 @@ public class Agent7ControlUI : MonoBehaviour
 	{
 		// Initialise script and rectangles for the ui
 		character = GetComponent<PlatformerCharacter2D>();
+		// achievements
+		AchievementManager.Instance.RegisterEvent (AchievementType.Play);
 		//if (testingUsingUnityRemote) {
 			leftButton = new Rect (          0          , Screen.height - 150, Screen.width / 4, 150);
 			rightButton = new Rect(  Screen.width / 4   , Screen.height - 150, Screen.width / 4, 150);
@@ -114,6 +116,8 @@ public class Agent7ControlUI : MonoBehaviour
 			}
 			if (jumpPressed) {
 				character.Jump ();
+				// achievements
+				AchievementManager.Instance.RegisterEvent (AchievementType.Jump);
 			}
 			if (shootPressed) {
 				// Alter the finger on trigger boolean so you
@@ -123,6 +127,8 @@ public class Agent7ControlUI : MonoBehaviour
 					character.Shoot();
 					lastShotTime = Time.realtimeSinceStartup;
 					fingerOnTrigger = true;
+					// achievements
+					AchievementManager.Instance.RegisterEvent (AchievementType.Shoot);
 				}
 			} else {
 				fingerOnTrigger = false;

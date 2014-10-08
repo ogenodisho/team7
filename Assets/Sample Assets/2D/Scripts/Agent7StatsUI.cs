@@ -76,6 +76,8 @@ public class Agent7StatsUI : MonoBehaviour {
 	void Update() {
 		if (character.transform.position.y < fallingThreshold) {
 			hp = 0;
+			// achievements
+			AchievementManager.Instance.RegisterEvent (AchievementType.Die);
 		}
 	}
 
