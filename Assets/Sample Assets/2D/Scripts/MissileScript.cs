@@ -31,17 +31,29 @@ public class MissileScript : MonoBehaviour {
 			// is actually left.
 			transform.Translate (Vector3.right * Time.deltaTime * moveSpeed);
 		}
+		// destroy the missile after 2 seconds, this is its time-out period
+		// so as it doesnt travel forever
 		Destroy (gameObject, 2);
 	}
 
 	void OnCollisionEnter2D(Collision2D collision) {
-		if (collision.gameObject.layer == 8) {
-			Debug.Log ("You hit an enemy!");
-			//collision.collider.gameObject
+		if (collision.gameObject.layer == 8) {// the character layer
+			Debug.Log ("Your missile hit an enemy!");
+
+			// destroy the enemies that were hit
+			foreach(ContactPoint2D c in collision.contacts) {
+				Destroy(c.otherCollider.gameObject);
+			}
+
+			// instantiate the explosion animation and destroy it after 0.5 seconds.
+			// Then destory the missile because it exploded
+			explosion = (Transform)Instantiate (ExplosionPrefab, transform.position, transform.rotation);
 			Destroy (explosion.gameObject, 0.5f);
 			Destroy(collision.collider.gameObject);
-		} else if (collision.gameObject.name.Equals("Ground") || collision.gameObject.name.Equals("Box")) {
-			Debug.Log ("You hit the ground!");
+		} else if (collision.gameObject.layer == 11) {
+			Debug.Log ("Your missle hit world!");
+			// instantiate the explosion animation and destroy it after 0.5 seconds.
+			// Then destory the missile because it exploded
 			explosion = (Transform)Instantiate (ExplosionPrefab, transform.position, transform.rotation);
 			Destroy (explosion.gameObject, 0.5f);
 			Destroy(gameObject);

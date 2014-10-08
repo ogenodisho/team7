@@ -40,6 +40,10 @@ public class PlatformerCharacter2D : MonoBehaviour
 
 	private Quaternion rotateOneEightyAroundZ;
 
+	// these two variables are just used for type checks
+	private CircleCollider2D dummyCircleCollider;
+	private BoxCollider2D dummyBoxCollider;
+
 	Agent7StatsUI statsUi;
 
 	void Start() {
@@ -67,6 +71,9 @@ public class PlatformerCharacter2D : MonoBehaviour
 		statsUi = GetComponent<Agent7StatsUI>();
 
 		rotateOneEightyAroundZ = new Quaternion(0, 0, 1, 0);
+
+		dummyCircleCollider = new CircleCollider2D();
+		dummyBoxCollider = new BoxCollider2D();
 
 	}
 
@@ -123,13 +130,6 @@ public class PlatformerCharacter2D : MonoBehaviour
 				// ... flip the player.
 				Flip();
 		}
-
-        // If the player should jump...
-        if (grounded && jump) {
-            // Add a vertical force to the player.
-            anim.SetBool("Ground", false);
-            rigidbody2D.AddForce(new Vector2(0f, 100f));
-        }
 	}
 
 	public void Jump() {
@@ -137,7 +137,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 		if (grounded) {
 			// Add a vertical force to the player.
 			anim.SetBool("Ground", false);
-			rigidbody2D.AddForce(new Vector2(0f, 120f));
+			rigidbody2D.AddForce(new Vector2(0f, 130f));
 			/*float targetVelocity = 120;
 			float originalVelocity = rigidbody2D.velocity.y;
 			float accelerationRate = 5;
@@ -200,9 +200,16 @@ public class PlatformerCharacter2D : MonoBehaviour
 
 	// This method is called when Agent_7 collides with something
 	void OnCollisionEnter2D(Collision2D collision) {
-		if (collision.gameObject.name.Equals("Enemy")) {
-			// you hit an enemy
+		if (collision.gameObject.layer == 8) {
+			if (collision.collider.GetType().IsAssignableFrom(dummyBoxCollider.GetType())) {
+				Debug.Log ("You touched an enemy! Lost a life");
+				LoseHealth ();
+			} else if (collision.collider.GetType().IsAssignableFrom(dummyCircleCollider.GetType())) {
+				Debug.Log ("You jumped on an enemies' head and killed it!");
+				Destroy(collision.collider.gameObject);
+			}
 		} 
+
 	}
 
 	void OnTriggerEnter2D(Collider2D collider) {

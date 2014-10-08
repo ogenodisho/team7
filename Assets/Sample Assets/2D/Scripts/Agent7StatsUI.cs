@@ -17,7 +17,7 @@ public class Agent7StatsUI : MonoBehaviour {
 	Rect powerupDisplay;
 
 	// Initial hp and score
-	int hp = 2;
+	int hp = 3;
 	int score = 0;
 
 	GUIStyle customScoreText;
