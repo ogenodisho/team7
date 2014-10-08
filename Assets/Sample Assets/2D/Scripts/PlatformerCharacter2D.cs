@@ -138,6 +138,13 @@ public class PlatformerCharacter2D : MonoBehaviour
 			// Add a vertical force to the player.
 			anim.SetBool("Ground", false);
 			rigidbody2D.AddForce(new Vector2(0f, 120f));
+			/*float targetVelocity = 120;
+			float originalVelocity = rigidbody2D.velocity.y;
+			float accelerationRate = 5;
+			float velocityDifference = targetVelocity - originalVelocity;
+			Debug.Log (velocityDifference);
+			velocityDifference = Mathf.Clamp(velocityDifference , -accelerationRate, accelerationRate);
+			rigidbody2D.AddForce(new Vector2(0f, velocityDifference) , ForceMode2D.Impulse);*/
 		}
 	}
 

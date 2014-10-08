@@ -5,6 +5,8 @@ public class MissileScript : MonoBehaviour {
 	
 	public int moveSpeed = 20;
 	private bool facingRight = true;
+	public Transform ExplosionPrefab;
+	private Transform explosion;
 
 	void Start()
 	{
@@ -29,7 +31,7 @@ public class MissileScript : MonoBehaviour {
 			// is actually left.
 			transform.Translate (Vector3.right * Time.deltaTime * moveSpeed);
 		}
-		Destroy (gameObject, 1);
+		Destroy (gameObject, 2);
 	}
 
 	void OnCollisionEnter2D(Collision2D collision) {
@@ -37,6 +39,8 @@ public class MissileScript : MonoBehaviour {
 			Debug.Log ("You hit an enemy!");
 		} else if (collision.gameObject.name.Equals("Ground") || collision.gameObject.name.Equals("Box")) {
 			Debug.Log ("You hit the ground!");
+			explosion = (Transform)Instantiate (ExplosionPrefab, transform.position, transform.rotation);
+			Destroy (explosion.gameObject, 0.5f);
 			Destroy(gameObject);
 		}
 	}
