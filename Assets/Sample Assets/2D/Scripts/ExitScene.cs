@@ -78,6 +78,7 @@ public class ExitScene : MonoBehaviour{
 		if (GUI.Button (new Rect ((400 - 230) / 2, (200 - 30) / 2 + 40, 100, 30), "Yes")) 
 		{
 			print ("Clicked Yes");
+			Application.Quit();
 		}
 
 		// Displays 'cancel' button 
