@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 91306ed8d108da040a4c200452c23dee
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SuperMarioKoopa_Mov1_Idle
+    21300002: SuperMarioKoopa_Mov2
+    21300004: SuperMarioKoopa_Mov3
+    21300006: SuperMarioKoopa_Mov4
+    21300008: SuperMarioKoopa_Mov5
+    21300010: SuperMarioKoopa_Mov6
+    21300012: SuperMarioKoopa_Mov7
+    21300014: SuperMarioKoopa_Mov8
+    21300016: SuperMarioKoopa_Mov9
+    21300018: SuperMarioKoopa_Mov10
+    21300020: SuperMarioKoopa_Mov11
+    21300022: SuperMarioKoopa_11
+    21300024: SuperMarioKoopa_12
+    21300026: SuperMarioKoopa_13
+    21300028: SuperMarioKoopa_14
+    21300030: SuperMarioKoopa_15
+    21300032: SuperMarioKoopa_16
+    21300034: SuperMarioKoopa_17
+    21300036: SuperMarioKoopa_18
+    21300038: SuperMarioKoopa_19
+    21300040: SuperMarioKoopa_20
+    21300042: SuperMarioKoopa_21
+    21300044: SuperMarioKoopa_22
+    21300046: SuperMarioKoopa_23
+    21300048: SuperMarioKoopa_24
+    21300050: SuperMarioKoopa_25
+    21300052: SuperMarioKoopa_26
+    21300054: SuperMarioKoopa_27
+    21300056: SuperMarioKoopa_28
+    21300058: SuperMarioKoopa_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 15
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SuperMarioKoopa_Mov1_Idle
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 344
+        width: 23
+        height: 39
+      alignment: 9
+      pivot: {x: -21.4244709, y: 9.33692455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SuperMarioKoopa_Mov2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 344
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SuperMarioKoopa_Mov3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 344
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SuperMarioKoopa_Mov4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 344
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SuperMarioKoopa_Mov5
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 344
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SuperMarioKoopa_Mov6
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 344
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SuperMarioKoopa_Mov7
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 344
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SuperMarioKoopa_Mov8
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 344
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SuperMarioKoopa_Mov9
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 344
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SuperMarioKoopa_Mov10
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 344
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SuperMarioKoopa_Mov11
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 344
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
