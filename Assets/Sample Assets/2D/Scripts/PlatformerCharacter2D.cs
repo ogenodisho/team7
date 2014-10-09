@@ -26,6 +26,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 	float ceilingRadius = .01f;							// Radius of the overlap circle to determine if the player can stand up
 	Animator anim;										// Reference to the player's animator component.
 
+
 	// shooting variables
 	public float fireRate = 0;
 	public float Damage = 10;
@@ -35,15 +36,10 @@ public class PlatformerCharacter2D : MonoBehaviour
 	Transform idleFirePoint;
 	Transform runningFirePoint;
 
-	// time To Be Hurt
-	float timeToBeHurt = 0;
+
 
 	private Quaternion rotateOneEightyAroundZ;
-
-	// these two variables are just used for type checks
-	private CircleCollider2D dummyCircleCollider;
-	private BoxCollider2D dummyBoxCollider;
-
+	
 	Agent7StatsUI statsUi;
 
 	void Start() {
@@ -55,6 +51,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 		// Setting up references.
 		groundCheck = transform.Find("GroundCheck");
 		ceilingCheck = transform.Find("CeilingCheck");
+
 		anim = GetComponent<Animator>();
 
 		// set up shooting
@@ -72,8 +69,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 
 		rotateOneEightyAroundZ = new Quaternion(0, 0, 1, 0);
 
-		dummyCircleCollider = new CircleCollider2D();
-		dummyBoxCollider = new BoxCollider2D();
+
 
 	}
 
@@ -88,9 +84,6 @@ public class PlatformerCharacter2D : MonoBehaviour
 
 		anim.SetFloat("Speed", Mathf.Abs(rigidbody2D.velocity.x));
 
-		if (timeToBeHurt != 0) {
-			timeToBeHurt--;
-		}
 	}
 
 
@@ -137,7 +130,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 		if (grounded) {
 			// Add a vertical force to the player.
 			anim.SetBool("Ground", false);
-			rigidbody2D.AddForce(new Vector2(0f, 130f));
+			rigidbody2D.AddForce(new Vector2(0f, 150f));
 			/*float targetVelocity = 120;
 			float originalVelocity = rigidbody2D.velocity.y;
 			float accelerationRate = 5;
@@ -145,6 +138,20 @@ public class PlatformerCharacter2D : MonoBehaviour
 			Debug.Log (velocityDifference);
 			velocityDifference = Mathf.Clamp(velocityDifference , -accelerationRate, accelerationRate);
 			rigidbody2D.AddForce(new Vector2(0f, velocityDifference) , ForceMode2D.Impulse);*/
+		}
+	}
+
+	public void setScaling(bool scaling) {
+		anim.SetBool("Scale", scaling);
+	}
+
+
+	public void ScaleJump() {
+		anim.SetBool("Ground", false);
+		if (facingRight) {
+			rigidbody2D.AddForce(new Vector2(1500f, 700f));
+		} else {
+			rigidbody2D.AddForce(new Vector2(-1500f, 700f));
 		}
 	}
 
@@ -198,39 +205,5 @@ public class PlatformerCharacter2D : MonoBehaviour
 		statsUi.setScore (statsUi.getScore() + amount);
 	}
 
-	// This method is called when Agent_7 collides with something
-	void OnCollisionEnter2D(Collision2D collision) {
-		if (collision.gameObject.layer == 8) {
-			if (collision.collider.GetType().IsAssignableFrom(dummyBoxCollider.GetType())) {
-				Debug.Log ("You touched an enemy! Lost a life");
-				LoseHealth ();
-			} else if (collision.collider.GetType().IsAssignableFrom(dummyCircleCollider.GetType())) {
-				Debug.Log ("You jumped on an enemies' head and killed it!");
-				Destroy(collision.collider.gameObject);
-			}
-		} 
 
-	}
-
-	void OnTriggerEnter2D(Collider2D collider) {
-		if(timeToBeHurt == 0){
-			if (collider.gameObject.name.Equals ("Fire")) {
-				Debug.Log("-1 HP!");
-				LoseHealth ();
-			} else if (collider.gameObject.name.Equals("HealthPickup")) {
-				// Agent_7 collided with a health pickup. Increment health
-				// and destroy the pickup
-				Debug.Log("+1 HP!");
-				GainHealth ();
-				Destroy (collider.gameObject, 0);
-			} else if (collider.gameObject.name.Equals("x2Pickup")) {
-				
-			} else if (collider.gameObject.name.Equals("InvulnerabilityPickup")) {
-				
-			} else {
-				
-			}
-			timeToBeHurt = 5;
-		} 
-	}
 }

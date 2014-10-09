@@ -29,11 +29,21 @@ public class Agent7ControlUI : MonoBehaviour
 	
 	float lastShotTime = 0f;
 	float shootingThreshold = 0.7f;
-	
+
+	// these two variables are just used for type checks
+	private CircleCollider2D dummyCircleCollider;
+	private BoxCollider2D dummyBoxCollider;
+	private EdgeCollider2D dummyEdgeCollider;
+
+	private int previouslyScaledWall = 0;
+
 	//public static bool testingUsingUnityRemote = true;
 	
 	void Awake()
 	{
+		dummyCircleCollider = new CircleCollider2D();
+		dummyBoxCollider = new BoxCollider2D();
+		dummyEdgeCollider = new EdgeCollider2D();
 		// Initialise script and rectangles for the ui
 		character = GetComponent<PlatformerCharacter2D>();
 		// achievements
@@ -153,7 +163,7 @@ public class Agent7ControlUI : MonoBehaviour
 			}
 		}
 	}
-	
+
 	// This method is called by Unity and just draws the boxes
 	void OnGUI() {
 		if (!paused) {
@@ -167,6 +177,58 @@ public class Agent7ControlUI : MonoBehaviour
 			GUI.Button (resumeButton, "Resume");
 			GUI.Button (optionsButton, "Options");
 			GUI.Button (quitButton, "Quit to Title");
+		}
+	}
+
+	// This method is called when Agent_7 collides with something
+	void OnCollisionEnter2D(Collision2D collision) {
+		if (collision.gameObject.layer == 8) {
+			if (collision.collider.GetType().IsAssignableFrom(dummyBoxCollider.GetType())) {
+				Debug.Log ("You touched an enemy! Lost a life");
+				character.LoseHealth ();
+				character.LoseScore(10);
+			} else if (collision.collider.GetType().IsAssignableFrom(dummyCircleCollider.GetType())) {
+				Debug.Log ("You jumped on an enemies' head and killed it!");
+				character.GainScore(50);
+				Destroy(collision.collider.gameObject);
+			}
+		} else if (collision.collider.GetType().IsAssignableFrom(dummyEdgeCollider.GetType())) {
+			character.setScaling(true);
+		} else {
+			// reset previously scaled walls because you stopped scaling walls
+			previouslyScaledWall = 0;
+		}
+	}
+	void OnCollisionExit2D(Collision2D collision) {
+		if (collision.collider.GetType().IsAssignableFrom(dummyEdgeCollider.GetType())) {
+			Debug.Log ("Called");
+			// Make sure you can't keep jumping higher from the same wall.
+			// This forces the player to jump from wall to wall in order to
+			// gain height.
+			character.setScaling(false);
+			if (jumpPressed && collision.collider.GetInstanceID() != previouslyScaledWall) {
+				character.ScaleJump ();
+				previouslyScaledWall = collision.collider.GetInstanceID();
+			}
+		}
+	}
+	void OnTriggerEnter2D(Collider2D collider) {
+		if (collider.gameObject.name.Equals ("Fire")) {
+			Debug.Log("-1 HP!");
+			character.LoseHealth ();
+			character.LoseScore(10);
+		} else if (collider.gameObject.name.Equals("HealthPickup")) {
+			// Agent_7 collided with a health pickup. Increment health
+			// and destroy the pickup
+			Debug.Log("+1 HP!");
+			character.GainHealth ();
+			Destroy (collider.gameObject, 0);
+		} else if (collider.gameObject.name.Equals("x2Pickup")) {
+				
+		} else if (collider.gameObject.name.Equals("InvulnerabilityPickup")) {
+				
+		} else {
+				
 		}
 	}
 }

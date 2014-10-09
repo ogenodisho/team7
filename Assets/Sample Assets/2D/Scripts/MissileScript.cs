@@ -7,11 +7,12 @@ public class MissileScript : MonoBehaviour {
 	private bool facingRight = true;
 	public Transform ExplosionPrefab;
 	private Transform explosion;
+	PlatformerCharacter2D playerScript;
 
 	void Start()
 	{
 		GameObject thePlayer = GameObject.Find("Agent_7");
-		PlatformerCharacter2D playerScript = thePlayer.GetComponent<PlatformerCharacter2D>();
+		playerScript = thePlayer.GetComponent<PlatformerCharacter2D>();
 		facingRight = playerScript.facingRight;
 
 		// When you jump, you have an upward force, when you're falling, you have a downward force.
@@ -39,7 +40,7 @@ public class MissileScript : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D collision) {
 		if (collision.gameObject.layer == 8) {// the character layer
 			Debug.Log ("Your missile hit an enemy!");
-
+			playerScript.GainScore(50);
 			// destroy the enemies that were hit
 			foreach(ContactPoint2D c in collision.contacts) {
 				Destroy(c.otherCollider.gameObject);
