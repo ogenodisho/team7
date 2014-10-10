@@ -15,6 +15,7 @@ public class Enemy1Behaviour : MonoBehaviour {
 	// Update is called once per frame (FixedUpdate for rigidbody)
 	void FixedUpdate () {
 		//Flip ();
+		//transform.Translate(0.01f, 0, 0);
 	}
 	
 	// Setter for top speed of enemy

@@ -38,7 +38,7 @@ public class MissileScript : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D collision) {
-		if (collision.gameObject.layer == 8) {// the character layer
+		if (collision.gameObject.layer == 12) {// the enemy layer
 			Debug.Log ("Your missile hit an enemy!");
 			playerScript.GainScore(50);
 			// destroy the enemies that were hit

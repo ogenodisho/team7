@@ -154,9 +154,9 @@ public class PlatformerCharacter2D : MonoBehaviour
 	public void ScaleJump() {
 		anim.SetBool("Ground", false);
 		if (facingRight) {
-			rigidbody2D.AddForce(new Vector2(1500f, 800f));
+			rigidbody2D.AddForce(new Vector2(1500f, 750f));
 		} else {
-			rigidbody2D.AddForce(new Vector2(-1500f, 800f));
+			rigidbody2D.AddForce(new Vector2(-1500f, 750f));
 		}
 	}
 

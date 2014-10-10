@@ -207,7 +207,7 @@ public class Agent7ControlUI : MonoBehaviour
 
 	// This method is called when Agent_7 collides with something
 	void OnCollisionEnter2D(Collision2D collision) {
-		if (collision.gameObject.layer == 8) {
+		if (collision.gameObject.layer == 12) {// Enemy layer
 			if (collision.collider.GetType().IsAssignableFrom(dummyBoxCollider.GetType())) {
 				Debug.Log ("You touched an enemy! Lost a life");
 				character.LoseHealth ();
@@ -217,7 +217,8 @@ public class Agent7ControlUI : MonoBehaviour
 				character.GainScore(50);
 				Destroy(collision.collider.gameObject);
 			}
-		} else if (collision.collider.GetType().IsAssignableFrom(dummyEdgeCollider.GetType())) {
+		} else if (collision.gameObject.layer == 11 &&
+		           collision.collider.GetType().IsAssignableFrom(dummyEdgeCollider.GetType())) { // scalable world
 			character.setScaling(true);
 		} else {
 			// reset previously scaled walls because you stopped scaling walls
