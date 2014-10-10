@@ -10,28 +10,42 @@ public class Enemy1Behaviour : MonoBehaviour {
 	[SerializeField] float maxSpeed = 4f;				
 	
 	// A mask determining what is ground to the character
-	[SerializeField] LayerMask whatIsGround;			
-	
+	[SerializeField] LayerMask whatIsGround;	
+
+	int counter = 0;
+	Quaternion rotateOneEightyAroundY = new Quaternion(0, 1, 0, 0);
 	// Update is called once per frame (FixedUpdate for rigidbody)
 	void FixedUpdate () {
 		//Flip ();
-		//transform.Translate(0.01f, 0, 0);
+		if (facingRight) {
+			transform.Translate(new Vector3(0.02f, 0, 0));
+		} else {
+			transform.Translate(new Vector3(0.02f, 0, 0));
+			Debug.Log(transform.position.x);
+		}
+		counter++;
+		if (counter > 100) {
+			counter = 0;
+			Flip();
+		}
+
 	}
 	
 	// Setter for top speed of enemy
 	void setTopSpeed(float speed) {
-			maxSpeed = speed;
+		maxSpeed = speed;
 	}
 
 	// Invert the character's position about its vertical axis
 	void Flip ()
 	{
 		facingRight = !facingRight;
-		
+		transform.localRotation = transform.localRotation * rotateOneEightyAroundY;
+		//transform.Rotate(new Vector3(transform.position.x,1,0), new Vector3(transform.position.x,1,0), 180);
 		// Multiply the player's x local scale by -1.
-		Vector3 theScale = transform.localScale;
+		/*Vector3 theScale = transform.gameObject.transform.localScale;
 		theScale.x *= -1;
-		transform.localScale = theScale;
+		transform.gameObject.transform.localScale = theScale;*/
 	}
 	
 }
