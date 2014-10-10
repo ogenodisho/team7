@@ -37,6 +37,12 @@ public class Agent7ControlUI : MonoBehaviour
 
 	private int previouslyScaledWall = 0;
 
+	private bool hasFireRatePickup = false;
+	private float fireRateTimeLeft = 0f;
+
+	public static bool hasInvulnerabilityPickup = false;
+	private float invulnerabilityTimeLeft = 0f;
+
 	//public static bool testingUsingUnityRemote = true;
 	
 	void Awake()
@@ -118,11 +124,10 @@ public class Agent7ControlUI : MonoBehaviour
 		
 		if (!paused) {
 			// Perform appropriate logic based on pressed buttons
-			if (leftPressed) {
-				character.Move (-1, false, false);
-			}
 			if (rightPressed) {
 				character.Move (1, false, false);
+			} else if (leftPressed) {
+				character.Move (-1, false, false);
 			}
 			if (jumpPressed) {
 				character.Jump ();
@@ -130,6 +135,9 @@ public class Agent7ControlUI : MonoBehaviour
 				AchievementManager.Instance.RegisterEvent (AchievementType.Jump);
 			}
 			if (shootPressed) {
+				if (hasFireRatePickup) {
+					character.Shoot();
+				} else 
 				// Alter the finger on trigger boolean so you
 				// have to release the button in order to shoot again.
 				// This fixes the problem of being able to shoot non stop
@@ -160,6 +168,23 @@ public class Agent7ControlUI : MonoBehaviour
 				paused = false;
 				Time.timeScale = 1;
 				Application.LoadLevel("HomeScreenScene");
+			}
+		}
+
+	}
+
+	void FixedUpdate() {
+		// count the timer down for the pickups if applicable
+		if (hasFireRatePickup) {
+			fireRateTimeLeft -= Time.deltaTime;
+			if (fireRateTimeLeft <= 0) {
+				hasFireRatePickup = false;
+			}
+		}
+		if (hasInvulnerabilityPickup) {
+			invulnerabilityTimeLeft -= Time.deltaTime;
+			if (invulnerabilityTimeLeft <= 0) {
+				hasInvulnerabilityPickup = false;
 			}
 		}
 	}
@@ -201,7 +226,6 @@ public class Agent7ControlUI : MonoBehaviour
 	}
 	void OnCollisionExit2D(Collision2D collision) {
 		if (collision.collider.GetType().IsAssignableFrom(dummyEdgeCollider.GetType())) {
-			Debug.Log ("Called");
 			// Make sure you can't keep jumping higher from the same wall.
 			// This forces the player to jump from wall to wall in order to
 			// gain height.
@@ -226,9 +250,17 @@ public class Agent7ControlUI : MonoBehaviour
 		} else if (collider.gameObject.name.Equals("x2Pickup")) {
 				
 		} else if (collider.gameObject.name.Equals("InvulnerabilityPickup")) {
-				
-		} else {
-				
+			Debug.Log("INVULNERABLE!");
+			hasInvulnerabilityPickup = true;
+			Destroy (collider.gameObject, 0);
+			// this pickup lasts for 10 seconds
+			invulnerabilityTimeLeft = 10f;	
+		} else if (collider.gameObject.name.Equals("FireRatePickup")) {
+			Debug.Log("MORE FIREPOWER!");
+			hasFireRatePickup = true;
+			Destroy (collider.gameObject, 0);
+			// this pickup lasts for 10 seconds
+			fireRateTimeLeft = 10f;
 		}
 	}
 }

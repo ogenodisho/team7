@@ -86,8 +86,20 @@ public class PlatformerCharacter2D : MonoBehaviour
 
 	}
 
+	public void Move(float move, bool crouch, bool jump)	{
+		rigidbody2D.velocity = new Vector2(move * maxSpeed, rigidbody2D.velocity.y);
 
-	public void Move(float move, bool crouch, bool jump)
+		// If the input is moving the player right and the player is facing left...
+		if(move > 0 && !facingRight) {
+			// ... flip the player.
+			Flip();
+			// Otherwise if the input is moving the player left and the player is facing right...
+		} else if(move < 0 && facingRight)
+			// ... flip the player.
+			Flip();
+	}
+
+	/*public void Move(float move, bool crouch, bool jump)
 	{
 
 
@@ -123,21 +135,14 @@ public class PlatformerCharacter2D : MonoBehaviour
 				// ... flip the player.
 				Flip();
 		}
-	}
+	}*/
 
 	public void Jump() {
 		// If the player should jump...
 		if (grounded) {
 			// Add a vertical force to the player.
 			anim.SetBool("Ground", false);
-			rigidbody2D.AddForce(new Vector2(0f, 150f));
-			/*float targetVelocity = 120;
-			float originalVelocity = rigidbody2D.velocity.y;
-			float accelerationRate = 5;
-			float velocityDifference = targetVelocity - originalVelocity;
-			Debug.Log (velocityDifference);
-			velocityDifference = Mathf.Clamp(velocityDifference , -accelerationRate, accelerationRate);
-			rigidbody2D.AddForce(new Vector2(0f, velocityDifference) , ForceMode2D.Impulse);*/
+			rigidbody2D.AddForce(new Vector2(0f, 140f));
 		}
 	}
 
@@ -149,9 +154,9 @@ public class PlatformerCharacter2D : MonoBehaviour
 	public void ScaleJump() {
 		anim.SetBool("Ground", false);
 		if (facingRight) {
-			rigidbody2D.AddForce(new Vector2(1500f, 700f));
+			rigidbody2D.AddForce(new Vector2(1500f, 800f));
 		} else {
-			rigidbody2D.AddForce(new Vector2(-1500f, 700f));
+			rigidbody2D.AddForce(new Vector2(-1500f, 800f));
 		}
 	}
 
@@ -190,7 +195,10 @@ public class PlatformerCharacter2D : MonoBehaviour
 	// The following 4 methods are for
 	// increasing and decreasing hp and score
 	public void LoseHealth() {
-		statsUi.setHp (statsUi.getHp() - 1);
+		// only lose health if agent7 is not invulnerable
+		if (!Agent7ControlUI.hasInvulnerabilityPickup) {
+			statsUi.setHp (statsUi.getHp() - 1);
+		}
 	}
 
 	public void GainHealth() {
