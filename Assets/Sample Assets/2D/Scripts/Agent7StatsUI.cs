@@ -76,8 +76,6 @@ public class Agent7StatsUI : MonoBehaviour {
 	void Update() {
 		if (character.transform.position.y < fallingThreshold) {
 			hp = 0;
-			// achievements
-			AchievementManager.Instance.RegisterEvent (AchievementType.Die);
 		}
 	}
 
@@ -108,6 +106,9 @@ public class Agent7StatsUI : MonoBehaviour {
 	// code. It returns Agent_7 to the starting point
 	// instantly for convenience.
 	void Die() {
+		// achievements
+		AchievementManager.Instance.RegisterEvent (AchievementType.Die);
+
 		/*if (test) {
 			character.transform.position = new Vector3(0f, 1.6f, 0f);
 			hp = 3;
