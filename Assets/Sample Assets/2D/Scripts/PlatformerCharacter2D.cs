@@ -79,6 +79,10 @@ public class PlatformerCharacter2D : MonoBehaviour
 		grounded = Physics2D.OverlapCircle(groundCheck.position, groundedRadius, whatIsGround);
 		anim.SetBool("Ground", grounded);
 
+		if (grounded) {
+			anim.SetBool("ScaleJump", false);
+		}
+
 		// Set the vertical animation
 		anim.SetFloat("vSpeed", rigidbody2D.velocity.y);
 
@@ -148,11 +152,17 @@ public class PlatformerCharacter2D : MonoBehaviour
 
 	public void setScaling(bool scaling) {
 		anim.SetBool("Scale", scaling);
+		if (scaling) {
+			anim.SetBool("ScaleJump", false);
+		} else {
+			anim.SetBool("ScaleJump", true);
+		}
 	}
 
 
 	public void ScaleJump() {
 		anim.SetBool("Ground", false);
+		//anim.SetBool("ScaleJump", true);
 		if (facingRight) {
 			rigidbody2D.AddForce(new Vector2(1500f, 750f));
 		} else {
@@ -206,7 +216,9 @@ public class PlatformerCharacter2D : MonoBehaviour
 	}
 
 	public void LoseScore(int amount) {
-		statsUi.setScore (statsUi.getScore() - amount);
+		if (!Agent7ControlUI.hasInvulnerabilityPickup) {
+			statsUi.setScore (statsUi.getScore() - amount);
+		}
 	}
 	
 	public void GainScore(int amount) {
