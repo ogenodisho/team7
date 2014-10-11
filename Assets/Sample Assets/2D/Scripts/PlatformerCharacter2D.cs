@@ -212,6 +212,4 @@ public class PlatformerCharacter2D : MonoBehaviour
 	public void GainScore(int amount) {
 		statsUi.setScore (statsUi.getScore() + amount);
 	}
-
-
 }
