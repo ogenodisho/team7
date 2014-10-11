@@ -1,53 +1,45 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Enemy1Behaviour : MonoBehaviour {
-
+public class KogScript : MonoBehaviour {
+	
 	// Variable determining the direction the enemy is facing, initially 'left'
 	bool facingRight = true;							
-
+	
 	// The fastest the player can travel in the x axis.
 	[SerializeField] float maxSpeed = 4f;				
 	
 	// A mask determining what is ground to the character
-	[SerializeField] LayerMask whatIsGround;	
+	[SerializeField] LayerMask whatIsGround;
 
 	public Transform ExplosionPrefab;
 	private Transform explosion;
 
 	PlatformerCharacter2D playerScript;
 
-	public int health = 2;
+	public int health = 10;
 
 	int counter = 0;
 
+	Animator anim;
+
 	void Awake() {
+		anim = GetComponent<Animator>();
 		GameObject thePlayer = GameObject.Find("Agent_7");
 		playerScript = thePlayer.GetComponent<PlatformerCharacter2D>();
 	}
 
-
 	// Update is called once per frame (FixedUpdate for rigidbody)
-	void FixedUpdate () {
-		//Flip ();
-		if (facingRight) {
-			transform.Translate(new Vector3(0.02f, 0, 0));
-		} else {
-			transform.Translate(new Vector3(-0.02f, 0, 0));
-		}
+	void Update () {
 		counter++;
 		if (counter > 100) {
 			counter = 0;
-			Flip();
+			anim.SetBool("Attack", !anim.GetBool("Attack"));
+			//Flip();
 		}
-
+		
 	}
 	
-	// Setter for top speed of enemy
-	void setTopSpeed(float speed) {
-		maxSpeed = speed;
-	}
-
 	// Invert the character's position about its vertical axis
 	void Flip ()
 	{
@@ -66,14 +58,14 @@ public class Enemy1Behaviour : MonoBehaviour {
 			Destroy (explosion.gameObject, 0.5f);
 			Destroy(collision.collider.gameObject);
 
-			// decrement health
+			// decrement the health
 			health -= 1;
 			if (health == 0) {
 				// Destroy the enemy if his health is 0 and gain score
 				Destroy (transform.gameObject);
-				playerScript.GainScore(50);
+				playerScript.GainScore(200);
 			}
 		}
 	}
-	
+
 }

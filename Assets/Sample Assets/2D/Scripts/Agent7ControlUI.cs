@@ -205,13 +205,13 @@ public class Agent7ControlUI : MonoBehaviour
 	void OnCollisionEnter2D(Collision2D collision) {
 		if (collision.gameObject.layer == 12) {// Enemy layer
 			if (collision.collider.GetType().IsAssignableFrom(dummyBoxCollider.GetType())) {
-				Debug.Log ("You touched an enemy! Lost a life");
+				Debug.Log ("You touched an enemy! Lost a life and score");
 				character.LoseHealth ();
 				character.LoseScore(10);
 			} else if (collision.collider.GetType().IsAssignableFrom(dummyCircleCollider.GetType())) {
-				Debug.Log ("You jumped on an enemies' head and killed it!");
+				Debug.Log ("You jumped on a Koopa's head");
 				character.GainScore(50);
-				Destroy(collision.collider.gameObject);
+				Destroy (collision.gameObject);
 			}
 		} else if (collision.gameObject.layer == 11 &&
 		           collision.collider.GetType().IsAssignableFrom(dummyEdgeCollider.GetType())) { // scalable world

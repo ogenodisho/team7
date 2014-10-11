@@ -1,0 +1,191 @@
+fileFormatVersion: 2
+guid: e8c3f8a8fe97f8643904c09b37a1b8bf
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Kog
+    21300002: Kog_3
+    21300004: Kog_2
+    21300006: Kog_1
+    21300008: Kog_0
+    21300010: Kog_4
+    21300012: Kog_5
+    21300014: Kog_6
+    21300016: Kog_7
+    21300018: Kog_8
+    21300020: Kog_9
+    21300022: Kog_10
+    21300024: Kog_11
+    21300026: Kog_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 15
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Kog_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1166
+        width: 346
+        height: 339
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kog_2
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1165
+        width: 308
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kog_1
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1152
+        width: 259
+        height: 387
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kog_0
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1173
+        width: 343
+        height: 351
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kog_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 812
+        width: 403
+        height: 346
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kog_5
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 820
+        width: 421
+        height: 315
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kog_6
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 749
+        width: 467
+        height: 348
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kog_7
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 431
+        width: 530
+        height: 363
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kog_8
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 396
+        width: 451
+        height: 352
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kog_9
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 322
+        width: 328
+        height: 371
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kog_10
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 29
+        width: 313
+        height: 379
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kog_11
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 18
+        width: 307
+        height: 373
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kog_12
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 4
+        width: 312
+        height: 387
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
