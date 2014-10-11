@@ -131,8 +131,6 @@ public class Agent7ControlUI : MonoBehaviour
 			}
 			if (jumpPressed) {
 				character.Jump ();
-				// achievements
-				AchievementManager.Instance.RegisterEvent (AchievementType.Jump);
 			}
 			if (shootPressed) {
 				if (hasFireRatePickup) {
@@ -145,8 +143,6 @@ public class Agent7ControlUI : MonoBehaviour
 					character.Shoot();
 					lastShotTime = Time.realtimeSinceStartup;
 					fingerOnTrigger = true;
-					// achievements
-					AchievementManager.Instance.RegisterEvent (AchievementType.Shoot);
 				}
 			} else {
 				fingerOnTrigger = false;

@@ -147,6 +147,9 @@ public class PlatformerCharacter2D : MonoBehaviour
 			// Add a vertical force to the player.
 			anim.SetBool("Ground", false);
 			rigidbody2D.AddForce(new Vector2(0f, 140f));
+
+			// TODO achievements this currently registers 5 jumps per jump o.o
+			AchievementManager.Instance.RegisterEvent (AchievementType.Jump);
 		}
 	}
 
@@ -168,6 +171,9 @@ public class PlatformerCharacter2D : MonoBehaviour
 		} else {
 			rigidbody2D.AddForce(new Vector2(-1500f, 750f));
 		}
+
+		// achievements register one jump
+		AchievementManager.Instance.RegisterEvent (AchievementType.Jump);
 	}
 
 	public void Shoot () {
@@ -189,6 +195,9 @@ public class PlatformerCharacter2D : MonoBehaviour
 			// If Agent_7 is not facing right, rotate the missile prefab 180 around the z-axis
 			Instantiate (MissilePrefab, firePoint.position, rotateOneEightyAroundZ * firePoint.rotation);
 		}
+
+		// achievements
+		AchievementManager.Instance.RegisterEvent (AchievementType.Shoot);
 	}
 	
 	void Flip ()
