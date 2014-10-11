@@ -4,6 +4,11 @@ using System;
 
 public class AchievementManager
 {
+	private string PLAY_KEY = "Play_count";
+	private string DIE_KEY = "Die_count";
+	private string JUMP_KEY = "Jump_count";
+	private string SHOOT_KEY = "Shoot_count";
+
 	private int play = 0;
 	private int die = 0;
 	private int jump = 0;
@@ -47,12 +52,19 @@ public class AchievementManager
 
 	private void loadAchievements()
 	{
-		// load here previous, saved values.
-		// e.g.
-		// play = 0
-		// die = 1
-		// jump = 12
-		// shoot = 1231
+		// test - reset saved values
+		PlayerPrefs.SetInt(PLAY_KEY, 0);
+		PlayerPrefs.SetInt(DIE_KEY, 0);
+		PlayerPrefs.SetInt(JUMP_KEY, 0);
+		PlayerPrefs.SetInt(SHOOT_KEY, 0);
+
+		// load previous, saved values.
+		play = PlayerPrefs.GetInt(PLAY_KEY, 0);
+		die = PlayerPrefs.GetInt(DIE_KEY, 0);
+		jump = PlayerPrefs.GetInt(JUMP_KEY, 0);
+		shoot = PlayerPrefs.GetInt(SHOOT_KEY, 0);
+
+		Debug.Log("Achievement stats; play: " + play + "; die: " + die + "; jump: " + jump + "; shoot: " + shoot);
 		
 		// all achievements
 		allAchievements.Add(new Achievement(1, AchievementType.Play, 1, "First Time Playing!")); // first play
@@ -80,18 +92,22 @@ public class AchievementManager
 		case AchievementType.Play:
 			play++;
 			count = play;
+			PlayerPrefs.SetInt(PLAY_KEY, play);
 			break;
 		case AchievementType.Die:
 			die++;
 			count = die;
+			PlayerPrefs.SetInt(DIE_KEY, die);
 			break;
 		case AchievementType.Jump:
 			jump++;
 			count = jump;
+			PlayerPrefs.SetInt(JUMP_KEY, jump);
 			break;
 		case AchievementType.Shoot:
 			shoot++;
 			count = shoot;
+			PlayerPrefs.SetInt(SHOOT_KEY, shoot);
 			break;
 		}
 
@@ -101,6 +117,7 @@ public class AchievementManager
 			achievementQueue.Add(message);
 		}
 
+		Debug.Log("Achievement stats; play: " + play + "; die: " + die + "; jump: " + jump + "; shoot: " + shoot);
 		return message;
 	}
 
