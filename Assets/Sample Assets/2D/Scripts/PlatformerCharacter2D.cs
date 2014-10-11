@@ -111,7 +111,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 			rigidbody2D.AddForce(new Vector2(0f, 140f));
 			
 			// TODO achievements this currently registers 5 jumps per jump o.o
-+			AchievementManager.Instance.RegisterEvent (AchievementType.Jump);
+			AchievementManager.Instance.RegisterEvent (AchievementType.Jump);
 		}
 	}
 
@@ -135,7 +135,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 		}
 		
 		// achievements register one jump - maybe make this a scale jump achievement
-+		AchievementManager.Instance.RegisterEvent (AchievementType.Jump);
+		AchievementManager.Instance.RegisterEvent (AchievementType.Jump);
 	}
 
 	public void Shoot () {
@@ -159,7 +159,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 		}
 		
 		// achievements
-+		AchievementManager.Instance.RegisterEvent (AchievementType.Shoot);
+		AchievementManager.Instance.RegisterEvent (AchievementType.Shoot);
 	}
 	
 	void Flip ()
