@@ -18,15 +18,14 @@ public class AchievementManager
 	private List<Achievement> allAchievements = new List<Achievement>();
 
 	// list of user's unlocked achievements by achievement id
-	private List<int> userAchievements = new List<int>();
+	private List<string> userAchievements = new List<string>();
 
 	// list of recently unlocked achievements that have yet to be displayed
 	private List<string> achievementQueue = new List<string> ();
 	public List<string> getQueue() {
 		return achievementQueue;
 	}
-	public void queueDequeue() {
-		Debug.Log ("dequeued");
+	public void qDequeue() {
 		achievementQueue.RemoveAt(0);
 	}
 
@@ -67,12 +66,13 @@ public class AchievementManager
 		//Debug.Log("Achievement stats; play: " + play + "; die: " + die + "; jump: " + jump + "; shoot: " + shoot);
 		
 		// all achievements
-		allAchievements.Add(new Achievement(1, AchievementType.Play, 1, "First Time Playing!")); // first play
-		allAchievements.Add(new Achievement(2, AchievementType.Die, 1, "First Time Dying!")); // first death
-		allAchievements.Add(new Achievement(3, AchievementType.Jump, 1, "Fly High... First Leap of Faith!" )); // first jump
-		allAchievements.Add(new Achievement(5, AchievementType.Shoot, 5, "5 Shots Fired! Keep it up!")); // 5 shots fired
-		allAchievements.Add(new Achievement(6, AchievementType.Shoot, 10, "10 Shots Fired!")); // 10 shots fired
-		allAchievements.Add(new Achievement(7, AchievementType.Play, 3, "Have you had enough of this game yet?")); // 3rd time playing
+		allAchievements.Add(new Achievement("CgkIltz5q7wNEAIQCA", AchievementType.Play, 1, "First Time Playing!"));
+		allAchievements.Add(new Achievement("CgkIltz5q7wNEAIQCQ", AchievementType.Play, 3, "Third Time Playing!"));
+		allAchievements.Add(new Achievement("CgkIltz5q7wNEAIQBg", AchievementType.Die, 1, "First Time Dying!"));
+		allAchievements.Add(new Achievement("CgkIltz5q7wNEAIQBw", AchievementType.Die, 3, "Died 3 Times!"));
+		allAchievements.Add(new Achievement("CgkIltz5q7wNEAIQAw", AchievementType.Jump, 10, "10 Jumps Made!"));
+		allAchievements.Add(new Achievement("CgkIltz5q7wNEAIQBA", AchievementType.Shoot, 10, "10 Shots Fired!"));
+		allAchievements.Add(new Achievement("CgkIltz5q7wNEAIQBQ", AchievementType.Shoot, 100, "100 Shots Fired!"));
 
 		// for all achievements set any user unlocked achievements to unlocked
 		foreach(Achievement ach in allAchievements) {
@@ -128,6 +128,10 @@ public class AchievementManager
 			if (ach.getType() == type && ach.isUnlocked() == false) {
 				if (count >= ach.getCountToUnlock()) {
 					ach.setUnlocked();
+					// unlock achievement on Google play
+					Social.ReportProgress(ach.getId(), 100.0f, (bool success) => {
+						// handle success or failure
+					});
 					userAchievements.Add(ach.getId());
 					Debug.Log ("achievement unlocked");
 					return ach.getMessage();
@@ -139,21 +143,21 @@ public class AchievementManager
 
 	public class Achievement
 	{
-		private int id;
+		private string id;
 		private AchievementType type;
 		private int countToUnlock;
 		private bool unlocked = false;
 		private string message;
 
 		// id should be unique
-		public Achievement(int id, AchievementType type, int countToUnlock, string message) {
+		public Achievement(string id, AchievementType type, int countToUnlock, string message) {
 			this.id = id;
 			this.type = type;
 			this.countToUnlock = countToUnlock;
 			this.message = message;
 		}
 		
-		public int getId() {
+		public string getId() {
 			return id;
 		}
 		

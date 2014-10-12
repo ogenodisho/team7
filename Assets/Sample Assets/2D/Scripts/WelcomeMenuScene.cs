@@ -1,5 +1,7 @@
 ﻿using UnityEngine; 
 using System.Collections;
+using GooglePlayGames;
+using UnityEngine.SocialPlatforms;
 
 public class WelcomeMenuScene : MonoBehaviour{ 
   	
@@ -54,12 +56,18 @@ public class WelcomeMenuScene : MonoBehaviour{
 		
 		//Display 'Leaderboards' button
 		if (GUI.Button (new Rect (Screen.width * .5f, Screen.height * .6f, Screen.width * .25f, Screen.height * .1f), "Leaderboards")){
-			print("Clicked Leaderboards");	
+			print("Clicked Leaderboards");
+
+			// show leaderboard UI
+			Social.ShowLeaderboardUI();
 		}
 		
 		//Display 'Options' button
 		if (GUI.Button (new Rect (Screen.width * .17f, Screen.height * .78f, Screen.width * .25f, Screen.height * .1f), "Options")){
-			print("Clicked Options");	
+			print("Clicked Options");
+
+			// show achievements UI for testing
+			Social.ShowAchievementsUI();
 		}
 		
 		//Display 'Exit' button

@@ -21,8 +21,8 @@ public class AchievementUI : MonoBehaviour
 			timer += Time.deltaTime;
 
 			if (timer >= timerMax) { // 3 seconds for displaying the achievement message
-				AchievementManager.Instance.queueDequeue(); // remove achievement message
-				Debug.Log("timerMax reached!");
+				AchievementManager.Instance.qDequeue(); // remove achievement message
+				//Debug.Log("timerMax reached!");
 				
 				// reset timer
 				timer = 0.0f;
