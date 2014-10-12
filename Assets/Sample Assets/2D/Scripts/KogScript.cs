@@ -7,19 +7,26 @@ public class KogScript : MonoBehaviour {
 	bool facingRight = true;							
 	
 	// The fastest the player can travel in the x axis.
-	[SerializeField] float maxSpeed = 4f;				
+	[SerializeField] float maxSpeed = 3f;				
 	
 	// A mask determining what is ground to the character
 	[SerializeField] LayerMask whatIsGround;
 
-	public Transform ExplosionPrefab;
-	private Transform explosion;
+	public Transform OozePrefab;
+
+	Transform oozeFirePoint;
 
 	PlatformerCharacter2D playerScript;
 
+	public Transform ExplosionPrefab;
+	private Transform explosion;
+
 	public int health = 10;
 
-	int counter = 0;
+	float attackTimer = 3f;
+	float animTimer = 0.8f;
+	bool startAnim = false;
+	bool instantiated = false;
 
 	Animator anim;
 
@@ -27,17 +34,51 @@ public class KogScript : MonoBehaviour {
 		anim = GetComponent<Animator>();
 		GameObject thePlayer = GameObject.Find("Agent_7");
 		playerScript = thePlayer.GetComponent<PlatformerCharacter2D>();
+		oozeFirePoint = transform.FindChild ("OozeFirePoint");
+		if (playerScript.transform.position.x > transform.position.x) {
+			facingRight = true; //agent in front of kog
+		} else {
+			Flip ();
+		}
 	}
 
 	// Update is called once per frame (FixedUpdate for rigidbody)
 	void Update () {
-		counter++;
-		if (counter > 100) {
-			counter = 0;
-			anim.SetBool("Attack", !anim.GetBool("Attack"));
-			//Flip();
+		if (playerScript.transform.position.x > transform.position.x) { // Agent 7 to right of Kog
+			if (!facingRight) { // Kog should be facing right
+				Flip ();
+			}
+		} else { // Agent 7 to left of Kog
+			if (facingRight) { // Kog should be facing left
+				Flip ();
+			}
 		}
-		
+	}
+
+	void FixedUpdate() {
+		// control how often kog attacks. In this case its 3 seconds.
+		// count three seconds then start the animation.
+		attackTimer -= Time.deltaTime;
+		if (attackTimer <= 0) {
+			attackTimer = 3f; // reset the attack timer
+			anim.SetBool("Attack", true);
+			startAnim = true;
+		}
+
+		// When the animation has started, Instantiate the goo prefab half
+		// way through the animation because it looks more realistic that way.
+		if (startAnim) {
+			animTimer -= Time.deltaTime;
+			if (animTimer <= 0.4f && !instantiated) {
+				Instantiate (OozePrefab, oozeFirePoint.position, oozeFirePoint.rotation);
+				instantiated = true;
+			} else if (animTimer <= 0f) { // The animation has ended, set attacking to false
+				animTimer = 0.8f; // reset the animation timer
+				anim.SetBool("Attack", false);
+				startAnim = false;
+				instantiated = false;
+			}
+		}
 	}
 	
 	// Invert the character's position about its vertical axis
@@ -54,7 +95,7 @@ public class KogScript : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D collision) {
 		if (collision.collider.name.StartsWith("Missile")) {
 			// Destroy the missile and generate the explosion at the missile's position
-			explosion = (Transform)Instantiate (ExplosionPrefab, collision.collider.transform.position, collision.collider.transform.rotation);
+			explosion = (Transform)Instantiate (ExplosionPrefab, collision.transform.position, collision.transform.rotation);
 			Destroy (explosion.gameObject, 0.5f);
 			Destroy(collision.collider.gameObject);
 

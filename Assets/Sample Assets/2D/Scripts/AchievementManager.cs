@@ -64,7 +64,7 @@ public class AchievementManager
 		jump = PlayerPrefs.GetInt(JUMP_KEY, 0);
 		shoot = PlayerPrefs.GetInt(SHOOT_KEY, 0);
 
-		Debug.Log("Achievement stats; play: " + play + "; die: " + die + "; jump: " + jump + "; shoot: " + shoot);
+		//Debug.Log("Achievement stats; play: " + play + "; die: " + die + "; jump: " + jump + "; shoot: " + shoot);
 		
 		// all achievements
 		allAchievements.Add(new Achievement(1, AchievementType.Play, 1, "First Time Playing!")); // first play
@@ -117,7 +117,7 @@ public class AchievementManager
 			achievementQueue.Add(message);
 		}
 
-		Debug.Log("Achievement stats; play: " + play + "; die: " + die + "; jump: " + jump + "; shoot: " + shoot);
+		//Debug.Log("Achievement stats; play: " + play + "; die: " + die + "; jump: " + jump + "; shoot: " + shoot);
 		return message;
 	}
 

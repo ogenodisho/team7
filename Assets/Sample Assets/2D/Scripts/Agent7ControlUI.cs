@@ -15,6 +15,7 @@ public class Agent7ControlUI : MonoBehaviour
 	Rect menuBackground;
 	
 	bool fingerOnTrigger = false;
+	bool fingerOnJump = false;
 	
 	bool leftPressed = false;
 	bool rightPressed = false;
@@ -130,7 +131,12 @@ public class Agent7ControlUI : MonoBehaviour
 				character.Move (-1, false, false);
 			}
 			if (jumpPressed) {
-				character.Jump ();
+				if (!fingerOnJump) {
+					character.Jump ();
+					fingerOnJump = true;
+				}
+			} else {
+				fingerOnJump = false;
 			}
 			if (shootPressed) {
 				if (hasFireRatePickup) {
