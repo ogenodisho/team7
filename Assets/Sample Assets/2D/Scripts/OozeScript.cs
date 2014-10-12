@@ -11,6 +11,7 @@ public class OozeScript : MonoBehaviour {
 	Collider2D agent7;
 
 	float timeUntilDestroy = 2f;
+	
 
 	void Start()
 	{
@@ -19,37 +20,39 @@ public class OozeScript : MonoBehaviour {
 		facingRight = playerScript.facingRight;
 		// destroy the ooze after 2 seconds, this is its time-out period
 		// so as it doesnt travel forever
-		Destroy (gameObject, timeUntilDestroy);
 	}
 	
 	void Update () {
 		transform.Translate ((playerScript.transform.position - transform.position) * Time.deltaTime * moveSpeed);
+	}
 
-		if (agent7 != null) {
-			// if agent7 is not null it means onTriggerEnter got called
-			// once he lands on the ground, apply the slow
-			if (agent7.gameObject.GetComponent<Animator>().GetBool("Ground")) {
-				agent7.rigidbody2D.drag = 100f;
-			}
+	void FixedUpdate() {
+		timeUntilDestroy -= Time.deltaTime;
+		if (timeUntilDestroy <= 0) {
+			Destroy (gameObject);
 		}
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
 		agent7 = other; //obtain reference to agent7
 
-		// if agent7 is on the ground, restrict his movement
-		if (other.gameObject.GetComponent<Animator>().GetBool("Ground")) {
-			agent7.rigidbody2D.drag = 100f;
-		}
+		// restrict his movement
+		agent7.rigidbody2D.drag = 100f;
 
 		// increase the speed of the ooze so it sticks to agent7
 		moveSpeed = 100f;
+
+		// refresh the ooze duration
+		timeUntilDestroy = 2f;
+
+		playerScript.setOozed(true);
 	}
 
 	void OnDestroy() {
-		// Reset agent7's drag it he got hit
+		// Reset agent7's drag
 		if (agent7 != null) {
 			agent7.rigidbody2D.drag = 3f;
 		}
+		playerScript.setOozed(false);
 	}
 }

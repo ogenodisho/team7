@@ -19,7 +19,13 @@ public class Enemy1Behaviour : MonoBehaviour {
 
 	public int health = 2;
 
-	int counter = 0;
+	public Texture tex;
+
+	int counter = 0;	
+
+	public int getHealth() {
+		return health;
+	}
 
 	void Awake() {
 		GameObject thePlayer = GameObject.Find("Agent_7");
@@ -29,7 +35,6 @@ public class Enemy1Behaviour : MonoBehaviour {
 
 	// Update is called once per frame (FixedUpdate for rigidbody)
 	void FixedUpdate () {
-		//Flip ();
 		if (facingRight) {
 			transform.Translate(new Vector3(0.02f, 0, 0));
 		} else {
@@ -40,7 +45,6 @@ public class Enemy1Behaviour : MonoBehaviour {
 			counter = 0;
 			Flip();
 		}
-
 	}
 	
 	// Setter for top speed of enemy
@@ -48,11 +52,19 @@ public class Enemy1Behaviour : MonoBehaviour {
 		maxSpeed = speed;
 	}
 
+	/*void OnGUI() {
+		Vector3 screenpos = GameObject.Find("Agent_7Camera").camera.WorldToScreenPoint(
+			GameObject.Find (gameObject.name).transform.position);
+		for (int i = 0; i < GameObject.Find (gameObject.name).GetComponent<Enemy1Behaviour>().getHealth(); i++) {
+			GUI.DrawTexture(new Rect(screenpos.x + ((50 / 6) * i), screenpos.y, 50/6, 10), tex);
+		}
+	}*/
+
 	// Invert the character's position about its vertical axis
 	void Flip ()
 	{
 		facingRight = !facingRight;
-		//transform.Rotate(new Vector3(transform.position.x,1,0), new Vector3(transform.position.x,1,0), 180);
+
 		// Multiply the player's x local scale by -1.
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;

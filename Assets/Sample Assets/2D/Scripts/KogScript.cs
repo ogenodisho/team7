@@ -21,14 +21,21 @@ public class KogScript : MonoBehaviour {
 	public Transform ExplosionPrefab;
 	private Transform explosion;
 
-	public int health = 10;
+	private int health = 100;
 
-	float attackTimer = 3f;
+	public Texture hpFull;
+	public Texture hpEmpty;
+
+	float attackTimer = 4.8f;
 	float animTimer = 0.8f;
 	bool startAnim = false;
 	bool instantiated = false;
 
-	Animator anim;
+	Animator anim;	
+
+	public int getHealth() {
+		return health;
+	}
 
 	void Awake() {
 		anim = GetComponent<Animator>();
@@ -56,17 +63,24 @@ public class KogScript : MonoBehaviour {
 	}
 
 	void FixedUpdate() {
+		// Dont interact if too far away
+		if (Mathf.Abs(playerScript.transform.position.x - transform.position.x) >= 20f) {
+			return;
+		}
+
 		// control how often kog attacks. In this case its 3 seconds.
 		// count three seconds then start the animation.
 		attackTimer -= Time.deltaTime;
 		if (attackTimer <= 0) {
-			attackTimer = 3f; // reset the attack timer
+			attackTimer = 4.8f; // reset the attack timer
 			anim.SetBool("Attack", true);
 			startAnim = true;
 		}
 
 		// When the animation has started, Instantiate the goo prefab half
 		// way through the animation because it looks more realistic that way.
+		// Instantiate it once other wise many will be instantiated from 0 to 0.4f seconds.
+		// Also, don't instantiate it if agent7 is already oozed because that's too strong
 		if (startAnim) {
 			animTimer -= Time.deltaTime;
 			if (animTimer <= 0.4f && !instantiated) {
@@ -107,6 +121,23 @@ public class KogScript : MonoBehaviour {
 				playerScript.GainScore(200);
 			}
 		}
+	}
+
+	void OnGUI() {
+		Vector3 screenpos = GameObject.Find("Agent_7Camera").camera.WorldToScreenPoint(
+			GameObject.Find (gameObject.name).transform.position);
+		int currHP = GameObject.Find (gameObject.name).GetComponent<KogScript>().getHealth();
+		for (int i = 0; i < 10; i++) {
+			if (i * 10 < currHP) {
+				GUI.DrawTexture(new Rect(screenpos.x - 30 + ((50 / 6) * i), screenpos.y - 120, 50/6, 10), hpFull);
+			} else {
+				GUI.DrawTexture(new Rect(screenpos.x - 30 + ((50 / 6) * i), screenpos.y - 120, 50/6, 10), hpEmpty);
+			}
+		}
+	}
+
+	void OnDestroy() {
+		playerScript.setOozed(false);
 	}
 
 }

@@ -31,6 +31,8 @@ public class PlatformerCharacter2D : MonoBehaviour
 	public float fireRate = 0;
 	public float Damage = 10;
 	public LayerMask whatToHit;
+
+	private bool oozed = false;
 	
 	float timeToFire = 0;
 	Transform idleFirePoint;
@@ -122,6 +124,13 @@ public class PlatformerCharacter2D : MonoBehaviour
 		} else {
 			anim.SetBool("ScaleJump", true);
 		}
+	}
+
+	public void setOozed(bool oozed) {
+		this.oozed = oozed;
+	}
+	public bool getOozed() {
+		return oozed;
 	}
 
 
