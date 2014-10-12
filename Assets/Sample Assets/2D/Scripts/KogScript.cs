@@ -63,8 +63,9 @@ public class KogScript : MonoBehaviour {
 	}
 
 	void FixedUpdate() {
-		// Dont interact if too far away
-		if (Mathf.Abs(playerScript.transform.position.x - transform.position.x) >= 20f) {
+		// Dont interact if too far away or if agent_7 is already oozed
+		if (Mathf.Abs(playerScript.transform.position.x - transform.position.x) >= 20f 
+		    || playerScript.getOozed()) {
 			return;
 		}
 
@@ -134,10 +135,6 @@ public class KogScript : MonoBehaviour {
 				GUI.DrawTexture(new Rect(screenpos.x - 30 + ((50 / 6) * i), screenpos.y - 120, 50/6, 10), hpEmpty);
 			}
 		}
-	}
-
-	void OnDestroy() {
-		playerScript.setOozed(false);
 	}
 
 }

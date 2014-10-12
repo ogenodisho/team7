@@ -10,10 +10,9 @@ public class OozeScript : MonoBehaviour {
 
 	Collider2D agent7;
 
-	float timeUntilDestroy = 2f;
-	
+	bool agent7GotOozed = false;
 
-	void Start()
+	void Awake()
 	{
 		GameObject thePlayer = GameObject.Find("Agent_7");
 		playerScript = thePlayer.GetComponent<PlatformerCharacter2D>();
@@ -23,36 +22,23 @@ public class OozeScript : MonoBehaviour {
 	}
 	
 	void Update () {
-		transform.Translate ((playerScript.transform.position - transform.position) * Time.deltaTime * moveSpeed);
-	}
-
-	void FixedUpdate() {
-		timeUntilDestroy -= Time.deltaTime;
-		if (timeUntilDestroy <= 0) {
-			Destroy (gameObject);
+		if (agent7GotOozed) {
+			if (!playerScript.getOozed()) {
+				Destroy (gameObject);
+			}
 		}
+		transform.Translate ((playerScript.transform.position - transform.position) * Time.deltaTime * moveSpeed);
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
 		agent7 = other; //obtain reference to agent7
 
-		// restrict his movement
-		agent7.rigidbody2D.drag = 100f;
-
 		// increase the speed of the ooze so it sticks to agent7
 		moveSpeed = 100f;
 
-		// refresh the ooze duration
-		timeUntilDestroy = 2f;
+		agent7GotOozed = true;
 
+		// set the player as oozed
 		playerScript.setOozed(true);
-	}
-
-	void OnDestroy() {
-		// Reset agent7's drag
-		if (agent7 != null) {
-			agent7.rigidbody2D.drag = 3f;
-		}
-		playerScript.setOozed(false);
 	}
 }
