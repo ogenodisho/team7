@@ -39,6 +39,8 @@ public class PlatformerCharacter2D : MonoBehaviour
 	Transform runningFirePoint;
 
 
+	public AudioSource audio;
+
 
 	private Quaternion rotateOneEightyAroundZ;
 	
@@ -232,6 +234,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 		// to fire the missile from for realism
 		float currSpeed = anim.GetFloat("Speed");
 		Transform firePoint;
+
 		if (currSpeed > 2) {
 			firePoint = runningFirePoint;
 		} else {
@@ -245,7 +248,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 			// If Agent_7 is not facing right, rotate the missile prefab 180 around the z-axis
 			Instantiate (MissilePrefab, firePoint.position, rotateOneEightyAroundZ * firePoint.rotation);
 		}
-		
+		audio.Play ();
 		// achievements
 		AchievementManager.Instance.RegisterEvent (AchievementType.Shoot);
 	}
