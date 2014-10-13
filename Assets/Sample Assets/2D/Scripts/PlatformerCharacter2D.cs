@@ -40,6 +40,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 
 
 	public AudioSource audio;
+	public AudioClip jump;
 
 
 	private Quaternion rotateOneEightyAroundZ;
@@ -181,6 +182,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 
 	public void Jump() {
 		// If the player should jump...
+
 		if (grounded) {
 			// Add a vertical force to the player.
 			anim.SetBool("Ground", false);
@@ -188,6 +190,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 			rigidbody2D.AddForce(new Vector2(0f, 1200f));
 			
 			AchievementManager.Instance.RegisterEvent (AchievementType.Jump);
+			audio.PlayOneShot (jump);
 		}
 	}
 
@@ -226,6 +229,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 		
 		// achievements register one jump - maybe make this a scale jump achievement
 		AchievementManager.Instance.RegisterEvent (AchievementType.Jump);
+		audio.PlayOneShot (jump);
 	}
 
 	public void Shoot () {
