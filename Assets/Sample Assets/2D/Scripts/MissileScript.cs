@@ -58,7 +58,7 @@ public class MissileScript : MonoBehaviour {
 			// instantiate the explosion animation and destroy it after 0.5 seconds.
 			// Then destory the missile because it exploded
 			explosion = (Transform)Instantiate (ExplosionPrefab, transform.position, transform.rotation);
-			Destroy (explosion.gameObject, 0.5f);
+			Destroy (explosion.gameObject, 0.4f);
 			Destroy(gameObject);
 		}
 	}

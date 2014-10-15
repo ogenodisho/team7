@@ -115,7 +115,7 @@ public class KogScript : MonoBehaviour {
 		if (collision.collider.name.StartsWith("Missile")) {
 			// Destroy the missile and generate the explosion at the missile's position
 			explosion = (Transform)Instantiate (ExplosionPrefab, collision.transform.position, collision.transform.rotation);
-			Destroy (explosion.gameObject, 0.5f);
+			Destroy (explosion.gameObject, 0.4f);
 			Destroy(collision.collider.gameObject);
 
 			// decrement the health

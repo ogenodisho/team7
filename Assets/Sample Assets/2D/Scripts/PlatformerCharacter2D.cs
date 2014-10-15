@@ -42,6 +42,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 	public AudioSource audio;
 	public AudioClip jump;
 
+	float cooldownPeriod = 0f;
 
 	private Quaternion rotateOneEightyAroundZ;
 	
@@ -165,6 +166,12 @@ public class PlatformerCharacter2D : MonoBehaviour
 
 		anim.SetFloat("Speed", Mathf.Abs(rigidbody2D.velocity.x));
 
+		if (cooldownPeriod > 0) {
+			cooldownPeriod -= Time.deltaTime;
+		} else {
+			cooldownPeriod = 0f;
+		}
+
 	}
 
 	public void Move(float move, bool crouch, bool jump)	{
@@ -274,8 +281,9 @@ public class PlatformerCharacter2D : MonoBehaviour
 	// increasing and decreasing hp and score
 	public void LoseHealth() {
 		// only lose health if agent7 is not invulnerable
-		if (!Agent7ControlUI.hasInvulnerabilityPickup) {
+		if (!Agent7ControlUI.hasInvulnerabilityPickup && cooldownPeriod == 0) {
 			statsUi.setHp (statsUi.getHp() - 1);
+			cooldownPeriod = 1f;
 		}
 	}
 
@@ -284,7 +292,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 	}
 
 	public void LoseScore(int amount) {
-		if (!Agent7ControlUI.hasInvulnerabilityPickup) {
+		if (!Agent7ControlUI.hasInvulnerabilityPickup && cooldownPeriod == 0) {
 			statsUi.setScore (statsUi.getScore() - amount);
 		}
 	}
