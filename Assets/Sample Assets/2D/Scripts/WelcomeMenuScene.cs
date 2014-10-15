@@ -51,7 +51,7 @@ public class WelcomeMenuScene : MonoBehaviour{
 		//Display 'Play' button
 		if (GUI.Button (new Rect (Screen.width * .17f, Screen.height * .6f, Screen.width * .25f, Screen.height * .1f), "Play")){
 			mode = 1;
-			Application.LoadLevel("InGameScene");	
+			Application.LoadLevel("TutorialLevelScene");	
 		}
 		
 		//Display 'Leaderboards' button
