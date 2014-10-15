@@ -207,9 +207,11 @@ public class PlatformerCharacter2D : MonoBehaviour
 		this.oozed = oozed;
 		if (oozed) {
 			// restrict movement
-			transform.rigidbody2D.drag = 100f;
+			transform.rigidbody2D.gravityScale = 30f;
+			transform.rigidbody2D.drag = 50f;
 		} else {
 			// revert movement
+			transform.rigidbody2D.gravityScale = 3f;
 			transform.rigidbody2D.drag = 3f;
 		}
 	}
