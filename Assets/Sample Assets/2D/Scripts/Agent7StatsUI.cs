@@ -95,26 +95,9 @@ public class Agent7StatsUI : MonoBehaviour {
 			break;
 		case 0:
 			GUI.Box(healthDisplay, zeroHp, customHealth);
-			Die();
 			break;
 		}
 	}
 	
-	
-	// this method is called when Agent_7 dies
-	// The boolean is for when you are just testing the
-	// code. It returns Agent_7 to the starting point
-	// instantly for convenience.
-	void Die() {
-		// achievements
-		AchievementManager.Instance.RegisterEvent (AchievementType.Die);
 
-		/*if (test) {
-			character.transform.position = new Vector3(0f, 1.6f, 0f);
-			hp = 3;
-		} else {
-			// initiate normal death sequence
-		}*/
-		Application.LoadLevel (0);
-	}
 }

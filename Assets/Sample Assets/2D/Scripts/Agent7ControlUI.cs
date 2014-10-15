@@ -4,6 +4,7 @@ using UnityEngine;
 public class Agent7ControlUI : MonoBehaviour 
 {
 	private PlatformerCharacter2D character;
+	private Agent7StatsUI statsUi;
 	Rect leftButton;
 	Rect rightButton;
 	Rect jumpButton;
@@ -13,6 +14,10 @@ public class Agent7ControlUI : MonoBehaviour
 	Rect optionsButton;
 	Rect quitButton;
 	Rect menuBackground;
+	Rect nextButton;
+	Rect againButton;
+	Rect backButton;
+	Rect endBackground;
 	
 	bool fingerOnTrigger = false;
 	bool fingerOnJump = false;
@@ -25,8 +30,13 @@ public class Agent7ControlUI : MonoBehaviour
 	bool resumePressed = false;
 	bool optionsPressed = false;
 	bool quitPressed = false;
+	bool nextPressed = false;
+	bool againPressed = false;
+	bool backPressed = false;
 	
 	bool paused = false;
+	bool dead = false;
+	bool end = false;
 	
 	float lastShotTime = 0f;
 	float shootingThreshold = 0.7f;
@@ -53,6 +63,8 @@ public class Agent7ControlUI : MonoBehaviour
 		dummyEdgeCollider = new EdgeCollider2D();
 		// Initialise script and rectangles for the ui
 		character = GetComponent<PlatformerCharacter2D>();
+		statsUi = GetComponent<Agent7StatsUI> ();
+
 		// achievements
 		AchievementManager.Instance.RegisterEvent (AchievementType.Play);
 		//if (testingUsingUnityRemote) {
@@ -66,6 +78,14 @@ public class Agent7ControlUI : MonoBehaviour
 			resumeButton = new Rect  (Screen.width / 4 + 10,         Screen.height / 6 + 20 + 10       , Screen.width / 2 - 20,   Screen.height / 6  );
 			optionsButton = new Rect (Screen.width / 4 + 10,       Screen.height / 3 + 20 + 10 + 10    , Screen.width / 2 - 20,   Screen.height / 6  );
 			quitButton = new Rect    (Screen.width / 4 + 10,    Screen.height / 2 + 20 + 10 + 10 + 10  , Screen.width / 2 - 20,   Screen.height / 6  );
+
+			endBackground = new Rect(Screen.width / 4     ,             Screen.height / 6             , Screen.width / 2     , 2 * Screen.height / 3);
+			nextButton = new Rect  (Screen.width / 4 + 10,         Screen.height / 6 + 20 + 10       , Screen.width / 2 - 20,   Screen.height / 6  );
+			againButton = new Rect  (Screen.width / 4 + 10,         Screen.height / 6 + 20 + 10       , Screen.width / 2 - 20,   Screen.height / 6  );
+			backButton = new Rect (Screen.width / 4 + 10,       Screen.height / 3 + 20 + 10 + 10    , Screen.width / 2 - 20,   Screen.height / 6  );
+			
+
+			
 		/*} else {
 			leftButton = new Rect (          0          , Screen.width - 150, Screen.height / 4, 150);
 			rightButton = new Rect(  Screen.height / 4   , Screen.width - 150, Screen.height / 4, 150);
@@ -90,7 +110,14 @@ public class Agent7ControlUI : MonoBehaviour
 		resumePressed = false;
 		optionsPressed = false;
 		quitPressed = false;
-		
+		nextPressed = false;
+		againPressed = false;
+		backPressed = false;
+
+		if (statsUi.getHp () == 0) {
+			die();
+		}
+
 		// Iterate through the touches to determine
 		// which buttons are currently being pressed
 		for (int i = 0; i < Input.touchCount; i++) {
@@ -109,6 +136,20 @@ public class Agent7ControlUI : MonoBehaviour
 				}
 				if (menuButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
 					menuPressed = true;
+				}
+			} else if (dead) {
+				if (againButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
+					againPressed = true;
+				}
+				if (backButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
+					backPressed = true;
+				}
+			} else if (end) {
+				if (nextButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
+					nextPressed = true;
+				}
+				if (backButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
+					backPressed = true;
 				}
 			} else {
 				if (resumeButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
@@ -157,6 +198,32 @@ public class Agent7ControlUI : MonoBehaviour
 				paused = true;
 				Time.timeScale = 0;
 			}
+		} else if (dead) {
+			if (againPressed) {
+				dead = false;
+				paused = false;
+				Time.timeScale = 1;
+				statsUi.setHp (3);
+				Application.LoadLevel(1);
+			} else if (backPressed) {
+				dead = false;
+				paused = false;
+				Time.timeScale = 1;
+				statsUi.setHp (3);
+				Application.LoadLevel(0);
+			}
+		} else if (end) {
+			if (nextPressed) {
+				end = false;
+				paused = false;
+				Time.timeScale = 1;
+				Application.LoadLevel(1);
+			} else if (backPressed) {
+				end = false;
+				paused = false;
+				Time.timeScale = 1;
+				Application.LoadLevel(0);
+			}
 		} else {
 			if (resumePressed) {
 				paused = false;
@@ -169,7 +236,7 @@ public class Agent7ControlUI : MonoBehaviour
 				// quit to title
 				paused = false;
 				Time.timeScale = 1;
-				Application.LoadLevel("HomeScreenScene");
+				Application.LoadLevel(0);
 			}
 		}
 
@@ -199,6 +266,14 @@ public class Agent7ControlUI : MonoBehaviour
 			GUI.Button (menuButton, "Menu");
 			GUI.Button (jumpButton, "Jump");
 			GUI.Button (shootButton, "Shoot");
+		} else if (dead) {
+			GUI.Box (endBackground, "You died!");
+			GUI.Button (nextButton, "Try again");
+			GUI.Button (backButton, "Quit to Title");
+		} else if (end) {
+			GUI.Box (endBackground, "Congratulation!");
+			GUI.Button (nextButton, "Next level");
+			GUI.Button (backButton, "Quit to Title");
 		} else {
 			GUI.Box(menuBackground, "PAUSED");
 			GUI.Button (resumeButton, "Resume");
@@ -241,29 +316,42 @@ public class Agent7ControlUI : MonoBehaviour
 	}
 	void OnTriggerEnter2D(Collider2D collider) {
 		if (collider.gameObject.name.Equals ("Fire")) {
-			Debug.Log("-1 HP!");
-			character.LoseHealth ();
-			character.LoseScore(10);
-		} else if (collider.gameObject.name.Equals("HealthPickup")) {
-			// Agent_7 collided with a health pickup. Increment health
-			// and destroy the pickup
-			Debug.Log("+1 HP!");
-			character.GainHealth ();
-			Destroy (collider.gameObject, 0);
-		} else if (collider.gameObject.name.Equals("x2Pickup")) {
+						Debug.Log ("-1 HP!");
+						character.LoseHealth ();
+						character.LoseScore (10);
+				} else if (collider.gameObject.name.Equals ("HealthPickup")) {
+						// Agent_7 collided with a health pickup. Increment health
+						// and destroy the pickup
+						Debug.Log ("+1 HP!");
+						character.GainHealth ();
+						Destroy (collider.gameObject, 0);
+				} else if (collider.gameObject.name.Equals ("x2Pickup")) {
 				
-		} else if (collider.gameObject.name.Equals("InvulnerabilityPickup")) {
-			Debug.Log("INVULNERABLE!");
-			hasInvulnerabilityPickup = true;
-			Destroy (collider.gameObject, 0);
-			// this pickup lasts for 10 seconds
-			invulnerabilityTimeLeft = 10f;	
-		} else if (collider.gameObject.name.Equals("FireRatePickup")) {
-			Debug.Log("MORE FIREPOWER!");
-			hasFireRatePickup = true;
-			Destroy (collider.gameObject, 0);
-			// this pickup lasts for 10 seconds
-			fireRateTimeLeft = 10f;
-		}
+				} else if (collider.gameObject.name.Equals ("InvulnerabilityPickup")) {
+						Debug.Log ("INVULNERABLE!");
+						hasInvulnerabilityPickup = true;
+						Destroy (collider.gameObject, 0);
+						// this pickup lasts for 10 seconds
+						invulnerabilityTimeLeft = 10f;	
+				} else if (collider.gameObject.name.Equals ("FireRatePickup")) {
+						Debug.Log ("MORE FIREPOWER!");
+						hasFireRatePickup = true;
+						Destroy (collider.gameObject, 0);
+						// this pickup lasts for 10 seconds
+						fireRateTimeLeft = 10f;
+				} else if (collider.gameObject.name.Equals ("Door")) {
+						Debug.Log("LEVEL END!");
+						end = true;
+						paused = true;
+						Time.timeScale = 0;
+				}
 	}
+
+	// This method is called when hp equals 0
+	void die() {
+		dead = true;
+		paused = true;
+		Time.timeScale = 0;
+	}
+	
 }

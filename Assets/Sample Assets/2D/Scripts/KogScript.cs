@@ -18,6 +18,8 @@ public class KogScript : MonoBehaviour {
 
 	PlatformerCharacter2D playerScript;
 
+	DoorScript door;
+
 	public Transform ExplosionPrefab;
 	private Transform explosion;
 
@@ -41,6 +43,8 @@ public class KogScript : MonoBehaviour {
 		anim = GetComponent<Animator>();
 		GameObject thePlayer = GameObject.Find("Agent_7");
 		playerScript = thePlayer.GetComponent<PlatformerCharacter2D>();
+		thePlayer = GameObject.Find ("Door");
+		door = thePlayer.GetComponent<DoorScript> ();
 		oozeFirePoint = transform.FindChild ("OozeFirePoint");
 		if (playerScript.transform.position.x > transform.position.x) {
 			facingRight = true; //agent in front of kog
@@ -120,6 +124,7 @@ public class KogScript : MonoBehaviour {
 				// Destroy the enemy if his health is 0 and gain score
 				Destroy (transform.gameObject);
 				playerScript.GainScore(200);
+				door.OpenDoor();
 			}
 		}
 	}
