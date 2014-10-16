@@ -59,7 +59,7 @@ public class WelcomeMenuScene : MonoBehaviour{
 			print("Clicked Leaderboards");
 
 			// show leaderboard UI
-			Social.ShowLeaderboardUI();
+			((PlayGamesPlatform) Social.Active).ShowLeaderboardUI();
 		}
 		
 		//Display 'Options' button
@@ -67,7 +67,7 @@ public class WelcomeMenuScene : MonoBehaviour{
 			print("Clicked Options");
 
 			// show achievements UI for testing
-			Social.ShowAchievementsUI();
+			((PlayGamesPlatform) Social.Active).ShowAchievementsUI();
 		}
 		
 		//Display 'Exit' button
