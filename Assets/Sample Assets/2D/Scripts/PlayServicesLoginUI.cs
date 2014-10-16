@@ -5,7 +5,12 @@ using UnityEngine.SocialPlatforms;
 public class PlayServicesLoginUI : MonoBehaviour 
 {
 	private bool isLoggedIn = false;
-	private bool failed = false;
+	private bool isWorking = false;
+
+	private string button = "Login";
+
+	private float timer = 0.0f;
+	private float timerMax = 2.0f; // 2 seconds for working...
 
 	void Awake() {
 		// recommended for debugging:
@@ -15,30 +20,38 @@ public class PlayServicesLoginUI : MonoBehaviour
 		PlayGamesPlatform.Activate();
 	}
 
-	void Start(){
-		// authenticate user:
-		if (!isLoggedIn) {
-			Social.localUser.Authenticate((bool success) => {
-				// handle success or failure
-				if (success) {
-					isLoggedIn = true;
+	void Update() {
+		if (isWorking) {
+			timer += Time.deltaTime;
+			button = "Working...";
+			if (timer >= timerMax) { // 2 seconds
+				//Debug.Log("timerMax reached!");
+				isWorking = false;
+				if (isLoggedIn) {
+					button = "Logout";
 				} else {
-					failed = true;
+					button = "Login";
 				}
-			});
+				// reset timer
+				timer = 0.0f;
+			}
 		}
 	}
 
 	void OnGUI() {
-		if (failed) { // TODO not working currently
-			GUI.Box (new Rect(Screen.width / 4, Screen.height / 6, Screen.width / 2, 2 * Screen.height / 3), "Don't ask me again?");
-			if (GUI.Button (new Rect (Screen.width / 4 + 10, Screen.height / 6 + 20 + 10, Screen.width / 2 - 20,   Screen.height / 6 ), "OK")){
-				// TODO
-				isLoggedIn = true;
-				failed = false;
-			}
-			if (GUI.Button (new Rect (Screen.width / 4 + 10, Screen.height / 3 + 20 + 10 + 10, Screen.width / 2 - 20, Screen.height / 6), "Ask again later")){
-				failed = false;
+		if (GUI.Button (new Rect (Screen.width - 150, 0, 150, 50), button) && !isWorking) {
+			isWorking = true;
+			if (!isLoggedIn) {
+				Social.Active.localUser.Authenticate((bool success) => {
+					// handle success or failure
+					if (success) { // not reaching this code currently even though succesful login displayed in game
+						isLoggedIn = true;
+					}
+				});
+				isLoggedIn = true; // temporary fix
+			} else {
+				((PlayGamesPlatform) Social.Active).SignOut();
+				isLoggedIn = false;
 			}
 		}
 	}
