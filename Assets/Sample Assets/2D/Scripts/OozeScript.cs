@@ -3,7 +3,7 @@ using System.Collections;
 
 public class OozeScript : MonoBehaviour {
 	
-	public float moveSpeed = 2f;
+	public float moveSpeed = 1.5f;
 	private bool facingRight = true;
 	private float agentSevensPreviousDrag;
 	PlatformerCharacter2D playerScript;

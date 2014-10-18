@@ -12,6 +12,7 @@ public class FlyingEnemyScript : MonoBehaviour {
 	private Vector3 translation;
 	Animator anim;
 	public int health = 1;
+	private bool activated = false;
 	bool agent7GotOozed = false;
 	private bool skyfall = false;
 	public int getHealth() {
@@ -32,14 +33,15 @@ public class FlyingEnemyScript : MonoBehaviour {
 	}
 	
 	void Update () {
-		if (Mathf.Abs(playerScript.transform.position.x - transform.position.x) <= 1.5f) {
+		if (Mathf.Abs(playerScript.transform.position.x - transform.position.x) <= 1f) {
 			skyfall = true;
 			anim.SetBool("skyfall", true);
 		}
 	}
 
 	void FixedUpdate() {
-		if (Mathf.Abs(playerScript.transform.position.x - transform.position.x) > 20f) {
+		if (Mathf.Abs(playerScript.transform.position.x - transform.position.x) > 20f && !activated) {
+			activated = true;
 			return;
 		}
 		if (!skyfall) {
