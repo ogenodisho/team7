@@ -24,8 +24,8 @@ public class PlayServicesLoginUI : MonoBehaviour
 		// already logged in from previous session
 		if (PlayerPrefs.GetInt(LOGGED_KEY, 0) == 1) {
 			isLoggedIn = true;
-			button = "Logout";
-			Social.Active.localUser.Authenticate(ProcessAuthentication);
+			isWorking = true;
+			Social.localUser.Authenticate(ProcessAuthentication);
 		}
 	}
 
@@ -51,11 +51,7 @@ public class PlayServicesLoginUI : MonoBehaviour
 		if (GUI.Button (new Rect (Screen.width - 150, 0, 150, 50), button) && !isWorking) {
 			isWorking = true;
 			if (!isLoggedIn) {
-				Social.Active.localUser.Authenticate(ProcessAuthentication);
-
-				// temporary fix
-				isLoggedIn = true;
-				PlayerPrefs.SetInt(LOGGED_KEY, 1);
+				Social.localUser.Authenticate(ProcessAuthentication);
 			} else {
 				((PlayGamesPlatform) Social.Active).SignOut();
 				isLoggedIn = false;

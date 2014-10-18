@@ -9,9 +9,21 @@ public class WelcomeMenuScene : MonoBehaviour{
 	private string demoLabel;
 	public Texture Backgroundtexture;
 	int mode = 0;
-	
-	void update(){
 
+	bool pleaseLogin = false;
+	private float timer = 0.0f;
+	private float timerMax = 3.0f;
+	
+	void Update(){
+		if (pleaseLogin) {
+			timer += Time.deltaTime;
+			if (timer >= timerMax) { // 3 seconds
+				//Debug.Log("timerMax reached!");
+				pleaseLogin = false;
+				// reset timer
+				timer = 0.0f;
+			}
+		}
 	}
 
 	void Start(){
@@ -59,20 +71,34 @@ public class WelcomeMenuScene : MonoBehaviour{
 			print("Clicked Leaderboards");
 
 			// show leaderboard UI
-			((PlayGamesPlatform) Social.Active).ShowLeaderboardUI();
+			//((PlayGamesPlatform) Social.Active).ShowLeaderboardUI();
+			if (Social.localUser.authenticated) {
+				Social.ShowLeaderboardUI();
+			} else {
+				pleaseLogin = true;
+			}
 		}
 		
 		//Display 'Options' button
-		if (GUI.Button (new Rect (Screen.width * .17f, Screen.height * .78f, Screen.width * .25f, Screen.height * .1f), "Options")){
+		if (GUI.Button (new Rect (Screen.width * .17f, Screen.height * .78f, Screen.width * .25f, Screen.height * .1f), "Options/Achievements")){
 			print("Clicked Options");
 
 			// show achievements UI for testing
-			((PlayGamesPlatform) Social.Active).ShowAchievementsUI();
+			if (Social.localUser.authenticated) {
+				Social.ShowAchievementsUI();
+			} else {
+				pleaseLogin = true;
+			}
 		}
 		
 		//Display 'Exit' button
 		if (GUI.Button (new Rect (Screen.width * .5f, Screen.height * .78f, Screen.width * .25f, Screen.height * .1f), "Exit")){
 			mode = 4;	
+		}
+
+		// user tries to view leaderboards and achievements without having logged in
+		if (pleaseLogin) {
+			GUI.Box (new Rect(Screen.width / 4, Screen.height / 6, Screen.width / 2, Screen.height / 7), "Please login");
 		}
 	}
 
