@@ -1,4 +1,6 @@
 using UnityEngine;
+using GooglePlayGames;
+using UnityEngine.SocialPlatforms;
 
 [RequireComponent(typeof(PlatformerCharacter2D))]
 public class Agent7ControlUI : MonoBehaviour 
@@ -17,6 +19,7 @@ public class Agent7ControlUI : MonoBehaviour
 	Rect nextButton;
 	Rect againButton;
 	Rect backButton;
+	Rect submitButton;
 	Rect endBackground;
 	
 	bool fingerOnTrigger = false;
@@ -32,6 +35,7 @@ public class Agent7ControlUI : MonoBehaviour
 	bool quitPressed = false;
 	bool nextPressed = false;
 	bool againPressed = false;
+	bool submitPresssed = false;
 	bool backPressed = false;
 	
 	bool paused = false;
@@ -40,6 +44,8 @@ public class Agent7ControlUI : MonoBehaviour
 	
 	float lastShotTime = 0f;
 	float shootingThreshold = 0.7f;
+
+	public Texture hsbg;
 
 	// these two variables are just used for type checks
 	private CircleCollider2D dummyCircleCollider;
@@ -54,6 +60,15 @@ public class Agent7ControlUI : MonoBehaviour
 	public static bool hasInvulnerabilityPickup = false;
 	private float invulnerabilityTimeLeft = 0f;
 
+	private bool deadSceneWait = false;
+	private float timer = 0.0f;
+	private float timerMax = 1.1f;
+
+	private bool submitted = false;
+	private string submitText = "Submit Score";
+
+	GUIStyle scoreFont;
+
 	//public static bool testingUsingUnityRemote = true;
 	
 	void Awake()
@@ -64,6 +79,11 @@ public class Agent7ControlUI : MonoBehaviour
 		// Initialise script and rectangles for the ui
 		character = GetComponent<PlatformerCharacter2D>();
 		statsUi = GetComponent<Agent7StatsUI> ();
+		
+		scoreFont = new GUIStyle();
+		scoreFont.fontSize = 50;
+		scoreFont.normal.textColor = Color.white;
+		scoreFont.alignment = TextAnchor.UpperCenter;
 
 		// achievements
 		AchievementManager.Instance.RegisterEvent (AchievementType.Play);
@@ -81,8 +101,9 @@ public class Agent7ControlUI : MonoBehaviour
 
 			endBackground = new Rect(Screen.width / 4     ,             Screen.height / 6             , Screen.width / 2     , 2 * Screen.height / 3);
 			nextButton = new Rect  (Screen.width / 4 + 10,         Screen.height / 6 + 20 + 10       , Screen.width / 2 - 20,   Screen.height / 6  );
-			againButton = new Rect  (Screen.width / 4 + 10,         Screen.height / 6 + 20 + 10       , Screen.width / 2 - 20,   Screen.height / 6  );
-			backButton = new Rect (Screen.width / 4 + 10,       Screen.height / 3 + 20 + 10 + 10    , Screen.width / 2 - 20,   Screen.height / 6  );
+			againButton = new Rect  (Screen.width * .7f, Screen.height * .8f, Screen.width * .25f, Screen.height * .1f);
+			submitButton = new Rect  (Screen.width * .375f, Screen.height * .8f, Screen.width * .25f, Screen.height * .1f);
+			backButton = new Rect (Screen.width * .05f, Screen.height * .8f, Screen.width * .25f, Screen.height * .1f);
 			
 
 			
@@ -113,9 +134,21 @@ public class Agent7ControlUI : MonoBehaviour
 		nextPressed = false;
 		againPressed = false;
 		backPressed = false;
+		submitPresssed = false;
 
 		if (statsUi.getHp () == 0 && !dead) {
 			die();
+		}
+
+		// when dead wait one second so accidental button presses can be avoided
+		if (deadSceneWait) {
+			timer += Time.unscaledDeltaTime;
+			if (timer >= timerMax) {
+				//Debug.Log("timerMax reached!");
+				deadSceneWait = false;
+				// reset timer
+				timer = 0.0f;
+			}
 		}
 
 		// Iterate through the touches to determine
@@ -143,6 +176,9 @@ public class Agent7ControlUI : MonoBehaviour
 				}
 				if (backButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
 					backPressed = true;
+				}
+				if (submitButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
+					submitPresssed = true;
 				}
 			} else if (end) {
 				if (nextButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.GetTouch(i).position.y, 0))) {
@@ -198,19 +234,32 @@ public class Agent7ControlUI : MonoBehaviour
 				paused = true;
 				Time.timeScale = 0;
 			}
-		} else if (dead) {
+		} else if (dead && !deadSceneWait) {
 			if (againPressed) {
 				dead = false;
 				paused = false;
 				Time.timeScale = 1;
 				statsUi.setHp (3);
+				submitted = false;
 				Application.LoadLevel(1);
 			} else if (backPressed) {
 				dead = false;
 				paused = false;
 				Time.timeScale = 1;
 				statsUi.setHp (3);
+				submitted = false;
 				Application.LoadLevel(0);
+			} else if (submitPresssed && !submitted) {
+				submitted = true;
+				Social.ReportScore(statsUi.getScore(), "CgkIltz5q7wNEAIQCg", (bool success) => {
+					// handle success or failure
+					if (success) {
+						submitText = "Submitted!";
+					} else {
+						submitted = false;
+						submitText = "Failed, submit again?";
+					}
+				});
 			}
 		} else if (end) {
 			if (nextPressed) {
@@ -239,7 +288,6 @@ public class Agent7ControlUI : MonoBehaviour
 				Application.LoadLevel(0);
 			}
 		}
-
 	}
 
 	void FixedUpdate() {
@@ -267,8 +315,11 @@ public class Agent7ControlUI : MonoBehaviour
 			GUI.Button (jumpButton, "Jump");
 			GUI.Button (shootButton, "Shoot");
 		} else if (dead) {
-			GUI.Box (endBackground, "You died!");
-			GUI.Button (nextButton, "Try again");
+			GUI.DrawTexture (new Rect (0, 0, Screen.width, Screen.height), hsbg);
+			//GUI.Box (endBackground, "You died!");
+			GUI.Label (new Rect (0, Screen.height * .5f, Screen.width, Screen.height *.2f), "" + statsUi.getScore(), scoreFont);
+			GUI.Button (againButton, "Try Again");
+			GUI.Button (submitButton, submitText);
 			GUI.Button (backButton, "Quit to Title");
 		} else if (end) {
 			GUI.Box (endBackground, "Congratulation!");
@@ -353,6 +404,8 @@ public class Agent7ControlUI : MonoBehaviour
 		dead = true;
 		paused = true;
 		Time.timeScale = 0;
+		deadSceneWait = true;
+		submitText = "Submit Score";
 	}
 	
 }
