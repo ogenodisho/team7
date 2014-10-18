@@ -70,7 +70,7 @@ public class FlyingEnemyScript : MonoBehaviour {
 			} else {
 				health -= 1;
 			}
-			if (health == 0) {
+			if (health <= 0) {
 				// Destroy the enemy if his health is 0 and gain score
 				Destroy (transform.gameObject);
 				playerScript.GainScore(50);
