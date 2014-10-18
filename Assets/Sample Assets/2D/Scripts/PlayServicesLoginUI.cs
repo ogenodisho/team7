@@ -61,12 +61,13 @@ public class PlayServicesLoginUI : MonoBehaviour
 	}
 
 	void ProcessAuthentication(bool success) {
-		if (success) { // not reaching this code currently even though succesful login displayed in game
+		if (success) {
 			isLoggedIn = true;
 			PlayerPrefs.SetInt(LOGGED_KEY, 1);
+			//AchievementManager.Instance.GetType(); // load achievements
 			print("successfully authenicated");
 		} else {
-			print("fail to authenicate");
+			print("failed to authenicate");
 		}
 	}
 }

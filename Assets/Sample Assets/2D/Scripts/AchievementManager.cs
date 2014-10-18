@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System;
+using GooglePlayGames;
+using UnityEngine.SocialPlatforms;
 
 public class AchievementManager
 {
@@ -18,16 +20,7 @@ public class AchievementManager
 	private List<Achievement> allAchievements = new List<Achievement>();
 
 	// list of user's unlocked achievements by achievement id
-	private List<string> userAchievements = new List<string>();
-
-	// list of recently unlocked achievements that have yet to be displayed
-	private List<string> achievementQueue = new List<string> ();
-	public List<string> getQueue() {
-		return achievementQueue;
-	}
-	public void qDequeue() {
-		achievementQueue.RemoveAt(0);
-	}
+	//private List<string> userAchievements = new List<string>();
 
 	// Singleton
 	private static readonly object padlock = new object();
@@ -52,10 +45,10 @@ public class AchievementManager
 	private void loadAchievements()
 	{
 		// test - reset saved values
-		PlayerPrefs.SetInt(PLAY_KEY, 0);
-		PlayerPrefs.SetInt(DIE_KEY, 0);
-		PlayerPrefs.SetInt(JUMP_KEY, 0);
-		PlayerPrefs.SetInt(SHOOT_KEY, 0);
+		//PlayerPrefs.SetInt(PLAY_KEY, 0);
+		//PlayerPrefs.SetInt(DIE_KEY, 0);
+		//PlayerPrefs.SetInt(JUMP_KEY, 0);
+		//PlayerPrefs.SetInt(SHOOT_KEY, 0);
 
 		// load previous, saved values.
 		play = PlayerPrefs.GetInt(PLAY_KEY, 0);
@@ -66,24 +59,24 @@ public class AchievementManager
 		//Debug.Log("Achievement stats; play: " + play + "; die: " + die + "; jump: " + jump + "; shoot: " + shoot);
 		
 		// all achievements
-		allAchievements.Add(new Achievement("CgkIltz5q7wNEAIQCA", AchievementType.Play, 1, "First Time Playing!"));
+		allAchievements.Add(new Achievement("CgkIltz5q7wNEAIQCA", AchievementType.Play, 2, "Second Time Playing!"));
 		allAchievements.Add(new Achievement("CgkIltz5q7wNEAIQCQ", AchievementType.Play, 3, "Third Time Playing!"));
-		allAchievements.Add(new Achievement("CgkIltz5q7wNEAIQBg", AchievementType.Die, 1, "First Time Dying!"));
+		allAchievements.Add(new Achievement("CgkIltz5q7wNEAIQBg", AchievementType.Die, 2, "Second Time Dying!"));
 		allAchievements.Add(new Achievement("CgkIltz5q7wNEAIQBw", AchievementType.Die, 3, "Died 3 Times!"));
 		allAchievements.Add(new Achievement("CgkIltz5q7wNEAIQAw", AchievementType.Jump, 10, "10 Jumps Made!"));
 		allAchievements.Add(new Achievement("CgkIltz5q7wNEAIQBA", AchievementType.Shoot, 10, "10 Shots Fired!"));
 		allAchievements.Add(new Achievement("CgkIltz5q7wNEAIQBQ", AchievementType.Shoot, 100, "100 Shots Fired!"));
 
 		// for all achievements set any user unlocked achievements to unlocked
-		foreach(Achievement ach in allAchievements) {
-			if (userAchievements.Contains(ach.getId())) {
-				ach.setUnlocked();
-			}
-		}
+		//foreach(Achievement ach in allAchievements) {
+		//	if (userAchievements.Contains(ach.getId())) {
+		//		ach.setUnlocked();
+		//	}
+		//}
 	}
-
+	
 	// returns an achivement message if just unlocked otherwise null
-	public string RegisterEvent( AchievementType type )
+	public void RegisterEvent( AchievementType type )
 	{
 		int count = 0;
 		
@@ -111,18 +104,13 @@ public class AchievementManager
 			break;
 		}
 
-		string message = checkAchievements (type, count);
-		if (message != null) {
-			message = "Achievement Unlocked!\n\n" + message;
-			achievementQueue.Add(message);
-		}
+		checkAchievements (type, count);
 
 		//Debug.Log("Achievement stats; play: " + play + "; die: " + die + "; jump: " + jump + "; shoot: " + shoot);
-		return message;
 	}
 
 	// returns an achievement message if just unlocked otherwise null
-	public string checkAchievements(AchievementType type, int count)
+	private void checkAchievements(AchievementType type, int count)
 	{
 		foreach(Achievement ach in allAchievements) {
 			if (ach.getType() == type && ach.isUnlocked() == false) {
@@ -132,13 +120,11 @@ public class AchievementManager
 					Social.ReportProgress(ach.getId(), 100.0f, (bool success) => {
 						// handle success or failure
 					});
-					userAchievements.Add(ach.getId());
-					Debug.Log ("achievement unlocked");
-					return ach.getMessage();
+					//userAchievements.Add(ach.getId());
+					//Debug.Log ("achievement unlocked");
 				}
 			}
 		}
-		return null;
 	}
 
 	public class Achievement
