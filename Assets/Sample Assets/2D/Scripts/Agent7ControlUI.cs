@@ -391,7 +391,11 @@ public class Agent7ControlUI : MonoBehaviour
 				paused = true;
 				Time.timeScale = 0;
 				exitSceneWait = true;
-		}
+		}else if (collider.gameObject.name.Equals ("Collectible")) {
+                Debug.Log ("Got a collectible");
+                Destroy (collider.gameObject, 0);
+                character.GainScore(10);
+        } 
 	}
 
 	// This method is called when hp equals 0
