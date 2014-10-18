@@ -1,0 +1,3359 @@
+fileFormatVersion: 2
+guid: e8c5d48ba0b214b4598d6f1a56735186
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SNES - Super Metroid - Objects Items
+    21300002: SNES - Super Metroid - Objects Items_0
+    21300004: SNES - Super Metroid - Objects Items_1
+    21300006: SNES - Super Metroid - Objects Items_2
+    21300008: SNES - Super Metroid - Objects Items_3
+    21300010: SNES - Super Metroid - Objects Items_4
+    21300012: SNES - Super Metroid - Objects Items_5
+    21300014: SNES - Super Metroid - Objects Items_6
+    21300016: SNES - Super Metroid - Objects Items_7
+    21300018: SNES - Super Metroid - Objects Items_8
+    21300020: SNES - Super Metroid - Objects Items_9
+    21300022: SNES - Super Metroid - Objects Items_10
+    21300024: SNES - Super Metroid - Objects Items_11
+    21300026: SNES - Super Metroid - Objects Items_12
+    21300028: SNES - Super Metroid - Objects Items_13
+    21300030: SNES - Super Metroid - Objects Items_14
+    21300032: SNES - Super Metroid - Objects Items_15
+    21300034: SNES - Super Metroid - Objects Items_16
+    21300036: SNES - Super Metroid - Objects Items_17
+    21300038: SNES - Super Metroid - Objects Items_18
+    21300040: SNES - Super Metroid - Objects Items_19
+    21300042: SNES - Super Metroid - Objects Items_20
+    21300044: SNES - Super Metroid - Objects Items_21
+    21300046: SNES - Super Metroid - Objects Items_22
+    21300048: SNES - Super Metroid - Objects Items_23
+    21300050: SNES - Super Metroid - Objects Items_24
+    21300052: SNES - Super Metroid - Objects Items_25
+    21300054: SNES - Super Metroid - Objects Items_26
+    21300056: SNES - Super Metroid - Objects Items_27
+    21300058: SNES - Super Metroid - Objects Items_28
+    21300060: SNES - Super Metroid - Objects Items_29
+    21300062: SNES - Super Metroid - Objects Items_30
+    21300064: SNES - Super Metroid - Objects Items_31
+    21300066: SNES - Super Metroid - Objects Items_32
+    21300068: SNES - Super Metroid - Objects Items_33
+    21300070: SNES - Super Metroid - Objects Items_34
+    21300072: SNES - Super Metroid - Objects Items_35
+    21300074: SNES - Super Metroid - Objects Items_36
+    21300076: SNES - Super Metroid - Objects Items_37
+    21300078: SNES - Super Metroid - Objects Items_38
+    21300080: SNES - Super Metroid - Objects Items_39
+    21300082: SNES - Super Metroid - Objects Items_40
+    21300084: SNES - Super Metroid - Objects Items_41
+    21300086: SNES - Super Metroid - Objects Items_42
+    21300088: SNES - Super Metroid - Objects Items_43
+    21300090: SNES - Super Metroid - Objects Items_44
+    21300092: SNES - Super Metroid - Objects Items_45
+    21300094: SNES - Super Metroid - Objects Items_46
+    21300096: SNES - Super Metroid - Objects Items_47
+    21300098: SNES - Super Metroid - Objects Items_48
+    21300100: SNES - Super Metroid - Objects Items_49
+    21300102: SNES - Super Metroid - Objects Items_50
+    21300104: SNES - Super Metroid - Objects Items_51
+    21300106: SNES - Super Metroid - Objects Items_52
+    21300108: SNES - Super Metroid - Objects Items_53
+    21300110: SNES - Super Metroid - Objects Items_54
+    21300112: SNES - Super Metroid - Objects Items_55
+    21300114: SNES - Super Metroid - Objects Items_56
+    21300116: SNES - Super Metroid - Objects Items_57
+    21300118: SNES - Super Metroid - Objects Items_58
+    21300120: SNES - Super Metroid - Objects Items_59
+    21300122: SNES - Super Metroid - Objects Items_60
+    21300124: SNES - Super Metroid - Objects Items_61
+    21300126: SNES - Super Metroid - Objects Items_62
+    21300128: SNES - Super Metroid - Objects Items_63
+    21300130: SNES - Super Metroid - Objects Items_64
+    21300132: SNES - Super Metroid - Objects Items_65
+    21300134: SNES - Super Metroid - Objects Items_66
+    21300136: SNES - Super Metroid - Objects Items_67
+    21300138: SNES - Super Metroid - Objects Items_68
+    21300140: SNES - Super Metroid - Objects Items_69
+    21300142: SNES - Super Metroid - Objects Items_70
+    21300144: SNES - Super Metroid - Objects Items_71
+    21300146: SNES - Super Metroid - Objects Items_72
+    21300148: SNES - Super Metroid - Objects Items_73
+    21300150: SNES - Super Metroid - Objects Items_74
+    21300152: SNES - Super Metroid - Objects Items_75
+    21300154: SNES - Super Metroid - Objects Items_76
+    21300156: SNES - Super Metroid - Objects Items_77
+    21300158: SNES - Super Metroid - Objects Items_78
+    21300160: SNES - Super Metroid - Objects Items_79
+    21300162: SNES - Super Metroid - Objects Items_80
+    21300164: SNES - Super Metroid - Objects Items_81
+    21300166: SNES - Super Metroid - Objects Items_82
+    21300168: SNES - Super Metroid - Objects Items_83
+    21300170: SNES - Super Metroid - Objects Items_84
+    21300172: SNES - Super Metroid - Objects Items_85
+    21300174: SNES - Super Metroid - Objects Items_86
+    21300176: SNES - Super Metroid - Objects Items_87
+    21300178: SNES - Super Metroid - Objects Items_88
+    21300180: SNES - Super Metroid - Objects Items_89
+    21300182: SNES - Super Metroid - Objects Items_90
+    21300184: SNES - Super Metroid - Objects Items_91
+    21300186: SNES - Super Metroid - Objects Items_92
+    21300188: SNES - Super Metroid - Objects Items_93
+    21300190: SNES - Super Metroid - Objects Items_94
+    21300192: SNES - Super Metroid - Objects Items_95
+    21300194: supermissile2
+    21300196: supermissile1
+    21300198: SNES - Super Metroid - Objects Items_98
+    21300200: SNES - Super Metroid - Objects Items_99
+    21300202: SNES - Super Metroid - Objects Items_100
+    21300204: SNES - Super Metroid - Objects Items_101
+    21300206: SNES - Super Metroid - Objects Items_102
+    21300208: SNES - Super Metroid - Objects Items_103
+    21300210: SNES - Super Metroid - Objects Items_104
+    21300212: SNES - Super Metroid - Objects Items_105
+    21300214: SNES - Super Metroid - Objects Items_106
+    21300216: SNES - Super Metroid - Objects Items_107
+    21300218: SNES - Super Metroid - Objects Items_108
+    21300220: SNES - Super Metroid - Objects Items_109
+    21300222: SNES - Super Metroid - Objects Items_110
+    21300224: SNES - Super Metroid - Objects Items_111
+    21300226: SNES - Super Metroid - Objects Items_112
+    21300228: SNES - Super Metroid - Objects Items_113
+    21300230: SNES - Super Metroid - Objects Items_114
+    21300232: SNES - Super Metroid - Objects Items_115
+    21300234: SNES - Super Metroid - Objects Items_116
+    21300236: SNES - Super Metroid - Objects Items_117
+    21300238: SNES - Super Metroid - Objects Items_118
+    21300240: SNES - Super Metroid - Objects Items_119
+    21300242: SNES - Super Metroid - Objects Items_120
+    21300244: SNES - Super Metroid - Objects Items_121
+    21300246: SNES - Super Metroid - Objects Items_122
+    21300248: SNES - Super Metroid - Objects Items_123
+    21300250: SNES - Super Metroid - Objects Items_124
+    21300252: SNES - Super Metroid - Objects Items_125
+    21300254: SNES - Super Metroid - Objects Items_126
+    21300256: SNES - Super Metroid - Objects Items_127
+    21300258: SNES - Super Metroid - Objects Items_128
+    21300260: SNES - Super Metroid - Objects Items_129
+    21300262: SNES - Super Metroid - Objects Items_130
+    21300264: SNES - Super Metroid - Objects Items_131
+    21300266: SNES - Super Metroid - Objects Items_132
+    21300268: SNES - Super Metroid - Objects Items_133
+    21300270: SNES - Super Metroid - Objects Items_134
+    21300272: SNES - Super Metroid - Objects Items_135
+    21300274: SNES - Super Metroid - Objects Items_136
+    21300276: SNES - Super Metroid - Objects Items_137
+    21300278: SNES - Super Metroid - Objects Items_138
+    21300280: SNES - Super Metroid - Objects Items_139
+    21300282: SNES - Super Metroid - Objects Items_140
+    21300284: SNES - Super Metroid - Objects Items_141
+    21300286: SNES - Super Metroid - Objects Items_142
+    21300288: SNES - Super Metroid - Objects Items_143
+    21300290: SNES - Super Metroid - Objects Items_144
+    21300292: SNES - Super Metroid - Objects Items_145
+    21300294: SNES - Super Metroid - Objects Items_146
+    21300296: SNES - Super Metroid - Objects Items_147
+    21300298: SNES - Super Metroid - Objects Items_148
+    21300300: SNES - Super Metroid - Objects Items_149
+    21300302: SNES - Super Metroid - Objects Items_150
+    21300304: SNES - Super Metroid - Objects Items_151
+    21300306: SNES - Super Metroid - Objects Items_152
+    21300308: SNES - Super Metroid - Objects Items_153
+    21300310: SNES - Super Metroid - Objects Items_154
+    21300312: SNES - Super Metroid - Objects Items_155
+    21300314: SNES - Super Metroid - Objects Items_156
+    21300316: SNES - Super Metroid - Objects Items_157
+    21300318: SNES - Super Metroid - Objects Items_158
+    21300320: SNES - Super Metroid - Objects Items_159
+    21300322: SNES - Super Metroid - Objects Items_160
+    21300324: SNES - Super Metroid - Objects Items_161
+    21300326: SNES - Super Metroid - Objects Items_162
+    21300328: SNES - Super Metroid - Objects Items_163
+    21300330: SNES - Super Metroid - Objects Items_164
+    21300332: SNES - Super Metroid - Objects Items_165
+    21300334: SNES - Super Metroid - Objects Items_166
+    21300336: SNES - Super Metroid - Objects Items_167
+    21300338: SNES - Super Metroid - Objects Items_168
+    21300340: SNES - Super Metroid - Objects Items_169
+    21300342: SNES - Super Metroid - Objects Items_170
+    21300344: SNES - Super Metroid - Objects Items_171
+    21300346: SNES - Super Metroid - Objects Items_172
+    21300348: SNES - Super Metroid - Objects Items_173
+    21300350: SNES - Super Metroid - Objects Items_174
+    21300352: SNES - Super Metroid - Objects Items_175
+    21300354: SNES - Super Metroid - Objects Items_176
+    21300356: SNES - Super Metroid - Objects Items_177
+    21300358: SNES - Super Metroid - Objects Items_178
+    21300360: SNES - Super Metroid - Objects Items_179
+    21300362: SNES - Super Metroid - Objects Items_180
+    21300364: SNES - Super Metroid - Objects Items_181
+    21300366: SNES - Super Metroid - Objects Items_182
+    21300368: SNES - Super Metroid - Objects Items_183
+    21300370: SNES - Super Metroid - Objects Items_184
+    21300372: SNES - Super Metroid - Objects Items_185
+    21300374: SNES - Super Metroid - Objects Items_186
+    21300376: SNES - Super Metroid - Objects Items_187
+    21300378: SNES - Super Metroid - Objects Items_188
+    21300380: SNES - Super Metroid - Objects Items_189
+    21300382: SNES - Super Metroid - Objects Items_190
+    21300384: SNES - Super Metroid - Objects Items_191
+    21300386: SNES - Super Metroid - Objects Items_192
+    21300388: SNES - Super Metroid - Objects Items_193
+    21300390: SNES - Super Metroid - Objects Items_194
+    21300392: SNES - Super Metroid - Objects Items_195
+    21300394: SNES - Super Metroid - Objects Items_196
+    21300396: SNES - Super Metroid - Objects Items_197
+    21300398: SNES - Super Metroid - Objects Items_198
+    21300400: SNES - Super Metroid - Objects Items_199
+    21300402: SNES - Super Metroid - Objects Items_200
+    21300404: SNES - Super Metroid - Objects Items_201
+    21300406: SNES - Super Metroid - Objects Items_202
+    21300408: SNES - Super Metroid - Objects Items_203
+    21300410: SNES - Super Metroid - Objects Items_204
+    21300412: SNES - Super Metroid - Objects Items_205
+    21300414: SNES - Super Metroid - Objects Items_206
+    21300416: SNES - Super Metroid - Objects Items_207
+    21300418: SNES - Super Metroid - Objects Items_208
+    21300420: SNES - Super Metroid - Objects Items_209
+    21300422: SNES - Super Metroid - Objects Items_210
+    21300424: SNES - Super Metroid - Objects Items_211
+    21300426: SNES - Super Metroid - Objects Items_212
+    21300428: SNES - Super Metroid - Objects Items_213
+    21300430: SNES - Super Metroid - Objects Items_214
+    21300432: SNES - Super Metroid - Objects Items_215
+    21300434: SNES - Super Metroid - Objects Items_216
+    21300436: SNES - Super Metroid - Objects Items_217
+    21300438: SNES - Super Metroid - Objects Items_218
+    21300440: SNES - Super Metroid - Objects Items_219
+    21300442: SNES - Super Metroid - Objects Items_220
+    21300444: SNES - Super Metroid - Objects Items_221
+    21300446: SNES - Super Metroid - Objects Items_222
+    21300448: SNES - Super Metroid - Objects Items_223
+    21300450: SNES - Super Metroid - Objects Items_224
+    21300452: SNES - Super Metroid - Objects Items_225
+    21300454: SNES - Super Metroid - Objects Items_226
+    21300456: SNES - Super Metroid - Objects Items_227
+    21300458: SNES - Super Metroid - Objects Items_228
+    21300460: SNES - Super Metroid - Objects Items_229
+    21300462: SNES - Super Metroid - Objects Items_230
+    21300464: SNES - Super Metroid - Objects Items_231
+    21300466: SNES - Super Metroid - Objects Items_232
+    21300468: SNES - Super Metroid - Objects Items_233
+    21300470: SNES - Super Metroid - Objects Items_234
+    21300472: SNES - Super Metroid - Objects Items_235
+    21300474: SNES - Super Metroid - Objects Items_236
+    21300476: SNES - Super Metroid - Objects Items_237
+    21300478: SNES - Super Metroid - Objects Items_238
+    21300480: SNES - Super Metroid - Objects Items_239
+    21300482: SNES - Super Metroid - Objects Items_240
+    21300484: SNES - Super Metroid - Objects Items_241
+    21300486: SNES - Super Metroid - Objects Items_242
+    21300488: SNES - Super Metroid - Objects Items_243
+    21300490: SNES - Super Metroid - Objects Items_244
+    21300492: SNES - Super Metroid - Objects Items_245
+    21300494: SNES - Super Metroid - Objects Items_246
+    21300496: SNES - Super Metroid - Objects Items_247
+    21300498: SNES - Super Metroid - Objects Items_248
+    21300500: SNES - Super Metroid - Objects Items_249
+    21300502: SNES - Super Metroid - Objects Items_250
+    21300504: SNES - Super Metroid - Objects Items_251
+    21300506: SNES - Super Metroid - Objects Items_252
+    21300508: SNES - Super Metroid - Objects Items_253
+    21300510: SNES - Super Metroid - Objects Items_254
+    21300512: SNES - Super Metroid - Objects Items_255
+    21300514: SNES - Super Metroid - Objects Items_256
+    21300516: SNES - Super Metroid - Objects Items_257
+    21300518: SNES - Super Metroid - Objects Items_258
+    21300520: SNES - Super Metroid - Objects Items_259
+    21300522: SNES - Super Metroid - Objects Items_260
+    21300524: SNES - Super Metroid - Objects Items_261
+    21300526: SNES - Super Metroid - Objects Items_262
+    21300528: SNES - Super Metroid - Objects Items_263
+    21300530: SNES - Super Metroid - Objects Items_264
+    21300532: SNES - Super Metroid - Objects Items_265
+    21300534: SNES - Super Metroid - Objects Items_266
+    21300536: SNES - Super Metroid - Objects Items_267
+    21300538: SNES - Super Metroid - Objects Items_268
+    21300540: SNES - Super Metroid - Objects Items_269
+    21300542: SNES - Super Metroid - Objects Items_270
+    21300544: SNES - Super Metroid - Objects Items_271
+    21300546: SNES - Super Metroid - Objects Items_272
+    21300548: SNES - Super Metroid - Objects Items_273
+    21300550: SNES - Super Metroid - Objects Items_274
+    21300552: SNES - Super Metroid - Objects Items_275
+    21300554: SNES - Super Metroid - Objects Items_276
+    21300556: SNES - Super Metroid - Objects Items_277
+    21300558: SNES - Super Metroid - Objects Items_278
+    21300560: SNES - Super Metroid - Objects Items_279
+    21300562: SNES - Super Metroid - Objects Items_280
+    21300564: SNES - Super Metroid - Objects Items_281
+    21300566: SNES - Super Metroid - Objects Items_282
+    21300568: SNES - Super Metroid - Objects Items_283
+    21300570: SNES - Super Metroid - Objects Items_284
+    21300572: SNES - Super Metroid - Objects Items_285
+    21300574: SNES - Super Metroid - Objects Items_286
+    21300576: SNES - Super Metroid - Objects Items_287
+    21300578: SNES - Super Metroid - Objects Items_288
+    21300580: SNES - Super Metroid - Objects Items_289
+    21300582: SNES - Super Metroid - Objects Items_290
+    21300584: SNES - Super Metroid - Objects Items_291
+    21300586: SNES - Super Metroid - Objects Items_292
+    21300588: SNES - Super Metroid - Objects Items_293
+    21300590: SNES - Super Metroid - Objects Items_294
+    21300592: SNES - Super Metroid - Objects Items_295
+    21300594: SNES - Super Metroid - Objects Items_296
+    21300596: SNES - Super Metroid - Objects Items_297
+    21300598: SNES - Super Metroid - Objects Items_298
+    21300600: SNES - Super Metroid - Objects Items_299
+    21300602: SNES - Super Metroid - Objects Items_300
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 15
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SNES - Super Metroid - Objects Items_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 683
+        width: 8
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 721
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 728
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_3
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 737
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_4
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 737
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_5
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 728
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 721
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_7
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 683
+        width: 8
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_8
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 683
+        width: 8
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_9
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 721
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_10
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 728
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 737
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_12
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 737
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_13
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 728
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_14
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 721
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_15
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 683
+        width: 8
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_16
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 683
+        width: 8
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_17
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 721
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_18
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 728
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_19
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 737
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_20
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 737
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_21
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 728
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_22
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 721
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_23
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 683
+        width: 8
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_24
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 683
+        width: 8
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_25
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 721
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_26
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 728
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_27
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 737
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_28
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 737
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_29
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 728
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_30
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 721
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_31
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 683
+        width: 8
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_32
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 703
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_33
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 707
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_34
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 707
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_35
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 703
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_36
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 703
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_37
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 707
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_38
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 707
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_39
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 703
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_40
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 703
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_41
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 707
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_42
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 707
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_43
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 703
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_44
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 703
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_45
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 707
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_46
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 707
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_47
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 703
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_48
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 683
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_49
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 683
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_50
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 683
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_51
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 683
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_52
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 683
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_53
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 683
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_54
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 683
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_55
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 683
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_56
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 683
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_57
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 683
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_58
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 683
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_59
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 683
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_60
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 683
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_61
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 683
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_62
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 683
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_63
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 683
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_64
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 613
+        width: 8
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_65
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 651
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_66
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 658
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_67
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 667
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_68
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 667
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_69
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 658
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_70
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 651
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_71
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 613
+        width: 8
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_72
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 613
+        width: 8
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_73
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 651
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_74
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 658
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_75
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 667
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_76
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 667
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_77
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 658
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_78
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 651
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_79
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 613
+        width: 8
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_80
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 663
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_81
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 663
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_82
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 662
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_83
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 662
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_84
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 663
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_85
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 663
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_86
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 633
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_87
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 637
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_88
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 637
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_89
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 633
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_90
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 633
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_91
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 637
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_92
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 637
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_93
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 633
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_94
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 622
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_95
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 622
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: supermissile2
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 622
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: supermissile1
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 622
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_98
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 622
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_99
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 622
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_100
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 613
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_101
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 613
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_102
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 613
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_103
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 613
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_104
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 613
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_105
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 613
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_106
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 613
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_107
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 613
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_108
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 595
+        width: 64
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_109
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 595
+        width: 64
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_110
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 595
+        width: 64
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_111
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 584
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_112
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 584
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_113
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 582
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_114
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 582
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_115
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 582
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_116
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 582
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_117
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 583
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_118
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 584
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_119
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 583
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_120
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 571
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_121
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 572
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_122
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 571
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_123
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 572
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_124
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 573
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_125
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 572
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_126
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 571
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_127
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 572
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_128
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 571
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_129
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 558
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_130
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 560
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_131
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 558
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_132
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 559
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_133
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 561
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_134
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 559
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_135
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 558
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_136
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 560
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_137
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 558
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_138
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 548
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_139
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 548
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_140
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 548
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_141
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 547
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_142
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 547
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_143
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 547
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_144
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 547
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_145
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 547
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_146
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 547
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_147
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 544
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_148
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 544
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_149
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 542
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_150
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 542
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_151
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 542
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_152
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 542
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_153
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 534
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_154
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 534
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_155
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 534
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_156
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 533
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_157
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 533
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_158
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 533
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_159
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 533
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_160
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 533
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_161
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 533
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_162
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 521
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_163
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 520
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_164
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 520
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_165
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 509
+        width: 64
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_166
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 509
+        width: 64
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_167
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 508
+        width: 64
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_168
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 502
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_169
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 502
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_170
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 502
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_171
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 506
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_172
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 507
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_173
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 507
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_174
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 506
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_175
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 503
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_176
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 502
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_177
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 506
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_178
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 495
+        width: 64
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_179
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 495
+        width: 64
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_180
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 495
+        width: 64
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_181
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 484
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_182
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 483
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_183
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 483
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_184
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 472
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_185
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 473
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_186
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 472
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_187
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 471
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_188
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 472
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_189
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 471
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_190
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 471
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_191
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 472
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_192
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 471
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_193
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 463
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_194
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 463
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_195
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 463
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_196
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 463
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_197
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 463
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_198
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 463
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_199
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 459
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_200
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 461
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_201
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 459
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_202
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 458
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_203
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 460
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_204
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 458
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_205
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 458
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_206
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 460
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_207
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 458
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_208
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 446
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_209
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 446
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_210
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 446
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_211
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 447
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_212
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 447
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_213
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 447
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_214
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 447
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_215
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 447
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_216
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 447
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_217
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 432
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_218
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 432
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_219
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 432
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_220
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 433
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_221
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 433
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_222
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 433
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_223
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 433
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_224
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 433
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_225
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 433
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_226
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 422
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_227
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 422
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_228
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 422
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_229
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 422
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_230
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 422
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_231
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 422
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_232
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 419
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_233
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 420
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_234
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 420
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_235
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 408
+        width: 64
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_236
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 408
+        width: 64
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_237
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 408
+        width: 64
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_238
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 331
+        width: 44
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_239
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 331
+        width: 44
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_240
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 331
+        width: 44
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_241
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 387
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_242
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 386
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_243
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 359
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_244
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 385
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_245
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 385
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_246
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 385
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_247
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 302
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_248
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 337
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_249
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 336
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_250
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 309
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_251
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 335
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_252
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 335
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_253
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 335
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_254
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 287
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_255
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 286
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_256
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 259
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_257
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 285
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_258
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 285
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_259
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 285
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_260
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 263
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_261
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 263
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_262
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 266
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_263
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 231
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_264
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 231
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_265
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 231
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_266
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 231
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_267
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 231
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_268
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 231
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_269
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 231
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_270
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 231
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_271
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 231
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_272
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 231
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_273
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 174
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_274
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 174
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_275
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 174
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_276
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 188
+        width: 32
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_277
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 134
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_278
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 142
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_279
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 182
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_280
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 182
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_281
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 134
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_282
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 134
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_283
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 134
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_284
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 142
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_285
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 142
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_286
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_287
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 99
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_288
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 96
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_289
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 96
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_290
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 91
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_291
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 99
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_292
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 104
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_293
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 100
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_294
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 98
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_295
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 8
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_296
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 8
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_297
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 0
+        width: 62
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_298
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 62
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_299
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 16
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Objects Items_300
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 16
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

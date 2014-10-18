@@ -82,7 +82,11 @@ public class Enemy1Behaviour : MonoBehaviour {
 			Destroy(collision.collider.gameObject);
 
 			// decrement health
-			health -= 1;
+			if (collision.collider.name.Contains("Super")) {
+				health -= 2;
+			} else {
+				health -= 1;
+			}
 			anim.SetBool ("GotHit", true);
 			if (health == 0) {
 				// Destroy the enemy if his health is 0 and gain score

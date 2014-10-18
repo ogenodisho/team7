@@ -121,7 +121,11 @@ public class KogScript : MonoBehaviour {
 			Destroy(collision.collider.gameObject);
 
 			// decrement the health
-			health -= 1;
+			if (collision.collider.name.Contains("Super")) {
+				health -= 2;
+			} else {
+				health -= 1;
+			}
 			if (health == 0) {
 				// Destroy the enemy if his health is 0 and gain score
 				Destroy (transform.gameObject);
