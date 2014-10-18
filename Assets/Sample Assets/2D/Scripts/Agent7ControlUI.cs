@@ -114,7 +114,7 @@ public class Agent7ControlUI : MonoBehaviour
 		againPressed = false;
 		backPressed = false;
 
-		if (statsUi.getHp () == 0) {
+		if (statsUi.getHp () == 0 && !dead) {
 			die();
 		}
 
@@ -349,6 +349,7 @@ public class Agent7ControlUI : MonoBehaviour
 
 	// This method is called when hp equals 0
 	void die() {
+		AchievementManager.Instance.RegisterEvent(AchievementType.Die);
 		dead = true;
 		paused = true;
 		Time.timeScale = 0;
