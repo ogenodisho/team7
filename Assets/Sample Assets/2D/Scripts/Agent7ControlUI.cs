@@ -392,8 +392,8 @@
 					Destroy (collision.gameObject);
 				}
 			} else if (collision.gameObject.layer == 11 &&
-					   collision.collider.GetType().IsAssignableFrom(dummyEdgeCollider.GetType())) { // 
-	scalable world
+					   collision.collider.GetType().IsAssignableFrom(dummyEdgeCollider.GetType())) { 
+				//scalable world
 				character.setScaling(true);
 			} else {
 				// reset previously scaled walls because you stopped scaling walls
