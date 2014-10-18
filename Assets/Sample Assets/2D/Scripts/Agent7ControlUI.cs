@@ -391,8 +391,8 @@ public class Agent7ControlUI : MonoBehaviour
 				paused = true;
 				Time.timeScale = 0;
 				exitSceneWait = true;
-		}else if (collider.gameObject.name.Equals ("Collectible")) {
-                Debug.Log ("Got a collectible");
+		}else if (collider.gameObject.name.Equals ("DNACollectible")) {
+                Debug.Log ("Got a DNACollectible");
                 Destroy (collider.gameObject, 0);
                 character.GainScore(10);
         } 
