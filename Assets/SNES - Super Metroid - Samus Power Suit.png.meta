@@ -1,0 +1,3865 @@
+fileFormatVersion: 2
+guid: a8c8e7703ba270641bc87729e694836b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SNES - Super Metroid - Samus Power Suit
+    21300002: SNES - Super Metroid - Samus Power Suit_0
+    21300004: SNES - Super Metroid - Samus Power Suit_1
+    21300006: SNES - Super Metroid - Samus Power Suit_2
+    21300008: SNES - Super Metroid - Samus Power Suit_3
+    21300010: SNES - Super Metroid - Samus Power Suit_4
+    21300012: SNES - Super Metroid - Samus Power Suit_5
+    21300014: SNES - Super Metroid - Samus Power Suit_6
+    21300016: SNES - Super Metroid - Samus Power Suit_7
+    21300018: SNES - Super Metroid - Samus Power Suit_8
+    21300020: SNES - Super Metroid - Samus Power Suit_9
+    21300022: SNES - Super Metroid - Samus Power Suit_10
+    21300024: SNES - Super Metroid - Samus Power Suit_11
+    21300026: SNES - Super Metroid - Samus Power Suit_12
+    21300028: SNES - Super Metroid - Samus Power Suit_13
+    21300030: SNES - Super Metroid - Samus Power Suit_14
+    21300032: SNES - Super Metroid - Samus Power Suit_15
+    21300034: SNES - Super Metroid - Samus Power Suit_16
+    21300036: SNES - Super Metroid - Samus Power Suit_17
+    21300038: SNES - Super Metroid - Samus Power Suit_18
+    21300040: SNES - Super Metroid - Samus Power Suit_19
+    21300042: SNES - Super Metroid - Samus Power Suit_20
+    21300044: SamusScaleLeft
+    21300046: SNES - Super Metroid - Samus Power Suit_22
+    21300048: SNES - Super Metroid - Samus Power Suit_23
+    21300050: SNES - Super Metroid - Samus Power Suit_24
+    21300052: SNES - Super Metroid - Samus Power Suit_25
+    21300054: SNES - Super Metroid - Samus Power Suit_26
+    21300056: SamusScaleRight
+    21300058: SNES - Super Metroid - Samus Power Suit_28
+    21300060: SNES - Super Metroid - Samus Power Suit_29
+    21300062: SNES - Super Metroid - Samus Power Suit_30
+    21300064: SNES - Super Metroid - Samus Power Suit_31
+    21300066: SNES - Super Metroid - Samus Power Suit_32
+    21300068: SNES - Super Metroid - Samus Power Suit_33
+    21300070: SNES - Super Metroid - Samus Power Suit_34
+    21300072: SNES - Super Metroid - Samus Power Suit_35
+    21300074: SNES - Super Metroid - Samus Power Suit_36
+    21300076: SNES - Super Metroid - Samus Power Suit_37
+    21300078: SNES - Super Metroid - Samus Power Suit_38
+    21300080: SNES - Super Metroid - Samus Power Suit_39
+    21300082: SNES - Super Metroid - Samus Power Suit_40
+    21300084: SNES - Super Metroid - Samus Power Suit_41
+    21300086: SNES - Super Metroid - Samus Power Suit_42
+    21300088: SNES - Super Metroid - Samus Power Suit_43
+    21300090: SNES - Super Metroid - Samus Power Suit_44
+    21300092: SNES - Super Metroid - Samus Power Suit_45
+    21300094: SNES - Super Metroid - Samus Power Suit_46
+    21300096: SNES - Super Metroid - Samus Power Suit_47
+    21300098: SNES - Super Metroid - Samus Power Suit_48
+    21300100: SNES - Super Metroid - Samus Power Suit_49
+    21300102: SNES - Super Metroid - Samus Power Suit_50
+    21300104: SNES - Super Metroid - Samus Power Suit_51
+    21300106: SNES - Super Metroid - Samus Power Suit_52
+    21300108: SNES - Super Metroid - Samus Power Suit_53
+    21300110: SNES - Super Metroid - Samus Power Suit_54
+    21300112: SNES - Super Metroid - Samus Power Suit_55
+    21300114: SNES - Super Metroid - Samus Power Suit_56
+    21300116: SNES - Super Metroid - Samus Power Suit_57
+    21300118: SNES - Super Metroid - Samus Power Suit_58
+    21300120: SNES - Super Metroid - Samus Power Suit_59
+    21300122: SNES - Super Metroid - Samus Power Suit_60
+    21300124: SNES - Super Metroid - Samus Power Suit_61
+    21300126: SNES - Super Metroid - Samus Power Suit_62
+    21300128: SNES - Super Metroid - Samus Power Suit_63
+    21300130: SNES - Super Metroid - Samus Power Suit_64
+    21300132: SNES - Super Metroid - Samus Power Suit_65
+    21300134: SNES - Super Metroid - Samus Power Suit_66
+    21300136: SNES - Super Metroid - Samus Power Suit_67
+    21300138: SNES - Super Metroid - Samus Power Suit_68
+    21300140: SNES - Super Metroid - Samus Power Suit_69
+    21300142: SNES - Super Metroid - Samus Power Suit_70
+    21300144: SNES - Super Metroid - Samus Power Suit_71
+    21300146: SNES - Super Metroid - Samus Power Suit_72
+    21300148: SNES - Super Metroid - Samus Power Suit_73
+    21300150: SNES - Super Metroid - Samus Power Suit_74
+    21300152: SNES - Super Metroid - Samus Power Suit_75
+    21300154: SNES - Super Metroid - Samus Power Suit_76
+    21300156: SNES - Super Metroid - Samus Power Suit_77
+    21300158: SNES - Super Metroid - Samus Power Suit_78
+    21300160: SNES - Super Metroid - Samus Power Suit_79
+    21300162: SNES - Super Metroid - Samus Power Suit_80
+    21300164: SNES - Super Metroid - Samus Power Suit_81
+    21300166: SNES - Super Metroid - Samus Power Suit_82
+    21300168: SNES - Super Metroid - Samus Power Suit_83
+    21300170: SNES - Super Metroid - Samus Power Suit_84
+    21300172: SNES - Super Metroid - Samus Power Suit_85
+    21300174: SNES - Super Metroid - Samus Power Suit_86
+    21300176: SNES - Super Metroid - Samus Power Suit_87
+    21300178: SNES - Super Metroid - Samus Power Suit_88
+    21300180: SNES - Super Metroid - Samus Power Suit_89
+    21300182: SNES - Super Metroid - Samus Power Suit_90
+    21300184: SNES - Super Metroid - Samus Power Suit_91
+    21300186: SNES - Super Metroid - Samus Power Suit_92
+    21300188: SNES - Super Metroid - Samus Power Suit_93
+    21300190: SNES - Super Metroid - Samus Power Suit_94
+    21300192: SNES - Super Metroid - Samus Power Suit_95
+    21300194: SNES - Super Metroid - Samus Power Suit_96
+    21300196: SNES - Super Metroid - Samus Power Suit_97
+    21300198: SNES - Super Metroid - Samus Power Suit_98
+    21300200: SNES - Super Metroid - Samus Power Suit_99
+    21300202: SNES - Super Metroid - Samus Power Suit_100
+    21300204: SNES - Super Metroid - Samus Power Suit_101
+    21300206: SNES - Super Metroid - Samus Power Suit_102
+    21300208: SNES - Super Metroid - Samus Power Suit_103
+    21300210: SNES - Super Metroid - Samus Power Suit_104
+    21300212: SNES - Super Metroid - Samus Power Suit_105
+    21300214: SNES - Super Metroid - Samus Power Suit_106
+    21300216: SNES - Super Metroid - Samus Power Suit_107
+    21300218: SNES - Super Metroid - Samus Power Suit_108
+    21300220: SNES - Super Metroid - Samus Power Suit_109
+    21300222: SNES - Super Metroid - Samus Power Suit_110
+    21300224: SNES - Super Metroid - Samus Power Suit_111
+    21300226: SNES - Super Metroid - Samus Power Suit_112
+    21300228: SNES - Super Metroid - Samus Power Suit_113
+    21300230: SNES - Super Metroid - Samus Power Suit_114
+    21300232: SNES - Super Metroid - Samus Power Suit_115
+    21300234: SNES - Super Metroid - Samus Power Suit_116
+    21300236: SNES - Super Metroid - Samus Power Suit_117
+    21300238: SNES - Super Metroid - Samus Power Suit_118
+    21300240: SNES - Super Metroid - Samus Power Suit_119
+    21300242: SNES - Super Metroid - Samus Power Suit_120
+    21300244: SNES - Super Metroid - Samus Power Suit_121
+    21300246: SNES - Super Metroid - Samus Power Suit_122
+    21300248: SNES - Super Metroid - Samus Power Suit_123
+    21300250: SNES - Super Metroid - Samus Power Suit_124
+    21300252: SNES - Super Metroid - Samus Power Suit_125
+    21300254: SNES - Super Metroid - Samus Power Suit_126
+    21300256: SNES - Super Metroid - Samus Power Suit_127
+    21300258: SNES - Super Metroid - Samus Power Suit_128
+    21300260: SNES - Super Metroid - Samus Power Suit_129
+    21300262: SNES - Super Metroid - Samus Power Suit_130
+    21300264: SNES - Super Metroid - Samus Power Suit_131
+    21300266: SNES - Super Metroid - Samus Power Suit_132
+    21300268: SNES - Super Metroid - Samus Power Suit_133
+    21300270: SNES - Super Metroid - Samus Power Suit_134
+    21300272: SNES - Super Metroid - Samus Power Suit_135
+    21300274: SNES - Super Metroid - Samus Power Suit_136
+    21300276: SNES - Super Metroid - Samus Power Suit_137
+    21300278: SNES - Super Metroid - Samus Power Suit_138
+    21300280: SNES - Super Metroid - Samus Power Suit_139
+    21300282: SNES - Super Metroid - Samus Power Suit_140
+    21300284: SNES - Super Metroid - Samus Power Suit_141
+    21300286: SNES - Super Metroid - Samus Power Suit_142
+    21300288: SNES - Super Metroid - Samus Power Suit_143
+    21300290: SNES - Super Metroid - Samus Power Suit_144
+    21300292: SNES - Super Metroid - Samus Power Suit_145
+    21300294: SNES - Super Metroid - Samus Power Suit_146
+    21300296: SNES - Super Metroid - Samus Power Suit_147
+    21300298: SNES - Super Metroid - Samus Power Suit_148
+    21300300: SNES - Super Metroid - Samus Power Suit_149
+    21300302: SNES - Super Metroid - Samus Power Suit_150
+    21300304: SNES - Super Metroid - Samus Power Suit_151
+    21300306: SNES - Super Metroid - Samus Power Suit_152
+    21300308: SNES - Super Metroid - Samus Power Suit_153
+    21300310: SNES - Super Metroid - Samus Power Suit_154
+    21300312: SNES - Super Metroid - Samus Power Suit_155
+    21300314: SNES - Super Metroid - Samus Power Suit_156
+    21300316: SNES - Super Metroid - Samus Power Suit_157
+    21300318: SNES - Super Metroid - Samus Power Suit_158
+    21300320: SNES - Super Metroid - Samus Power Suit_159
+    21300322: SNES - Super Metroid - Samus Power Suit_160
+    21300324: SNES - Super Metroid - Samus Power Suit_161
+    21300326: SNES - Super Metroid - Samus Power Suit_162
+    21300328: SNES - Super Metroid - Samus Power Suit_163
+    21300330: SNES - Super Metroid - Samus Power Suit_164
+    21300332: SNES - Super Metroid - Samus Power Suit_165
+    21300334: SNES - Super Metroid - Samus Power Suit_166
+    21300336: SNES - Super Metroid - Samus Power Suit_167
+    21300338: SNES - Super Metroid - Samus Power Suit_168
+    21300340: SNES - Super Metroid - Samus Power Suit_169
+    21300342: SNES - Super Metroid - Samus Power Suit_170
+    21300344: SNES - Super Metroid - Samus Power Suit_171
+    21300346: SNES - Super Metroid - Samus Power Suit_172
+    21300348: SNES - Super Metroid - Samus Power Suit_173
+    21300350: SNES - Super Metroid - Samus Power Suit_174
+    21300352: SNES - Super Metroid - Samus Power Suit_175
+    21300354: SNES - Super Metroid - Samus Power Suit_176
+    21300356: SNES - Super Metroid - Samus Power Suit_177
+    21300358: SNES - Super Metroid - Samus Power Suit_178
+    21300360: SNES - Super Metroid - Samus Power Suit_179
+    21300362: SNES - Super Metroid - Samus Power Suit_180
+    21300364: SNES - Super Metroid - Samus Power Suit_181
+    21300366: SNES - Super Metroid - Samus Power Suit_182
+    21300368: SNES - Super Metroid - Samus Power Suit_183
+    21300370: SNES - Super Metroid - Samus Power Suit_184
+    21300372: SNES - Super Metroid - Samus Power Suit_185
+    21300374: SNES - Super Metroid - Samus Power Suit_186
+    21300376: SNES - Super Metroid - Samus Power Suit_187
+    21300378: SNES - Super Metroid - Samus Power Suit_188
+    21300380: SNES - Super Metroid - Samus Power Suit_189
+    21300382: SNES - Super Metroid - Samus Power Suit_190
+    21300384: SNES - Super Metroid - Samus Power Suit_191
+    21300386: SNES - Super Metroid - Samus Power Suit_192
+    21300388: SNES - Super Metroid - Samus Power Suit_193
+    21300390: SNES - Super Metroid - Samus Power Suit_194
+    21300392: SNES - Super Metroid - Samus Power Suit_195
+    21300394: SNES - Super Metroid - Samus Power Suit_196
+    21300396: SNES - Super Metroid - Samus Power Suit_197
+    21300398: SNES - Super Metroid - Samus Power Suit_198
+    21300400: SNES - Super Metroid - Samus Power Suit_199
+    21300402: SNES - Super Metroid - Samus Power Suit_200
+    21300404: SNES - Super Metroid - Samus Power Suit_201
+    21300406: SNES - Super Metroid - Samus Power Suit_202
+    21300408: SNES - Super Metroid - Samus Power Suit_203
+    21300410: SNES - Super Metroid - Samus Power Suit_204
+    21300412: SNES - Super Metroid - Samus Power Suit_205
+    21300414: SNES - Super Metroid - Samus Power Suit_206
+    21300416: SNES - Super Metroid - Samus Power Suit_207
+    21300418: SNES - Super Metroid - Samus Power Suit_208
+    21300420: SNES - Super Metroid - Samus Power Suit_209
+    21300422: SNES - Super Metroid - Samus Power Suit_210
+    21300424: SNES - Super Metroid - Samus Power Suit_211
+    21300426: SNES - Super Metroid - Samus Power Suit_212
+    21300428: SNES - Super Metroid - Samus Power Suit_213
+    21300430: SNES - Super Metroid - Samus Power Suit_214
+    21300432: SNES - Super Metroid - Samus Power Suit_215
+    21300434: SNES - Super Metroid - Samus Power Suit_216
+    21300436: SNES - Super Metroid - Samus Power Suit_217
+    21300438: SNES - Super Metroid - Samus Power Suit_218
+    21300440: SNES - Super Metroid - Samus Power Suit_219
+    21300442: SNES - Super Metroid - Samus Power Suit_220
+    21300444: SNES - Super Metroid - Samus Power Suit_221
+    21300446: SNES - Super Metroid - Samus Power Suit_222
+    21300448: SNES - Super Metroid - Samus Power Suit_223
+    21300450: SNES - Super Metroid - Samus Power Suit_224
+    21300452: SNES - Super Metroid - Samus Power Suit_225
+    21300454: SNES - Super Metroid - Samus Power Suit_226
+    21300456: SNES - Super Metroid - Samus Power Suit_227
+    21300458: SNES - Super Metroid - Samus Power Suit_228
+    21300460: SNES - Super Metroid - Samus Power Suit_229
+    21300462: SNES - Super Metroid - Samus Power Suit_230
+    21300464: SNES - Super Metroid - Samus Power Suit_231
+    21300466: SNES - Super Metroid - Samus Power Suit_232
+    21300468: SNES - Super Metroid - Samus Power Suit_233
+    21300470: SNES - Super Metroid - Samus Power Suit_234
+    21300472: SNES - Super Metroid - Samus Power Suit_235
+    21300474: SNES - Super Metroid - Samus Power Suit_236
+    21300476: SNES - Super Metroid - Samus Power Suit_237
+    21300478: SNES - Super Metroid - Samus Power Suit_238
+    21300480: SNES - Super Metroid - Samus Power Suit_239
+    21300482: SNES - Super Metroid - Samus Power Suit_240
+    21300484: SNES - Super Metroid - Samus Power Suit_241
+    21300486: SNES - Super Metroid - Samus Power Suit_242
+    21300488: SNES - Super Metroid - Samus Power Suit_243
+    21300490: SNES - Super Metroid - Samus Power Suit_244
+    21300492: SNES - Super Metroid - Samus Power Suit_245
+    21300494: SNES - Super Metroid - Samus Power Suit_246
+    21300496: SNES - Super Metroid - Samus Power Suit_247
+    21300498: SNES - Super Metroid - Samus Power Suit_248
+    21300500: SNES - Super Metroid - Samus Power Suit_249
+    21300502: SNES - Super Metroid - Samus Power Suit_250
+    21300504: SNES - Super Metroid - Samus Power Suit_251
+    21300506: SNES - Super Metroid - Samus Power Suit_252
+    21300508: SNES - Super Metroid - Samus Power Suit_253
+    21300510: SNES - Super Metroid - Samus Power Suit_254
+    21300512: SNES - Super Metroid - Samus Power Suit_255
+    21300514: SNES - Super Metroid - Samus Power Suit_256
+    21300516: SNES - Super Metroid - Samus Power Suit_257
+    21300518: SNES - Super Metroid - Samus Power Suit_258
+    21300520: SNES - Super Metroid - Samus Power Suit_259
+    21300522: SNES - Super Metroid - Samus Power Suit_260
+    21300524: SNES - Super Metroid - Samus Power Suit_261
+    21300526: SNES - Super Metroid - Samus Power Suit_262
+    21300528: SNES - Super Metroid - Samus Power Suit_263
+    21300530: SNES - Super Metroid - Samus Power Suit_264
+    21300532: SNES - Super Metroid - Samus Power Suit_265
+    21300534: SNES - Super Metroid - Samus Power Suit_266
+    21300536: SNES - Super Metroid - Samus Power Suit_267
+    21300538: SNES - Super Metroid - Samus Power Suit_268
+    21300540: SNES - Super Metroid - Samus Power Suit_269
+    21300542: SNES - Super Metroid - Samus Power Suit_270
+    21300544: SNES - Super Metroid - Samus Power Suit_271
+    21300546: SNES - Super Metroid - Samus Power Suit_272
+    21300548: SNES - Super Metroid - Samus Power Suit_273
+    21300550: SNES - Super Metroid - Samus Power Suit_274
+    21300552: SNES - Super Metroid - Samus Power Suit_275
+    21300554: SNES - Super Metroid - Samus Power Suit_276
+    21300556: SNES - Super Metroid - Samus Power Suit_277
+    21300558: SNES - Super Metroid - Samus Power Suit_278
+    21300560: SNES - Super Metroid - Samus Power Suit_279
+    21300562: SNES - Super Metroid - Samus Power Suit_280
+    21300564: SNES - Super Metroid - Samus Power Suit_281
+    21300566: SNES - Super Metroid - Samus Power Suit_282
+    21300568: SNES - Super Metroid - Samus Power Suit_283
+    21300570: SNES - Super Metroid - Samus Power Suit_284
+    21300572: SNES - Super Metroid - Samus Power Suit_285
+    21300574: SNES - Super Metroid - Samus Power Suit_286
+    21300576: SNES - Super Metroid - Samus Power Suit_287
+    21300578: SNES - Super Metroid - Samus Power Suit_288
+    21300580: SNES - Super Metroid - Samus Power Suit_289
+    21300582: SNES - Super Metroid - Samus Power Suit_290
+    21300584: SNES - Super Metroid - Samus Power Suit_291
+    21300586: SNES - Super Metroid - Samus Power Suit_292
+    21300588: SNES - Super Metroid - Samus Power Suit_293
+    21300590: SNES - Super Metroid - Samus Power Suit_294
+    21300592: SNES - Super Metroid - Samus Power Suit_295
+    21300594: SNES - Super Metroid - Samus Power Suit_296
+    21300596: SNES - Super Metroid - Samus Power Suit_297
+    21300598: SNES - Super Metroid - Samus Power Suit_298
+    21300600: SNES - Super Metroid - Samus Power Suit_299
+    21300602: SNES - Super Metroid - Samus Power Suit_300
+    21300604: SNES - Super Metroid - Samus Power Suit_301
+    21300606: SNES - Super Metroid - Samus Power Suit_302
+    21300608: SNES - Super Metroid - Samus Power Suit_303
+    21300610: SNES - Super Metroid - Samus Power Suit_304
+    21300612: SNES - Super Metroid - Samus Power Suit_305
+    21300614: SNES - Super Metroid - Samus Power Suit_306
+    21300616: SNES - Super Metroid - Samus Power Suit_307
+    21300618: SNES - Super Metroid - Samus Power Suit_308
+    21300620: SNES - Super Metroid - Samus Power Suit_309
+    21300622: SNES - Super Metroid - Samus Power Suit_310
+    21300624: SNES - Super Metroid - Samus Power Suit_311
+    21300626: SNES - Super Metroid - Samus Power Suit_312
+    21300628: SNES - Super Metroid - Samus Power Suit_313
+    21300630: SNES - Super Metroid - Samus Power Suit_314
+    21300632: SNES - Super Metroid - Samus Power Suit_315
+    21300634: SNES - Super Metroid - Samus Power Suit_316
+    21300636: SNES - Super Metroid - Samus Power Suit_317
+    21300638: SNES - Super Metroid - Samus Power Suit_318
+    21300640: SNES - Super Metroid - Samus Power Suit_319
+    21300642: SNES - Super Metroid - Samus Power Suit_320
+    21300644: SNES - Super Metroid - Samus Power Suit_321
+    21300646: SNES - Super Metroid - Samus Power Suit_322
+    21300648: SNES - Super Metroid - Samus Power Suit_323
+    21300650: SNES - Super Metroid - Samus Power Suit_324
+    21300652: SNES - Super Metroid - Samus Power Suit_325
+    21300654: SNES - Super Metroid - Samus Power Suit_326
+    21300656: SNES - Super Metroid - Samus Power Suit_327
+    21300658: SNES - Super Metroid - Samus Power Suit_328
+    21300660: SNES - Super Metroid - Samus Power Suit_329
+    21300662: SNES - Super Metroid - Samus Power Suit_330
+    21300664: SNES - Super Metroid - Samus Power Suit_331
+    21300666: SNES - Super Metroid - Samus Power Suit_332
+    21300668: SNES - Super Metroid - Samus Power Suit_333
+    21300670: SNES - Super Metroid - Samus Power Suit_334
+    21300672: SNES - Super Metroid - Samus Power Suit_335
+    21300674: SNES - Super Metroid - Samus Power Suit_336
+    21300676: SNES - Super Metroid - Samus Power Suit_337
+    21300678: SNES - Super Metroid - Samus Power Suit_338
+    21300680: SNES - Super Metroid - Samus Power Suit_339
+    21300682: SNES - Super Metroid - Samus Power Suit_340
+    21300684: SNES - Super Metroid - Samus Power Suit_341
+    21300686: SNES - Super Metroid - Samus Power Suit_342
+    21300688: SNES - Super Metroid - Samus Power Suit_343
+    21300690: SNES - Super Metroid - Samus Power Suit_344
+    21300692: SNES - Super Metroid - Samus Power Suit_345
+    21300694: SNES - Super Metroid - Samus Power Suit_346
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 15
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SNES - Super Metroid - Samus Power Suit_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2309
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2292
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2312
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 2310
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_4
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 2310
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_5
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 2310
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_6
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2310
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_7
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 2310
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_8
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 2312
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_9
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2295
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2259
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2224
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2262
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_13
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2262
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_14
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2266
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 2266
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_16
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 2266
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_17
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 2262
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_18
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 2262
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2225
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2209
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SamusScaleLeft
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 2216
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_22
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2218
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_23
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 2216
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_24
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 2216
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_25
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 2216
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_26
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 2217
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SamusScaleRight
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 2216
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2159
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_29
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 2165
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_30
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2161
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_31
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2162
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_32
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2163
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_33
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2163
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_34
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 2162
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_35
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2161
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_36
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2165
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2109
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_38
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 2111
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_39
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 2113
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_40
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 2115
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_41
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2114
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_42
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 2113
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_43
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2114
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_44
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 2115
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_45
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2111
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2059
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_47
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 2059
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_48
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 2061
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_49
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2061
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_50
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2063
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_51
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2063
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_52
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2061
+        width: 19
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_53
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 2060
+        width: 19
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_54
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 2059
+        width: 15
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2009
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_56
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 2000
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_57
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2004
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_58
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2004
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_59
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 2004
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_60
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 2004
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_61
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 2004
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_62
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 2004
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_63
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2000
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1959
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_65
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1951
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1954
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_67
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1955
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_68
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1955
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_69
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1954
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_70
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1951
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1909
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_72
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1904
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_73
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1909
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_74
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1909
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_75
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1909
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_76
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1909
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_77
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1909
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_78
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1909
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_79
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1904
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1859
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_81
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1856
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_82
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1857
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_83
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1856
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_84
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1856
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_85
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1857
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_86
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1857
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1809
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_88
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1808
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_89
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1803
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_90
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1803
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_91
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1808
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1759
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_93
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1751
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_94
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1752
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_95
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1756
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_96
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1753
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_97
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1753
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_98
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1756
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_99
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1753
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_100
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1751
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_101
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1709
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_102
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1704
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_103
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1706
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_104
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1707
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_105
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1705
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_106
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1705
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_107
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1707
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_108
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1706
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_109
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1704
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_110
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1645
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_111
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1649
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_112
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1649
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_113
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1649
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_114
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1649
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_115
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1649
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_116
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1649
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_117
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1645
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_118
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1593
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_119
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1600
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_120
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1600
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_121
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1594
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_122
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1547
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_123
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1554
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_124
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1554
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_125
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1554
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_126
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1554
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_127
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1554
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_128
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1554
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_129
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1547
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_130
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1500
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_131
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1502
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_132
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1502
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_133
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1501
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_134
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1453
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_135
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1448
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_136
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1448
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_137
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1453
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_138
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1395
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_139
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1397
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_140
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1401
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_141
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1397
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_142
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1397
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_143
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1401
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_144
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1398
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_145
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1396
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_146
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1349
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_147
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1351
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_148
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1352
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_149
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1350
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_150
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1350
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_151
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1352
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_152
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1351
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_153
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1349
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_154
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1301
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_155
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1301
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_156
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1301
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_157
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1301
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_158
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1301
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_159
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1301
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_160
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1301
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_161
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1301
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_162
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1251
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_163
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1251
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_164
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1251
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_165
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1251
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_166
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1251
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_167
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1251
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_168
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1251
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_169
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1251
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_170
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1201
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_171
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1201
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_172
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1201
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_173
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1201
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_174
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1148
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_175
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1148
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_176
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1148
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_177
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1148
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_178
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1148
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_179
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1148
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_180
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1148
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_181
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1148
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_182
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1098
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_183
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1098
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_184
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1098
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_185
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1098
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_186
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1098
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_187
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1098
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_188
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1098
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_189
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1098
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_190
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1048
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_191
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1048
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_192
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1048
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_193
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1048
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_194
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1000
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_195
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1001
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_196
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1001
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_197
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1001
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_198
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1001
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_199
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1001
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_200
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1001
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_201
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1027
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_202
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1000
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_203
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 951
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_204
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 951
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_205
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 951
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_206
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 950
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_207
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 951
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_208
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 951
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_209
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 951
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_210
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 951
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_211
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 900
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_212
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 901
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_213
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 901
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_214
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 901
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_215
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 851
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_216
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 851
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_217
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 851
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_218
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 851
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_219
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 851
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_220
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 851
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_221
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 851
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_222
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 851
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_223
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 801
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_224
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 801
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_225
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 801
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_226
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 801
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_227
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 801
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_228
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 801
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_229
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 801
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_230
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 801
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_231
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 762
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_232
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 759
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_233
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 751
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_234
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 751
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_235
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 751
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_236
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 751
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_237
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 759
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_238
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 762
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_239
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 714
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_240
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 714
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_241
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 714
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_242
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 714
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_243
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 714
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_244
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 714
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_245
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 714
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_246
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 714
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_247
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 664
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_248
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 664
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_249
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 664
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_250
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 664
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_251
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 664
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_252
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 664
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_253
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 664
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_254
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 664
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_255
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 608
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_256
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 607
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_257
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 610
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_258
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 614
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_259
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 614
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_260
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 610
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_261
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 607
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_262
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 608
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_263
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 558
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_264
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 557
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_265
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 560
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_266
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 564
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_267
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 564
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_268
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 560
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_269
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 557
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_270
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 558
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_271
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 506
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_272
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 506
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_273
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 506
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_274
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 506
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_275
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 506
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_276
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 506
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_277
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 506
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_278
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 506
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_279
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 452
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_280
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 458
+        width: 62
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_281
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 456
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_282
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 457
+        width: 53
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_283
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 458
+        width: 62
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_284
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 453
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_285
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 384
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_286
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 384
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_287
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 388
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_288
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 388
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_289
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 383
+        width: 24
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_290
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 418
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_291
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 398
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_292
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 399
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_293
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 316
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_294
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 313
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_295
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 315
+        width: 19
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_296
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 313
+        width: 27
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_297
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 316
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_298
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 315
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_299
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 313
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_300
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 316
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_301
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 256
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_302
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 256
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_303
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 251
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_304
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 251
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_305
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 259
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_306
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 259
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_307
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 208
+        width: 63
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_308
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 204
+        width: 57
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_309
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 204
+        width: 55
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_310
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 208
+        width: 62
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_311
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 138
+        width: 9
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_312
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 179
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_313
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 169
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_314
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 152
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_315
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 165
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_316
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 150
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_317
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 152
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_318
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 152
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_319
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 150
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_320
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 165
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_321
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 152
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_322
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 169
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_323
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 179
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_324
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 138
+        width: 9
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_325
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 139
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_326
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 123
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_327
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 156
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_328
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 156
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_329
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 123
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_330
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 139
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_331
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 69
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_332
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 124
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_333
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 69
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_334
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 124
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_335
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 65
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_336
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 73
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_337
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 54
+        width: 29
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_338
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 93
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_339
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 93
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_340
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 54
+        width: 29
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_341
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 73
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_342
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 65
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_343
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 60
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_344
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 60
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_345
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Samus Power Suit_346
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 0
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -5,19 +5,15 @@ public class MissileScript : MonoBehaviour {
 	
 	public int moveSpeed = 20;
 	private bool facingRight = true;
+	public Transform ExplosionPrefab;
+	private Transform explosion;
+	PlatformerCharacter2D playerScript;
 
 	void Start()
 	{
 		GameObject thePlayer = GameObject.Find("Agent_7");
-		PlatformerCharacter2D playerScript = thePlayer.GetComponent<PlatformerCharacter2D>();
+		playerScript = thePlayer.GetComponent<PlatformerCharacter2D>();
 		facingRight = playerScript.facingRight;
-
-		// When you jump, you have an upward force, when you're falling, you have a downward force.
-		// This force is being applied to the missile because it collides with you when it fires.
-		// This produces an undesired effect so we will manually set the y force of the missile to 0.
-		/*Vector2 xyMissileForce = new Vector2(transform.rigidbody2D.velocity.x, transform.rigidbody2D.velocity.y);
-		xyMissileForce.y = 0;
-		transform.rigidbody2D.velocity = xyMissileForce;*/
 	}
 
 	void Update () {
@@ -29,12 +25,41 @@ public class MissileScript : MonoBehaviour {
 			// is actually left.
 			transform.Translate (Vector3.right * Time.deltaTime * moveSpeed);
 		}
-		Destroy (gameObject, 1);
+		// destroy the missile after 2 seconds, this is its time-out period
+		// so as it doesnt travel forever
+		Destroy (gameObject, 2);
 	}
 
 	void OnCollisionEnter2D(Collision2D collision) {
-		if (collision.gameObject.name.Equals("Enemy")) {
-			Debug.Log ("You hit an enemy!");
+		if (collision.gameObject.layer == 12) {// the enemy layer
+
+			string enemyName = collision.collider.name;
+
+			Debug.Log ("Your missile hit an enemy!");
+
+			/*if (enemyName.Equals("Koopa")) {
+				playerScript.GainScore(50);
+			} else if (enemyName.Equals("Kog")) {
+				playerScript.GainScore(100);
+			}
+			// destroy the enemies that were hit
+			/*foreach(ContactPoint2D c in collision.contacts) {
+				Destroy(c.otherCollider.gameObject);
+			}*/
+
+			// instantiate the explosion animation and destroy it after 0.5 seconds.
+			// Then destory the missile because it exploded
+			/*Destroy (transform.gameObject);
+			explosion = (Transform)Instantiate (ExplosionPrefab, transform.position, transform.rotation);
+			Destroy (explosion.gameObject, 0.5f);*/
+			//Destroy(collision.collider.gameObject);*/
+		} else if (collision.gameObject.layer == 11) {
+			Debug.Log ("Your missle hit world!");
+			// instantiate the explosion animation and destroy it after 0.5 seconds.
+			// Then destory the missile because it exploded
+			explosion = (Transform)Instantiate (ExplosionPrefab, transform.position, transform.rotation);
+			Destroy (explosion.gameObject, 0.4f);
+			Destroy(gameObject);
 		}
 	}
 }

@@ -17,7 +17,7 @@ public class Agent7StatsUI : MonoBehaviour {
 	Rect powerupDisplay;
 
 	// Initial hp and score
-	int hp = 2;
+	int hp = 3;
 	int score = 0;
 
 	GUIStyle customScoreText;
@@ -56,13 +56,13 @@ public class Agent7StatsUI : MonoBehaviour {
 	void Awake() {
 		character = GetComponent<PlatformerCharacter2D>();
 
-		if (Agent7ControlUI.testingUsingUnityRemote) {
+		//if (Agent7ControlUI.testingUsingUnityRemote) {
 			healthDisplay = new Rect ((Screen.width / 2) - (Screen.width / 5 / 2), 0, Screen.width / 5, 50);
 			scoreDisplay = new Rect (0, 0, Screen.width / 5, 50);
-		} else {
+		/*} else {
 			healthDisplay = new Rect ((Screen.height / 2) - (Screen.height / 5 / 2), 0, Screen.height / 5, 50);
 			scoreDisplay = new Rect (0, 0, Screen.height / 5, 50);
-		}
+		}*/
 
 		customScoreText = new GUIStyle();
 		customScoreText.normal.textColor = Color.white;
@@ -95,22 +95,9 @@ public class Agent7StatsUI : MonoBehaviour {
 			break;
 		case 0:
 			GUI.Box(healthDisplay, zeroHp, customHealth);
-			Die(true);
 			break;
 		}
 	}
 	
-	
-	// this method is called when Agent_7 dies
-	// The boolean is for when you are just testing the
-	// code. It returns Agent_7 to the starting point
-	// instantly for convenience.
-	void Die(bool test) {
-		if (test) {
-			character.transform.position = new Vector3(0f, 1.6f, 0f);
-			hp = 3;
-		} else {
-			// initiate normal death sequence
-		}
-	}
+
 }

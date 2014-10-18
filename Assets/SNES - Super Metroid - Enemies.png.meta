@@ -1,0 +1,4404 @@
+fileFormatVersion: 2
+guid: e6978824fa9f31f43b8f415e1f158677
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SNES - Super Metroid - Enemies
+    21300002: SNES - Super Metroid - Enemies_0
+    21300004: SNES - Super Metroid - Enemies_1
+    21300006: SNES - Super Metroid - Enemies_2
+    21300008: SNES - Super Metroid - Enemies_3
+    21300010: SNES - Super Metroid - Enemies_4
+    21300012: SNES - Super Metroid - Enemies_5
+    21300014: FireEnemy0
+    21300016: FireEnemy1
+    21300018: FireEnemy2
+    21300020: FireEnemy3
+    21300022: FireEnemy4
+    21300024: FireEnemy5
+    21300026: SNES - Super Metroid - Enemies_12
+    21300028: SNES - Super Metroid - Enemies_13
+    21300030: SNES - Super Metroid - Enemies_14
+    21300032: SNES - Super Metroid - Enemies_15
+    21300034: SNES - Super Metroid - Enemies_16
+    21300036: SNES - Super Metroid - Enemies_17
+    21300038: SNES - Super Metroid - Enemies_18
+    21300040: SNES - Super Metroid - Enemies_19
+    21300042: SNES - Super Metroid - Enemies_20
+    21300044: SNES - Super Metroid - Enemies_21
+    21300046: SNES - Super Metroid - Enemies_22
+    21300048: SNES - Super Metroid - Enemies_23
+    21300050: SNES - Super Metroid - Enemies_24
+    21300052: SNES - Super Metroid - Enemies_25
+    21300054: SNES - Super Metroid - Enemies_26
+    21300056: SNES - Super Metroid - Enemies_27
+    21300058: SNES - Super Metroid - Enemies_28
+    21300060: SNES - Super Metroid - Enemies_29
+    21300062: SNES - Super Metroid - Enemies_30
+    21300064: SNES - Super Metroid - Enemies_31
+    21300066: SNES - Super Metroid - Enemies_32
+    21300068: SNES - Super Metroid - Enemies_33
+    21300070: SNES - Super Metroid - Enemies_34
+    21300072: SNES - Super Metroid - Enemies_35
+    21300074: SNES - Super Metroid - Enemies_36
+    21300076: SNES - Super Metroid - Enemies_37
+    21300078: SNES - Super Metroid - Enemies_38
+    21300080: SNES - Super Metroid - Enemies_39
+    21300082: SNES - Super Metroid - Enemies_40
+    21300084: SNES - Super Metroid - Enemies_41
+    21300086: SNES - Super Metroid - Enemies_42
+    21300088: SNES - Super Metroid - Enemies_43
+    21300090: flying0
+    21300092: flying1
+    21300094: flying2
+    21300096: flying3
+    21300098: flying4
+    21300100: SNES - Super Metroid - Enemies_49
+    21300102: SNES - Super Metroid - Enemies_50
+    21300104: SNES - Super Metroid - Enemies_51
+    21300106: SNES - Super Metroid - Enemies_52
+    21300108: SNES - Super Metroid - Enemies_53
+    21300110: SNES - Super Metroid - Enemies_54
+    21300112: SNES - Super Metroid - Enemies_55
+    21300114: SNES - Super Metroid - Enemies_56
+    21300116: SNES - Super Metroid - Enemies_57
+    21300118: SNES - Super Metroid - Enemies_58
+    21300120: SNES - Super Metroid - Enemies_59
+    21300122: SNES - Super Metroid - Enemies_60
+    21300124: SNES - Super Metroid - Enemies_61
+    21300126: SNES - Super Metroid - Enemies_62
+    21300128: SNES - Super Metroid - Enemies_63
+    21300130: SNES - Super Metroid - Enemies_64
+    21300132: SNES - Super Metroid - Enemies_65
+    21300134: SNES - Super Metroid - Enemies_66
+    21300136: SNES - Super Metroid - Enemies_67
+    21300138: SNES - Super Metroid - Enemies_68
+    21300140: SNES - Super Metroid - Enemies_69
+    21300142: SNES - Super Metroid - Enemies_70
+    21300144: SNES - Super Metroid - Enemies_71
+    21300146: SNES - Super Metroid - Enemies_72
+    21300148: SNES - Super Metroid - Enemies_73
+    21300150: SNES - Super Metroid - Enemies_74
+    21300152: SNES - Super Metroid - Enemies_75
+    21300154: SNES - Super Metroid - Enemies_76
+    21300156: SNES - Super Metroid - Enemies_77
+    21300158: SNES - Super Metroid - Enemies_78
+    21300160: SNES - Super Metroid - Enemies_79
+    21300162: SNES - Super Metroid - Enemies_80
+    21300164: SNES - Super Metroid - Enemies_81
+    21300166: SNES - Super Metroid - Enemies_82
+    21300168: SNES - Super Metroid - Enemies_83
+    21300170: SNES - Super Metroid - Enemies_84
+    21300172: SNES - Super Metroid - Enemies_85
+    21300174: SNES - Super Metroid - Enemies_86
+    21300176: SNES - Super Metroid - Enemies_87
+    21300178: SNES - Super Metroid - Enemies_88
+    21300180: SNES - Super Metroid - Enemies_89
+    21300182: SNES - Super Metroid - Enemies_90
+    21300184: SNES - Super Metroid - Enemies_91
+    21300186: SNES - Super Metroid - Enemies_92
+    21300188: SNES - Super Metroid - Enemies_93
+    21300190: SNES - Super Metroid - Enemies_94
+    21300192: SNES - Super Metroid - Enemies_95
+    21300194: SNES - Super Metroid - Enemies_96
+    21300196: SNES - Super Metroid - Enemies_97
+    21300198: SNES - Super Metroid - Enemies_98
+    21300200: SNES - Super Metroid - Enemies_99
+    21300202: SNES - Super Metroid - Enemies_100
+    21300204: SNES - Super Metroid - Enemies_101
+    21300206: SNES - Super Metroid - Enemies_102
+    21300208: SNES - Super Metroid - Enemies_103
+    21300210: SNES - Super Metroid - Enemies_104
+    21300212: SNES - Super Metroid - Enemies_105
+    21300214: SNES - Super Metroid - Enemies_106
+    21300216: SNES - Super Metroid - Enemies_107
+    21300218: SNES - Super Metroid - Enemies_108
+    21300220: SNES - Super Metroid - Enemies_109
+    21300222: SNES - Super Metroid - Enemies_110
+    21300224: SNES - Super Metroid - Enemies_111
+    21300226: SNES - Super Metroid - Enemies_112
+    21300228: SNES - Super Metroid - Enemies_113
+    21300230: SNES - Super Metroid - Enemies_114
+    21300232: SNES - Super Metroid - Enemies_115
+    21300234: SNES - Super Metroid - Enemies_116
+    21300236: SNES - Super Metroid - Enemies_117
+    21300238: SNES - Super Metroid - Enemies_118
+    21300240: SNES - Super Metroid - Enemies_119
+    21300242: SNES - Super Metroid - Enemies_120
+    21300244: SNES - Super Metroid - Enemies_121
+    21300246: SNES - Super Metroid - Enemies_122
+    21300248: SNES - Super Metroid - Enemies_123
+    21300250: SNES - Super Metroid - Enemies_124
+    21300252: SNES - Super Metroid - Enemies_125
+    21300254: SNES - Super Metroid - Enemies_126
+    21300256: SNES - Super Metroid - Enemies_127
+    21300258: SNES - Super Metroid - Enemies_128
+    21300260: SNES - Super Metroid - Enemies_129
+    21300262: SNES - Super Metroid - Enemies_130
+    21300264: SNES - Super Metroid - Enemies_131
+    21300266: SNES - Super Metroid - Enemies_132
+    21300268: SNES - Super Metroid - Enemies_133
+    21300270: SNES - Super Metroid - Enemies_134
+    21300272: SNES - Super Metroid - Enemies_135
+    21300274: SNES - Super Metroid - Enemies_136
+    21300276: SNES - Super Metroid - Enemies_137
+    21300278: SNES - Super Metroid - Enemies_138
+    21300280: SNES - Super Metroid - Enemies_139
+    21300282: SNES - Super Metroid - Enemies_140
+    21300284: SNES - Super Metroid - Enemies_141
+    21300286: SNES - Super Metroid - Enemies_142
+    21300288: SNES - Super Metroid - Enemies_143
+    21300290: SNES - Super Metroid - Enemies_144
+    21300292: SNES - Super Metroid - Enemies_145
+    21300294: SNES - Super Metroid - Enemies_146
+    21300296: SNES - Super Metroid - Enemies_147
+    21300298: SNES - Super Metroid - Enemies_148
+    21300300: SNES - Super Metroid - Enemies_149
+    21300302: SNES - Super Metroid - Enemies_150
+    21300304: SNES - Super Metroid - Enemies_151
+    21300306: SNES - Super Metroid - Enemies_152
+    21300308: SNES - Super Metroid - Enemies_153
+    21300310: SNES - Super Metroid - Enemies_154
+    21300312: SNES - Super Metroid - Enemies_155
+    21300314: SNES - Super Metroid - Enemies_156
+    21300316: SNES - Super Metroid - Enemies_157
+    21300318: SNES - Super Metroid - Enemies_158
+    21300320: SNES - Super Metroid - Enemies_159
+    21300322: SNES - Super Metroid - Enemies_160
+    21300324: SNES - Super Metroid - Enemies_161
+    21300326: SNES - Super Metroid - Enemies_162
+    21300328: SNES - Super Metroid - Enemies_163
+    21300330: SNES - Super Metroid - Enemies_164
+    21300332: SNES - Super Metroid - Enemies_165
+    21300334: SNES - Super Metroid - Enemies_166
+    21300336: SNES - Super Metroid - Enemies_167
+    21300338: SNES - Super Metroid - Enemies_168
+    21300340: SNES - Super Metroid - Enemies_169
+    21300342: SNES - Super Metroid - Enemies_170
+    21300344: SNES - Super Metroid - Enemies_171
+    21300346: SNES - Super Metroid - Enemies_172
+    21300348: SNES - Super Metroid - Enemies_173
+    21300350: SNES - Super Metroid - Enemies_174
+    21300352: SNES - Super Metroid - Enemies_175
+    21300354: SNES - Super Metroid - Enemies_176
+    21300356: SNES - Super Metroid - Enemies_177
+    21300358: SNES - Super Metroid - Enemies_178
+    21300360: SNES - Super Metroid - Enemies_179
+    21300362: SNES - Super Metroid - Enemies_180
+    21300364: SNES - Super Metroid - Enemies_181
+    21300366: SNES - Super Metroid - Enemies_182
+    21300368: SNES - Super Metroid - Enemies_183
+    21300370: SNES - Super Metroid - Enemies_184
+    21300372: SNES - Super Metroid - Enemies_185
+    21300374: SNES - Super Metroid - Enemies_186
+    21300376: SNES - Super Metroid - Enemies_187
+    21300378: SNES - Super Metroid - Enemies_188
+    21300380: SNES - Super Metroid - Enemies_189
+    21300382: SNES - Super Metroid - Enemies_190
+    21300384: SNES - Super Metroid - Enemies_191
+    21300386: SNES - Super Metroid - Enemies_192
+    21300388: SNES - Super Metroid - Enemies_193
+    21300390: SNES - Super Metroid - Enemies_194
+    21300392: SNES - Super Metroid - Enemies_195
+    21300394: SNES - Super Metroid - Enemies_196
+    21300396: SNES - Super Metroid - Enemies_197
+    21300398: SNES - Super Metroid - Enemies_198
+    21300400: SNES - Super Metroid - Enemies_199
+    21300402: SNES - Super Metroid - Enemies_200
+    21300404: SNES - Super Metroid - Enemies_201
+    21300406: SNES - Super Metroid - Enemies_202
+    21300408: SNES - Super Metroid - Enemies_203
+    21300410: SNES - Super Metroid - Enemies_204
+    21300412: SNES - Super Metroid - Enemies_205
+    21300414: SNES - Super Metroid - Enemies_206
+    21300416: SNES - Super Metroid - Enemies_207
+    21300418: SNES - Super Metroid - Enemies_208
+    21300420: SNES - Super Metroid - Enemies_209
+    21300422: SNES - Super Metroid - Enemies_210
+    21300424: SNES - Super Metroid - Enemies_211
+    21300426: SNES - Super Metroid - Enemies_212
+    21300428: SNES - Super Metroid - Enemies_213
+    21300430: SNES - Super Metroid - Enemies_214
+    21300432: SNES - Super Metroid - Enemies_215
+    21300434: SNES - Super Metroid - Enemies_216
+    21300436: SNES - Super Metroid - Enemies_217
+    21300438: SNES - Super Metroid - Enemies_218
+    21300440: SNES - Super Metroid - Enemies_219
+    21300442: SNES - Super Metroid - Enemies_220
+    21300444: SNES - Super Metroid - Enemies_221
+    21300446: SNES - Super Metroid - Enemies_222
+    21300448: SNES - Super Metroid - Enemies_223
+    21300450: SNES - Super Metroid - Enemies_224
+    21300452: SNES - Super Metroid - Enemies_225
+    21300454: SNES - Super Metroid - Enemies_226
+    21300456: SNES - Super Metroid - Enemies_227
+    21300458: SNES - Super Metroid - Enemies_228
+    21300460: SNES - Super Metroid - Enemies_229
+    21300462: SNES - Super Metroid - Enemies_230
+    21300464: SNES - Super Metroid - Enemies_231
+    21300466: SNES - Super Metroid - Enemies_232
+    21300468: skyfall0
+    21300470: skyfall1
+    21300472: skyfall2
+    21300474: skyfall3
+    21300476: SNES - Super Metroid - Enemies_237
+    21300478: skyfall4
+    21300480: skyfall5
+    21300482: SNES - Super Metroid - Enemies_240
+    21300484: SNES - Super Metroid - Enemies_241
+    21300486: SNES - Super Metroid - Enemies_242
+    21300488: SNES - Super Metroid - Enemies_243
+    21300490: SNES - Super Metroid - Enemies_244
+    21300492: SNES - Super Metroid - Enemies_245
+    21300494: SNES - Super Metroid - Enemies_246
+    21300496: SNES - Super Metroid - Enemies_247
+    21300498: SNES - Super Metroid - Enemies_248
+    21300500: SNES - Super Metroid - Enemies_249
+    21300502: SNES - Super Metroid - Enemies_250
+    21300504: SNES - Super Metroid - Enemies_251
+    21300506: SNES - Super Metroid - Enemies_252
+    21300508: SNES - Super Metroid - Enemies_253
+    21300510: SNES - Super Metroid - Enemies_254
+    21300512: SNES - Super Metroid - Enemies_255
+    21300514: SNES - Super Metroid - Enemies_256
+    21300516: SNES - Super Metroid - Enemies_257
+    21300518: SNES - Super Metroid - Enemies_258
+    21300520: SNES - Super Metroid - Enemies_259
+    21300522: SNES - Super Metroid - Enemies_260
+    21300524: SNES - Super Metroid - Enemies_261
+    21300526: SNES - Super Metroid - Enemies_262
+    21300528: SNES - Super Metroid - Enemies_263
+    21300530: SNES - Super Metroid - Enemies_264
+    21300532: SNES - Super Metroid - Enemies_265
+    21300534: SNES - Super Metroid - Enemies_266
+    21300536: SNES - Super Metroid - Enemies_267
+    21300538: SNES - Super Metroid - Enemies_268
+    21300540: SNES - Super Metroid - Enemies_269
+    21300542: SNES - Super Metroid - Enemies_270
+    21300544: SNES - Super Metroid - Enemies_271
+    21300546: SNES - Super Metroid - Enemies_272
+    21300548: SNES - Super Metroid - Enemies_273
+    21300550: SNES - Super Metroid - Enemies_274
+    21300552: SNES - Super Metroid - Enemies_275
+    21300554: SNES - Super Metroid - Enemies_276
+    21300556: SNES - Super Metroid - Enemies_277
+    21300558: SNES - Super Metroid - Enemies_278
+    21300560: SNES - Super Metroid - Enemies_279
+    21300562: SNES - Super Metroid - Enemies_280
+    21300564: SNES - Super Metroid - Enemies_281
+    21300566: SNES - Super Metroid - Enemies_282
+    21300568: SNES - Super Metroid - Enemies_283
+    21300570: SNES - Super Metroid - Enemies_284
+    21300572: SNES - Super Metroid - Enemies_285
+    21300574: SNES - Super Metroid - Enemies_286
+    21300576: SNES - Super Metroid - Enemies_287
+    21300578: SNES - Super Metroid - Enemies_288
+    21300580: SNES - Super Metroid - Enemies_289
+    21300582: SNES - Super Metroid - Enemies_290
+    21300584: SNES - Super Metroid - Enemies_291
+    21300586: SNES - Super Metroid - Enemies_292
+    21300588: SNES - Super Metroid - Enemies_293
+    21300590: SNES - Super Metroid - Enemies_294
+    21300592: SNES - Super Metroid - Enemies_295
+    21300594: SNES - Super Metroid - Enemies_296
+    21300596: SNES - Super Metroid - Enemies_297
+    21300598: SNES - Super Metroid - Enemies_298
+    21300600: SNES - Super Metroid - Enemies_299
+    21300602: SNES - Super Metroid - Enemies_300
+    21300604: SNES - Super Metroid - Enemies_301
+    21300606: SNES - Super Metroid - Enemies_302
+    21300608: SNES - Super Metroid - Enemies_303
+    21300610: SNES - Super Metroid - Enemies_304
+    21300612: SNES - Super Metroid - Enemies_305
+    21300614: SNES - Super Metroid - Enemies_306
+    21300616: SNES - Super Metroid - Enemies_307
+    21300618: SNES - Super Metroid - Enemies_308
+    21300620: SNES - Super Metroid - Enemies_309
+    21300622: SNES - Super Metroid - Enemies_310
+    21300624: SNES - Super Metroid - Enemies_311
+    21300626: SNES - Super Metroid - Enemies_312
+    21300628: SNES - Super Metroid - Enemies_313
+    21300630: SNES - Super Metroid - Enemies_314
+    21300632: SNES - Super Metroid - Enemies_315
+    21300634: SNES - Super Metroid - Enemies_316
+    21300636: SNES - Super Metroid - Enemies_317
+    21300638: SNES - Super Metroid - Enemies_318
+    21300640: SNES - Super Metroid - Enemies_319
+    21300642: SNES - Super Metroid - Enemies_320
+    21300644: SNES - Super Metroid - Enemies_321
+    21300646: SNES - Super Metroid - Enemies_322
+    21300648: SNES - Super Metroid - Enemies_323
+    21300650: SNES - Super Metroid - Enemies_324
+    21300652: SNES - Super Metroid - Enemies_325
+    21300654: SNES - Super Metroid - Enemies_326
+    21300656: SNES - Super Metroid - Enemies_327
+    21300658: SNES - Super Metroid - Enemies_328
+    21300660: SNES - Super Metroid - Enemies_329
+    21300662: SNES - Super Metroid - Enemies_330
+    21300664: SNES - Super Metroid - Enemies_331
+    21300666: SNES - Super Metroid - Enemies_332
+    21300668: SNES - Super Metroid - Enemies_333
+    21300670: SNES - Super Metroid - Enemies_334
+    21300672: SNES - Super Metroid - Enemies_335
+    21300674: SNES - Super Metroid - Enemies_336
+    21300676: SNES - Super Metroid - Enemies_337
+    21300678: SNES - Super Metroid - Enemies_338
+    21300680: SNES - Super Metroid - Enemies_339
+    21300682: SNES - Super Metroid - Enemies_340
+    21300684: SNES - Super Metroid - Enemies_341
+    21300686: SNES - Super Metroid - Enemies_342
+    21300688: SNES - Super Metroid - Enemies_343
+    21300690: SNES - Super Metroid - Enemies_344
+    21300692: SNES - Super Metroid - Enemies_345
+    21300694: SNES - Super Metroid - Enemies_346
+    21300696: SNES - Super Metroid - Enemies_347
+    21300698: SNES - Super Metroid - Enemies_348
+    21300700: SNES - Super Metroid - Enemies_349
+    21300702: SNES - Super Metroid - Enemies_350
+    21300704: SNES - Super Metroid - Enemies_351
+    21300706: SNES - Super Metroid - Enemies_352
+    21300708: SNES - Super Metroid - Enemies_353
+    21300710: SNES - Super Metroid - Enemies_354
+    21300712: SNES - Super Metroid - Enemies_355
+    21300714: SNES - Super Metroid - Enemies_356
+    21300716: SNES - Super Metroid - Enemies_357
+    21300718: SNES - Super Metroid - Enemies_358
+    21300720: SNES - Super Metroid - Enemies_359
+    21300722: SNES - Super Metroid - Enemies_360
+    21300724: SNES - Super Metroid - Enemies_361
+    21300726: SNES - Super Metroid - Enemies_362
+    21300728: SNES - Super Metroid - Enemies_363
+    21300730: SNES - Super Metroid - Enemies_364
+    21300732: SNES - Super Metroid - Enemies_365
+    21300734: SNES - Super Metroid - Enemies_366
+    21300736: SNES - Super Metroid - Enemies_367
+    21300738: SNES - Super Metroid - Enemies_368
+    21300740: SNES - Super Metroid - Enemies_369
+    21300742: SNES - Super Metroid - Enemies_370
+    21300744: SNES - Super Metroid - Enemies_371
+    21300746: SNES - Super Metroid - Enemies_372
+    21300748: SNES - Super Metroid - Enemies_373
+    21300750: SNES - Super Metroid - Enemies_374
+    21300752: SNES - Super Metroid - Enemies_375
+    21300754: SNES - Super Metroid - Enemies_376
+    21300756: SNES - Super Metroid - Enemies_377
+    21300758: SNES - Super Metroid - Enemies_378
+    21300760: SNES - Super Metroid - Enemies_379
+    21300762: SNES - Super Metroid - Enemies_380
+    21300764: SNES - Super Metroid - Enemies_381
+    21300766: SNES - Super Metroid - Enemies_382
+    21300768: SNES - Super Metroid - Enemies_383
+    21300770: SNES - Super Metroid - Enemies_384
+    21300772: SNES - Super Metroid - Enemies_385
+    21300774: SNES - Super Metroid - Enemies_386
+    21300776: SNES - Super Metroid - Enemies_387
+    21300778: SNES - Super Metroid - Enemies_388
+    21300780: SNES - Super Metroid - Enemies_389
+    21300782: SNES - Super Metroid - Enemies_390
+    21300784: SNES - Super Metroid - Enemies_391
+    21300786: SNES - Super Metroid - Enemies_392
+    21300788: SNES - Super Metroid - Enemies_393
+    21300790: SNES - Super Metroid - Enemies_394
+    21300792: SNES - Super Metroid - Enemies_395
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 15
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SNES - Super Metroid - Enemies_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 720
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 721
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 720
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 720
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 721
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 720
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FireEnemy0
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 729
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FireEnemy1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 729
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FireEnemy2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 729
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FireEnemy3
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 728
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FireEnemy4
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 728
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FireEnemy5
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 728
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_12
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 732
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_13
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 731
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_14
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 731
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_15
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 731
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_16
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 725
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_17
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 727
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_18
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 680
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_19
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 682
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_20
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 683
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_21
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 684
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_22
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 682
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_23
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 684
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_24
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 704
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_25
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 704
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_26
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 705
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_27
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 705
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_28
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 670
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_29
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 670
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_30
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 670
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_31
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 691
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_32
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 669
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_33
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 669
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_34
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 669
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_35
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 669
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_36
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 669
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_37
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 669
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_38
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 670
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_39
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 670
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_40
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 673
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_41
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 673
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_42
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 673
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_43
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 673
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 664
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 663
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 659
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying3
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 660
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 662
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_49
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 651
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_50
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 639
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_51
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 639
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 637
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_53
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 637
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_54
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 638
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_55
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 637
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_56
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 625
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_57
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 625
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_58
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 652
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_59
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 653
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_60
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 652
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_61
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 652
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_62
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 650
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_63
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 625
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_64
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 645
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_65
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 645
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_66
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 599
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_67
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 599
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_68
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 599
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_69
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 599
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_70
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 599
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_71
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 626
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_72
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 626
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_73
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 624
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_74
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 625
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_75
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 626
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_76
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 626
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_77
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 625
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_78
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 625
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_79
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 625
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_80
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 617
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_81
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 616
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_82
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 615
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_83
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 572
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_84
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 571
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_85
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 586
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_86
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 587
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_87
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 586
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_88
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 593
+        width: 43
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_89
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 572
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_90
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 572
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_91
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 573
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_92
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 573
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_93
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 573
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_94
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 573
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_95
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 574
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_96
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 553
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_97
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 552
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_98
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 553
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_99
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 552
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_100
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 553
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_101
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 552
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_102
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 553
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_103
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 519
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_104
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 518
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_105
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 519
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_106
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 519
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_107
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 530
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_108
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 529
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_109
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 529
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_110
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 529
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_111
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 529
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_112
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 521
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_113
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 522
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_114
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 515
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_115
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 509
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_116
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 510
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_117
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 510
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_118
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 511
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_119
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 510
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_120
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 473
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_121
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 518
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_122
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 473
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_123
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 473
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_124
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 506
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_125
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 506
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_126
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 506
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_127
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 506
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_128
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 506
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_129
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 507
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_130
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 507
+        width: 29
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_131
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 505
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_132
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 504
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_133
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 505
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_134
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 481
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_135
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 481
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_136
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 481
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_137
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 481
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_138
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 481
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_139
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 481
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_140
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 481
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_141
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 494
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_142
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 494
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_143
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 494
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_144
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 494
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_145
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 494
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_146
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 494
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_147
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 495
+        width: 29
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_148
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 493
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_149
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 492
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_150
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 492
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_151
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 481
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_152
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 481
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_153
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 481
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_154
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 481
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_155
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 481
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_156
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 481
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_157
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 482
+        width: 29
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_158
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_159
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 480
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_160
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 480
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_161
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 454
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_162
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 450
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_163
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 442
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_164
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 456
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_165
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 451
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_166
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 451
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_167
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 451
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_168
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 451
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_169
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 462
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_170
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 461
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_171
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 461
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_172
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 461
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_173
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 461
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_174
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 460
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_175
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 460
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_176
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 459
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_177
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_178
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_179
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_180
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_181
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_182
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_183
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 437
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_184
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 439
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_185
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 438
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_186
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 438
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_187
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 437
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_188
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 436
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_189
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 436
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_190
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 435
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_191
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 418
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_192
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 418
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_193
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 419
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_194
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 417
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_195
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 418
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_196
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 419
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_197
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 423
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_198
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 423
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_199
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 423
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_200
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 423
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_201
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 415
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_202
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 415
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_203
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_204
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 415
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_205
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 416
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_206
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 386
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_207
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 384
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_208
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 385
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_209
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 384
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_210
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 388
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_211
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 384
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_212
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 386
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_213
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 400
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_214
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 399
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_215
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 399
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_216
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 399
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_217
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 399
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_218
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 373
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_219
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 373
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_220
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 373
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_221
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 374
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_222
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 380
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_223
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 380
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_224
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 378
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_225
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 380
+        width: 29
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_226
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 380
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_227
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 381
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_228
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 379
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_229
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 373
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_230
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 373
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_231
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 372
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_232
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 372
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skyfall0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 353
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skyfall1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 353
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skyfall2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 354
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skyfall3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 354
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_237
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 365
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skyfall4
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 355
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: skyfall5
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 354
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_240
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 347
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_241
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 347
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_242
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 347
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_243
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 347
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_244
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 337
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_245
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 337
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_246
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 360
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_247
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 344
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_248
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 337
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_249
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 354
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_250
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 354
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_251
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 301
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_252
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 301
+        width: 56
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_253
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 300
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_254
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 320
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_255
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 319
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_256
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 319
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_257
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 314
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_258
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 317
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_259
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 338
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_260
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 338
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_261
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 295
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_262
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 291
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_263
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 291
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_264
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 289
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_265
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 287
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_266
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 307
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_267
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 307
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_268
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 307
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_269
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 307
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_270
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 265
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_271
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 265
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_272
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 260
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_273
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 272
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_274
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 273
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_275
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 274
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_276
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 273
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_277
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 263
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_278
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 265
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_279
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 274
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_280
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 273
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_281
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 272
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_282
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 272
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_283
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 271
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_284
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 272
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_285
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 217
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_286
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 218
+        width: 56
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_287
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 218
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_288
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 218
+        width: 56
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_289
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 242
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_290
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 242
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_291
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 239
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_292
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 239
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_293
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 243
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_294
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 244
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_295
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 244
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_296
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 246
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_297
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 246
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_298
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 242
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_299
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 241
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_300
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 205
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_301
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 206
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_302
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 209
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_303
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 204
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_304
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 203
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_305
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 203
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_306
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 218
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_307
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 219
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_308
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 219
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_309
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 218
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_310
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 218
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_311
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 197
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_312
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 197
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_313
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 197
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_314
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 197
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_315
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_316
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 197
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_317
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 206
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_318
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 197
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_319
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 197
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_320
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 197
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_321
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 197
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_322
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 200
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_323
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 200
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_324
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 200
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_325
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 158
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_326
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 158
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_327
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 158
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_328
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 159
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_329
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 158
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_330
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 159
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_331
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 159
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_332
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 158
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_333
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 181
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_334
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 182
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_335
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 153
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_336
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 146
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_337
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 139
+        width: 16
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_338
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 139
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_339
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 178
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_340
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 155
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_341
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 155
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_342
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 156
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_343
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 155
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_344
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 157
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_345
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 157
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_346
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 157
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_347
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 161
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_348
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 123
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_349
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 122
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_350
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 119
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_351
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 138
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_352
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 144
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_353
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 138
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_354
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 128
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_355
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 128
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_356
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 128
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_357
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 128
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_358
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 144
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_359
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 75
+        width: 16
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_360
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 76
+        width: 16
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_361
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 76
+        width: 16
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_362
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 76
+        width: 16
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_363
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 74
+        width: 18
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_364
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 71
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_365
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 127
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_366
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 122
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_367
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 122
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_368
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 92
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_369
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 94
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_370
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 95
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_371
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 97
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_372
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 97
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_373
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 97
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_374
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 97
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_375
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 92
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_376
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 93
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_377
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 95
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_378
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 93
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_379
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 93
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_380
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 92
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_381
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 93
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_382
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 67
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_383
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 67
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_384
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 67
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_385
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 67
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_386
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 67
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_387
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 66
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_388
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 66
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_389
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 63
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_390
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 62
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_391
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 61
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_392
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 66
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_393
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 66
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_394
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 66
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Enemies_395
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 66
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
