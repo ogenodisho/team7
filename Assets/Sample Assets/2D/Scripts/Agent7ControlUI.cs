@@ -235,18 +235,10 @@ public class Agent7ControlUI : MonoBehaviour
 			}
 		} else if (dead && !exitSceneWait) {
 			if (againPressed) {
-				dead = false;
-				paused = false;
 				Time.timeScale = 1;
-				statsUi.setHp (3);
-				submitted = false;
 				Application.LoadLevel(1);
 			} else if (backPressed) {
-				dead = false;
-				paused = false;
 				Time.timeScale = 1;
-				statsUi.setHp (3);
-				submitted = false;
 				Application.LoadLevel(0);
 			} else if (submitPresssed && !submitted) {
 				submitted = true;
@@ -262,13 +254,9 @@ public class Agent7ControlUI : MonoBehaviour
 			}
 		} else if (end && !exitSceneWait) {
 			if (nextPressed) {
-				end = false;
-				paused = false;
 				Time.timeScale = 1;
 				Application.LoadLevel(1);
 			} else if (backPressed) {
-				end = false;
-				paused = false;
 				Time.timeScale = 1;
 				Application.LoadLevel(0);
 			}
@@ -282,7 +270,6 @@ public class Agent7ControlUI : MonoBehaviour
 			}
 			else if (quitPressed) {
 				// quit to title
-				paused = false;
 				Time.timeScale = 1;
 				Application.LoadLevel(0);
 			}
@@ -403,9 +390,9 @@ public class Agent7ControlUI : MonoBehaviour
 		AchievementManager.Instance.RegisterEvent(AchievementType.Die);
 		dead = true;
 		paused = true;
-		Time.timeScale = 0;
 		exitSceneWait = true;
 		submitText = "Submit Score";
+		Time.timeScale = 0;
 	}
 	
 }
