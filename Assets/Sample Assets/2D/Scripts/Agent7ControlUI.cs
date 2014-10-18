@@ -23,7 +23,6 @@
 		
 		private float m_waitInSeconds = 30.0f;
 		private float StartTime = 0.0f; 
-		public GameObject playerObject = null;
 		
 		bool fingerOnTrigger = false;
 		bool fingerOnJump = false;
@@ -314,20 +313,6 @@
 		}
 		
 		void FixedUpdate() {
-		
-			 // Wait until its time
-			if(StartTime <= Time.time){
-				 // Make it visible
-				 if(playerObject.renderer.enabled == false){
-					 playerObject.renderer.enabled = true;
-				 } 
-				 // Make it invisible
-				 else {
-					 playerObject.renderer.enabled = false;
-				 }
-			 // Make it wait another 30 seconds until we switch it again.
-			 StartTime = Time.time + m_waitInSeconds;
-		 }
 			
 			// count the timer down for the pickups if applicable
 			if (hasFireRatePickup) {
@@ -424,19 +409,20 @@
 			} else if (collider.gameObject.name.Equals ("X2MissilesPickup")) {
 					Debug.Log ("X2 Missile Damage!");
 					hasX2MissilesPickup = true;
-					Destroy (collider.gameObject, 0);
-					// this pickup lasts for 10 seconds
+					PickupScript pus =(PickupScript) collider.gameObject.GetComponent(typeof(PickupScript));
+					pus.setCollected();
 					X2MissilesPickupTimeLeft = 10f;
 			} else if (collider.gameObject.name.Equals ("InvulnerabilityPickup")) {
 					Debug.Log ("INVULNERABLE!");
 					hasInvulnerabilityPickup = true;
-					Destroy (collider.gameObject, 0);
-					// this pickup lasts for 10 seconds
+					PickupScript pus =(PickupScript) collider.gameObject.GetComponent(typeof(PickupScript));
+					pus.setCollected();
 					invulnerabilityTimeLeft = 10f;	
 			} else if (collider.gameObject.name.Equals ("FireRatePickup")) {
 					Debug.Log ("MORE FIREPOWER!");
 					hasFireRatePickup = true;
-					Destroy (collider.gameObject, 0);
+					PickupScript pus =(PickupScript) collider.gameObject.GetComponent(typeof(PickupScript));
+					pus.setCollected();
 					// this pickup lasts for 10 seconds
 					fireRateTimeLeft = 10f;
 			} else if (collider.gameObject.name.Equals ("Door")) {
@@ -445,7 +431,7 @@
 					paused = true;
 					Time.timeScale = 0;
 					exitSceneWait = true;
-			}else if (collider.gameObject.name.Equals ("DNACollectible")) {
+			} else if (collider.gameObject.name.Equals ("DNACollectible")) {
 					Debug.Log ("Got a DNACollectible");
 					Destroy (collider.gameObject, 0);
 					character.GainScore(10);
