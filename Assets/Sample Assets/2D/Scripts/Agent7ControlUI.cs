@@ -60,6 +60,9 @@ public class Agent7ControlUI : MonoBehaviour
 	public static bool hasInvulnerabilityPickup = false;
 	private float invulnerabilityTimeLeft = 0f;
 
+	public static bool hasX2MissilesPickup = false;
+	private float X2MissilesPickupTimeLeft = 0f;
+
 	private bool exitSceneWait = false;
 	private float timer = 0.0f;
 	private float timerMax = 1.0f;
@@ -290,6 +293,12 @@ public class Agent7ControlUI : MonoBehaviour
 				hasInvulnerabilityPickup = false;
 			}
 		}
+		if (hasX2MissilesPickup) {
+			X2MissilesPickupTimeLeft -= Time.deltaTime;
+			if (X2MissilesPickupTimeLeft <= 0) {
+				hasX2MissilesPickup = false;
+			}
+		}
 	}
 
 	// This method is called by Unity and just draws the boxes
@@ -352,18 +361,18 @@ public class Agent7ControlUI : MonoBehaviour
 		}
 	}
 	void OnTriggerEnter2D(Collider2D collider) {
-		if (collider.gameObject.name.Equals ("Fire")) {
-				Debug.Log ("-1 HP!");
-				character.LoseHealth ();
-				character.LoseScore (10);
-		} else if (collider.gameObject.name.Equals ("HealthPickup")) {
+		if (collider.gameObject.name.Equals ("HealthPickup")) {
 				// Agent_7 collided with a health pickup. Increment health
 				// and destroy the pickup
 				Debug.Log ("+1 HP!");
 				character.GainHealth ();
 				Destroy (collider.gameObject, 0);
-		} else if (collider.gameObject.name.Equals ("x2Pickup")) {
-		
+		} else if (collider.gameObject.name.Equals ("X2MissilesPickup")) {
+				Debug.Log ("X2 Missile Damage!");
+				hasX2MissilesPickup = true;
+				Destroy (collider.gameObject, 0);
+				// this pickup lasts for 10 seconds
+				X2MissilesPickupTimeLeft = 10f;
 		} else if (collider.gameObject.name.Equals ("InvulnerabilityPickup")) {
 				Debug.Log ("INVULNERABLE!");
 				hasInvulnerabilityPickup = true;

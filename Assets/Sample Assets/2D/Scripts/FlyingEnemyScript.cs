@@ -40,9 +40,12 @@ public class FlyingEnemyScript : MonoBehaviour {
 	}
 
 	void FixedUpdate() {
-		if (Mathf.Abs(playerScript.transform.position.x - transform.position.x) > 20f && !activated) {
+		if (Mathf.Abs(playerScript.transform.position.x - transform.position.x) > 20f) {
+			if (!activated) {
+				return;
+			}
+		} else {
 			activated = true;
-			return;
 		}
 		if (!skyfall) {
 			translation = playerScript.transform.position - transform.position;

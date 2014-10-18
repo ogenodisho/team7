@@ -18,6 +18,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 	[SerializeField] LayerMask whatIsGround;			// A mask determining what is ground to the character
 
 	public Transform MissilePrefab;
+	public Transform SuperMissilePrefab;
 
 	Transform groundCheck;								// A position marking where to check if the player is grounded.
 	float groundedRadius = .2f;							// Radius of the overlap circle to determine if grounded
@@ -256,10 +257,10 @@ public class PlatformerCharacter2D : MonoBehaviour
 
 		// Create the missile.
 		if (facingRight) {
-			Instantiate (MissilePrefab, firePoint.position, firePoint.rotation);
+			Instantiate (Agent7ControlUI.hasX2MissilesPickup ? SuperMissilePrefab : MissilePrefab, firePoint.position, firePoint.rotation);
 		} else {
 			// If Agent_7 is not facing right, rotate the missile prefab 180 around the z-axis
-			Instantiate (MissilePrefab, firePoint.position, rotateOneEightyAroundZ * firePoint.rotation);
+			Instantiate (Agent7ControlUI.hasX2MissilesPickup ? SuperMissilePrefab : MissilePrefab, firePoint.position, rotateOneEightyAroundZ * firePoint.rotation);
 		}
 		audio.Play ();
 		// achievements
