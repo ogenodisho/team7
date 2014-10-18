@@ -23,6 +23,8 @@ public class Enemy1Behaviour : MonoBehaviour {
 
 	int counter = 0;	
 
+	Animator anim;
+
 	public int getHealth() {
 		return health;
 	}
@@ -30,6 +32,7 @@ public class Enemy1Behaviour : MonoBehaviour {
 	void Awake() {
 		GameObject thePlayer = GameObject.Find("Agent_7");
 		playerScript = thePlayer.GetComponent<PlatformerCharacter2D>();
+		anim = GetComponent<Animator>();
 	}
 
 
@@ -80,6 +83,7 @@ public class Enemy1Behaviour : MonoBehaviour {
 
 			// decrement health
 			health -= 1;
+			anim.SetBool ("GotHit", true);
 			if (health == 0) {
 				// Destroy the enemy if his health is 0 and gain score
 				Destroy (transform.gameObject);

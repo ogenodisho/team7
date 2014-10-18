@@ -67,9 +67,11 @@ public class KogScript : MonoBehaviour {
 	}
 
 	void FixedUpdate() {
+		Debug.Log (playerScript.getOozed());
 		// Dont interact if too far away or if agent_7 is already oozed
 		if (Mathf.Abs(playerScript.transform.position.x - transform.position.x) >= 20f 
 		    || playerScript.getOozed()) {
+			anim.SetBool("Attack", false);
 			return;
 		}
 
