@@ -67,6 +67,8 @@ public class PlayServicesLoginUI : MonoBehaviour
 			//AchievementManager.Instance.GetType(); // load achievements
 			print("successfully authenicated");
 		} else {
+			isLoggedIn = false;
+			PlayerPrefs.SetInt(LOGGED_KEY, 0);
 			print("failed to authenicate");
 		}
 	}
