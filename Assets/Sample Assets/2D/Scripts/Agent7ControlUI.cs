@@ -20,7 +20,6 @@ public class Agent7ControlUI : MonoBehaviour
 	Rect againButton;
 	Rect backButton;
 	Rect submitButton;
-	Rect endBackground;
 	
 	bool fingerOnTrigger = false;
 	bool fingerOnJump = false;
@@ -45,7 +44,8 @@ public class Agent7ControlUI : MonoBehaviour
 	float lastShotTime = 0f;
 	float shootingThreshold = 0.7f;
 
-	public Texture hsbg;
+	public Texture gameoverBg;
+	public Texture lvlclearedBg;
 
 	// these two variables are just used for type checks
 	private CircleCollider2D dummyCircleCollider;
@@ -60,9 +60,9 @@ public class Agent7ControlUI : MonoBehaviour
 	public static bool hasInvulnerabilityPickup = false;
 	private float invulnerabilityTimeLeft = 0f;
 
-	private bool deadSceneWait = false;
+	private bool exitSceneWait = false;
 	private float timer = 0.0f;
-	private float timerMax = 1.1f;
+	private float timerMax = 1.0f;
 
 	private bool submitted = false;
 	private string submitText = "Submit Score";
@@ -98,9 +98,8 @@ public class Agent7ControlUI : MonoBehaviour
 			resumeButton = new Rect  (Screen.width / 4 + 10,         Screen.height / 6 + 20 + 10       , Screen.width / 2 - 20,   Screen.height / 6  );
 			optionsButton = new Rect (Screen.width / 4 + 10,       Screen.height / 3 + 20 + 10 + 10    , Screen.width / 2 - 20,   Screen.height / 6  );
 			quitButton = new Rect    (Screen.width / 4 + 10,    Screen.height / 2 + 20 + 10 + 10 + 10  , Screen.width / 2 - 20,   Screen.height / 6  );
-
-			endBackground = new Rect(Screen.width / 4     ,             Screen.height / 6             , Screen.width / 2     , 2 * Screen.height / 3);
-			nextButton = new Rect  (Screen.width / 4 + 10,         Screen.height / 6 + 20 + 10       , Screen.width / 2 - 20,   Screen.height / 6  );
+		
+			nextButton = new Rect  (Screen.width * .7f, Screen.height * .8f, Screen.width * .25f, Screen.height * .1f);
 			againButton = new Rect  (Screen.width * .7f, Screen.height * .8f, Screen.width * .25f, Screen.height * .1f);
 			submitButton = new Rect  (Screen.width * .375f, Screen.height * .8f, Screen.width * .25f, Screen.height * .1f);
 			backButton = new Rect (Screen.width * .05f, Screen.height * .8f, Screen.width * .25f, Screen.height * .1f);
@@ -141,11 +140,11 @@ public class Agent7ControlUI : MonoBehaviour
 		}
 
 		// when dead wait one second so accidental button presses can be avoided
-		if (deadSceneWait) {
+		if (exitSceneWait) {
 			timer += Time.unscaledDeltaTime;
 			if (timer >= timerMax) {
 				//Debug.Log("timerMax reached!");
-				deadSceneWait = false;
+				exitSceneWait = false;
 				// reset timer
 				timer = 0.0f;
 			}
@@ -234,7 +233,7 @@ public class Agent7ControlUI : MonoBehaviour
 				paused = true;
 				Time.timeScale = 0;
 			}
-		} else if (dead && !deadSceneWait) {
+		} else if (dead && !exitSceneWait) {
 			if (againPressed) {
 				dead = false;
 				paused = false;
@@ -261,7 +260,7 @@ public class Agent7ControlUI : MonoBehaviour
 					}
 				});
 			}
-		} else if (end) {
+		} else if (end && !exitSceneWait) {
 			if (nextPressed) {
 				end = false;
 				paused = false;
@@ -315,14 +314,14 @@ public class Agent7ControlUI : MonoBehaviour
 			GUI.Button (jumpButton, "Jump");
 			GUI.Button (shootButton, "Shoot");
 		} else if (dead) {
-			GUI.DrawTexture (new Rect (0, 0, Screen.width, Screen.height), hsbg);
-			//GUI.Box (endBackground, "You died!");
+			GUI.DrawTexture (new Rect (0, 0, Screen.width, Screen.height), gameoverBg);
 			GUI.Label (new Rect (0, Screen.height * .5f, Screen.width, Screen.height *.2f), "" + statsUi.getScore(), scoreFont);
 			GUI.Button (againButton, "Try Again");
 			GUI.Button (submitButton, submitText);
 			GUI.Button (backButton, "Quit to Title");
 		} else if (end) {
-			GUI.Box (endBackground, "Congratulation!");
+			GUI.DrawTexture (new Rect (0, 0, Screen.width, Screen.height), lvlclearedBg);
+			GUI.Label (new Rect (0, Screen.height * .5f, Screen.width, Screen.height *.2f), "" + statsUi.getScore(), scoreFont);
 			GUI.Button (nextButton, "Next level");
 			GUI.Button (backButton, "Quit to Title");
 		} else {
@@ -367,35 +366,36 @@ public class Agent7ControlUI : MonoBehaviour
 	}
 	void OnTriggerEnter2D(Collider2D collider) {
 		if (collider.gameObject.name.Equals ("Fire")) {
-						Debug.Log ("-1 HP!");
-						character.LoseHealth ();
-						character.LoseScore (10);
-				} else if (collider.gameObject.name.Equals ("HealthPickup")) {
-						// Agent_7 collided with a health pickup. Increment health
-						// and destroy the pickup
-						Debug.Log ("+1 HP!");
-						character.GainHealth ();
-						Destroy (collider.gameObject, 0);
-				} else if (collider.gameObject.name.Equals ("x2Pickup")) {
-				
-				} else if (collider.gameObject.name.Equals ("InvulnerabilityPickup")) {
-						Debug.Log ("INVULNERABLE!");
-						hasInvulnerabilityPickup = true;
-						Destroy (collider.gameObject, 0);
-						// this pickup lasts for 10 seconds
-						invulnerabilityTimeLeft = 10f;	
-				} else if (collider.gameObject.name.Equals ("FireRatePickup")) {
-						Debug.Log ("MORE FIREPOWER!");
-						hasFireRatePickup = true;
-						Destroy (collider.gameObject, 0);
-						// this pickup lasts for 10 seconds
-						fireRateTimeLeft = 10f;
-				} else if (collider.gameObject.name.Equals ("Door")) {
-						Debug.Log("LEVEL END!");
-						end = true;
-						paused = true;
-						Time.timeScale = 0;
-				}
+				Debug.Log ("-1 HP!");
+				character.LoseHealth ();
+				character.LoseScore (10);
+		} else if (collider.gameObject.name.Equals ("HealthPickup")) {
+				// Agent_7 collided with a health pickup. Increment health
+				// and destroy the pickup
+				Debug.Log ("+1 HP!");
+				character.GainHealth ();
+				Destroy (collider.gameObject, 0);
+		} else if (collider.gameObject.name.Equals ("x2Pickup")) {
+		
+		} else if (collider.gameObject.name.Equals ("InvulnerabilityPickup")) {
+				Debug.Log ("INVULNERABLE!");
+				hasInvulnerabilityPickup = true;
+				Destroy (collider.gameObject, 0);
+				// this pickup lasts for 10 seconds
+				invulnerabilityTimeLeft = 10f;	
+		} else if (collider.gameObject.name.Equals ("FireRatePickup")) {
+				Debug.Log ("MORE FIREPOWER!");
+				hasFireRatePickup = true;
+				Destroy (collider.gameObject, 0);
+				// this pickup lasts for 10 seconds
+				fireRateTimeLeft = 10f;
+		} else if (collider.gameObject.name.Equals ("Door")) {
+				Debug.Log("LEVEL END!");
+				end = true;
+				paused = true;
+				Time.timeScale = 0;
+				exitSceneWait = true;
+		}
 	}
 
 	// This method is called when hp equals 0
@@ -404,7 +404,7 @@ public class Agent7ControlUI : MonoBehaviour
 		dead = true;
 		paused = true;
 		Time.timeScale = 0;
-		deadSceneWait = true;
+		exitSceneWait = true;
 		submitText = "Submit Score";
 	}
 	
