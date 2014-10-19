@@ -26,5 +26,6 @@ public class PickupScript : MonoBehaviour {
 	public void setCollected () {
 		collected = true;
 		gameObject.renderer.enabled = false;
+		AchievementManager.Instance.RegisterEvent(AchievementType.Collectable);
 	}
 }

@@ -130,6 +130,7 @@ public class KogScript : MonoBehaviour {
 				Destroy (transform.gameObject);
 				playerScript.GainScore(200);
 				door.OpenDoor();
+				AchievementManager.Instance.RegisterEvent(AchievementType.Enemy);
 			}
 		}
 	}

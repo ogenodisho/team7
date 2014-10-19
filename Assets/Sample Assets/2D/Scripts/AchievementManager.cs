@@ -10,11 +10,15 @@ public class AchievementManager
 	private string DIE_KEY = "Die_count";
 	private string JUMP_KEY = "Jump_count";
 	private string SHOOT_KEY = "Shoot_count";
+	private string ENEMY_KEY = "Enemy_count";
+	private string COLLECTABLE_KEY = "Collectable_count";
 
 	private int play = 0;
 	private int die = 0;
 	private int jump = 0;
 	private int shoot = 0;
+	private int enemy = 0;
+	private int collectable = 0;
 
 	// list of all achievements
 	private List<Achievement> allAchievements = new List<Achievement>();
@@ -55,8 +59,11 @@ public class AchievementManager
 		die = PlayerPrefs.GetInt(DIE_KEY, 0);
 		jump = PlayerPrefs.GetInt(JUMP_KEY, 0);
 		shoot = PlayerPrefs.GetInt(SHOOT_KEY, 0);
+		enemy = PlayerPrefs.GetInt(ENEMY_KEY, 0);
+		collectable = PlayerPrefs.GetInt(COLLECTABLE_KEY, 0);
 
-		//Debug.Log("Achievement stats; play: " + play + "; die: " + die + "; jump: " + jump + "; shoot: " + shoot);
+		//Debug.Log("Achievement stats; play: " + play + "; die: " + die + "; jump: " + jump
+		//+ "; shoot: " + shoot + "; enemy: " + enemy + "; collectable: " + collectable);
 		
 		// all achievements
 		allAchievements.Add(new Achievement("CgkIltz5q7wNEAIQCA", AchievementType.Play, 2, "Second Time Playing!"));
@@ -102,11 +109,22 @@ public class AchievementManager
 			count = shoot;
 			PlayerPrefs.SetInt(SHOOT_KEY, shoot);
 			break;
+		case AchievementType.Enemy:
+			enemy++;
+			count = enemy;
+			PlayerPrefs.SetInt(ENEMY_KEY, enemy);
+			break;
+		case AchievementType.Collectable:
+			collectable++;
+			count = collectable;
+			PlayerPrefs.SetInt(COLLECTABLE_KEY, collectable);
+			break;
 		}
 
 		checkAchievements (type, count);
 
-		//Debug.Log("Achievement stats; play: " + play + "; die: " + die + "; jump: " + jump + "; shoot: " + shoot);
+		Debug.Log("Achievement stats; play: " + play + "; die: " + die + "; jump: " + jump
+		          + "; shoot: " + shoot + "; enemy: " + enemy + "; collectable: " + collectable);
 	}
 
 	// returns an achievement message if just unlocked otherwise null
@@ -174,5 +192,7 @@ public enum AchievementType
 	Play,
 	Die,
 	Jump,
-	Shoot
+	Shoot,
+	Enemy,
+	Collectable
 }

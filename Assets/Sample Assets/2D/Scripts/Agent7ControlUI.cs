@@ -435,6 +435,7 @@
 					Debug.Log ("Got a DNACollectible");
 					Destroy (collider.gameObject, 0);
 					character.GainScore(10);
+					AchievementManager.Instance.RegisterEvent(AchievementType.Collectable);
 			} 
 		}
 

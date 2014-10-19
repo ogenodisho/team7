@@ -74,6 +74,7 @@ public class FlyingEnemyScript : MonoBehaviour {
 				// Destroy the enemy if his health is 0 and gain score
 				Destroy (transform.gameObject);
 				playerScript.GainScore(50);
+				AchievementManager.Instance.RegisterEvent(AchievementType.Enemy);
 			}
 		} else if (collision.collider.name.Equals("Agent_7")) {
 			// the flying enemy suicided into agent 7. You lose hp and you get no score.
