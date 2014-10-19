@@ -36,13 +36,14 @@ public class PlayServicesLoginUI : MonoBehaviour
 			if (timer >= timerMax) { // 2 seconds
 				//Debug.Log("timerMax reached!");
 				isWorking = false;
-				if (isLoggedIn) {
-					button = "Logout";
-				} else {
-					button = "Login";
-				}
 				// reset timer
 				timer = 0.0f;
+			}
+		} else {
+			if (isLoggedIn) {
+				button = "Logout";
+			} else {
+				button = "Login";
 			}
 		}
 	}
