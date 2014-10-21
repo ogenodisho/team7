@@ -408,10 +408,13 @@
 			if (collider.gameObject.name.Equals ("HealthPickup")) {
 					// Agent_7 collided with a health pickup. Increment health
 					// and destroy the pickup
-					Debug.Log ("+1 HP!");
-					character.GainHealth ();
-					Destroy (collider.gameObject, 0);
-					
+					if (statsUi.getHp() == 3){
+						Debug.Log ("CAN'T GAIN HEALTH");
+					} else {
+						Debug.Log ("+1 HP!");
+						character.GainHealth ();
+						Destroy (collider.gameObject, 0);
+					}				
 			} else if (collider.gameObject.name.Equals ("X2MissilesPickup")) {
 					Debug.Log ("X2 Missile Damage!");
 					hasX2MissilesPickup = true;
