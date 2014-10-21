@@ -4,7 +4,7 @@ using System.Collections;
 public class KogScript : MonoBehaviour {
 	
 	// Variable determining the direction the enemy is facing, initially 'left'
-	bool facingRight = true;							
+	public bool facingRight = true;							
 	
 	// The fastest the player can travel in the x axis.
 	[SerializeField] float maxSpeed = 3f;				
@@ -13,6 +13,7 @@ public class KogScript : MonoBehaviour {
 	[SerializeField] LayerMask whatIsGround;
 
 	public Transform OozePrefab;
+	public Transform DamagingPrefab;
 
 	Transform oozeFirePoint;
 
@@ -28,7 +29,8 @@ public class KogScript : MonoBehaviour {
 	public Texture hpFull;
 	public Texture hpEmpty;
 
-	float attackTimer = 4.8f;
+	float attackTimer = 2f;
+	int attackCounter = 0;
 	float animTimer = 0.8f;
 	bool startAnim = false;
 	bool instantiated = false;
@@ -67,36 +69,36 @@ public class KogScript : MonoBehaviour {
 	}
 
 	void FixedUpdate() {
-		// Dont interact if too far away or if agent_7 is already oozed
-		if (Mathf.Abs(playerScript.transform.position.x - transform.position.x) >= 20f 
-		    || playerScript.getOozed()) {
+		// Dont interact if too far away or if agent_7 is far away
+		if (Mathf.Abs(playerScript.transform.position.x - transform.position.x) >= 30f) {
 			anim.SetBool("Attack", false);
 			return;
-		}
-
-		// control how often kog attacks. In this case its 3 seconds.
-		// count three seconds then start the animation.
-		attackTimer -= Time.deltaTime;
-		if (attackTimer <= 0) {
-			attackTimer = 4.8f; // reset the attack timer
-			anim.SetBool("Attack", true);
-			startAnim = true;
-		}
-
-		// When the animation has started, Instantiate the goo prefab half
-		// way through the animation because it looks more realistic that way.
-		// Instantiate it once other wise many will be instantiated from 0 to 0.4f seconds.
-		// Also, don't instantiate it if agent7 is already oozed because that's too strong
-		if (startAnim) {
-			animTimer -= Time.deltaTime;
-			if (animTimer <= 0.4f && !instantiated) {
-				Instantiate (OozePrefab, oozeFirePoint.position, oozeFirePoint.rotation);
-				instantiated = true;
-			} else if (animTimer <= 0f) { // The animation has ended, set attacking to false
-				animTimer = 0.8f; // reset the animation timer
-				anim.SetBool("Attack", false);
-				startAnim = false;
-				instantiated = false;
+		} else {
+			// control how often kog attacks. In this case its 3 seconds.
+			// count three seconds then start the animation.
+			attackTimer -= Time.deltaTime;
+			if (attackTimer <= 0) {
+				attackTimer = 2f; // reset the attack timer
+				anim.SetBool("Attack", true);
+				startAnim = true;
+			}
+			
+			// When the animation has started, Instantiate the prefab half
+			// way through the animation because it looks more realistic that way.
+			// Instantiate it once other wise many will be instantiated from 0 to 0.4f seconds.
+			// Also, don't instantiate it if agent7 is already oozed because that's too strong
+			if (startAnim) {
+				animTimer -= Time.deltaTime;
+				if (animTimer <= 0.4f && !instantiated) {
+					Instantiate (attackCounter % 3 == 0 ? OozePrefab : DamagingPrefab, oozeFirePoint.position, oozeFirePoint.rotation);
+					attackCounter++;
+					instantiated = true;
+				} else if (animTimer <= 0f) { // The animation has ended, set attacking to false
+					animTimer = 0.8f; // reset the animation timer
+					anim.SetBool("Attack", false);
+					startAnim = false;
+					instantiated = false;
+				}
 			}
 		}
 	}
