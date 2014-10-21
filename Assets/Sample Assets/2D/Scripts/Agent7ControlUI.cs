@@ -75,6 +75,8 @@
 
 		GUIStyle scoreFont;
 
+		int currentLevel;	// Used to store current level 
+
 		//public static bool testingUsingUnityRemote = true;
 		
 		void Awake()
@@ -118,6 +120,7 @@
 				backButton = new Rect (Screen.width * .05f, Screen.height * .8f, Screen.width * .25f, Screen.
 	height * .1f);
 				
+				currentLevel = Application.loadedLevel;
 
 				
 			/*} else {
@@ -139,7 +142,7 @@
 		}
 		
 		void Update () {
-			
+					
 			leftPressed = false;
 			rightPressed = false;
 			jumpPressed = false;
@@ -267,7 +270,7 @@
 			} else if (dead && !exitSceneWait) {
 				if (againPressed) {
 					Time.timeScale = 1;
-					Application.LoadLevel(1);
+					Application.LoadLevel(currentLevel);
 				} else if (backPressed) {
 					Time.timeScale = 1;
 					Application.LoadLevel(0);
@@ -286,7 +289,10 @@
 			} else if (end && !exitSceneWait) {
 				if (nextPressed) {
 					Time.timeScale = 1;
-					Application.LoadLevel(1);
+					if(++currentLevel > 4) {
+						currentLevel = 1;
+					}
+					Application.LoadLevel(currentLevel);
 				} else if (backPressed) {
 					Time.timeScale = 1;
 					Application.LoadLevel(0);

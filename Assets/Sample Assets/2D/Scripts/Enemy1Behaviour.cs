@@ -17,6 +17,8 @@ public class Enemy1Behaviour : MonoBehaviour {
 
 	PlatformerCharacter2D playerScript;
 
+	DoorScript door;
+
 	public int health = 2;
 
 	public Texture tex;
@@ -33,6 +35,8 @@ public class Enemy1Behaviour : MonoBehaviour {
 		GameObject thePlayer = GameObject.Find("Agent_7");
 		playerScript = thePlayer.GetComponent<PlatformerCharacter2D>();
 		anim = GetComponent<Animator>();
+		thePlayer = GameObject.Find ("Door");
+		door = thePlayer.GetComponent<DoorScript> ();
 	}
 
 
@@ -93,6 +97,9 @@ public class Enemy1Behaviour : MonoBehaviour {
 				Destroy (transform.gameObject);
 				playerScript.GainScore(50);
 				AchievementManager.Instance.RegisterEvent(AchievementType.Enemy);
+				if(transform.localScale.y == 2){
+					door.OpenDoor();
+				}
 			}
 		}
 	}
