@@ -41,7 +41,7 @@ public class WelcomeMenuScene : MonoBehaviour{
 			showMainDialog();
 			break;
 		case 1:
-			//showPlayDialog();
+			ShowPlayDialog();
 			break;
 		case 2:
 			//showLeaderBoardDialog();
@@ -63,7 +63,6 @@ public class WelcomeMenuScene : MonoBehaviour{
 		//Display 'Play' button
 		if (GUI.Button (new Rect (Screen.width * .17f, Screen.height * .6f, Screen.width * .25f, Screen.height * .1f), "Play")){
 			mode = 1;
-			Application.LoadLevel(1);	
 		}
 		
 		//Display 'Leaderboards' button
@@ -101,6 +100,35 @@ public class WelcomeMenuScene : MonoBehaviour{
 			GUI.Box (new Rect(Screen.width / 4, Screen.height / 6, Screen.width / 2, Screen.height / 7), "Please login");
 		}
 	}
+
+	// Displays the dialog message asking whether the player wants to play the game in Story mode or 
+	// Endless Runner mode
+	public void ShowPlayDialog(){
+
+		// Create GUI group
+		GUI.BeginGroup (new Rect ((Screen.width / 2) - 200, (Screen.height / 2) - 100, 400, 200));
+
+		// Creates a dialog box
+		GUI.Box (new Rect (0, 0, 400, 200), "");
+
+		// Display dialog message asking what the player wants to play
+		GUI.Label (new Rect ((400 - 230) / 2, (100 - 30) / 2, 260, 310), "Which game mode do you want to play?");
+
+		// Displays 'Story' button 
+		if (GUI.Button (new Rect ((280 - 230) / 2, (200 - 30) / 2 + 40, 150, 30), "Story")) {
+				Application.LoadLevel (1);	
+		}
+
+		// Displays 'Endless Runner' button 
+		if (GUI.Button (new Rect ((280 - 230) / 2 + 200, (200 - 30) / 2 + 40, 150, 30), "Endless Runner")) {
+				Application.LoadLevel (6);	
+		}
+
+		GUI.EndGroup ();
+
+	}
+
+
 
 	// Displays the dialog message when exit button is clicked
 	public void ShowExitDialogBox(){
