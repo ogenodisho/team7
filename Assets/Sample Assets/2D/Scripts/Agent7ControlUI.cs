@@ -517,5 +517,9 @@
 			submitText = "Submit Score";
 			Time.timeScale = 0;
 		}
+
+		public int getCurrentLevel(){
+			return currentLevel;
+		}
 		
 	}

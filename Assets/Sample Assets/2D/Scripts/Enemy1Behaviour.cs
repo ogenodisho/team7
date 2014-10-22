@@ -21,6 +21,7 @@ public class Enemy1Behaviour : MonoBehaviour {
 	public Transform healthPickup;
 
 	PlatformerCharacter2D playerScript;
+	Agent7ControlUI controlUI;
 
 	DoorScript door;
 
@@ -39,6 +40,7 @@ public class Enemy1Behaviour : MonoBehaviour {
 	void Awake() {
 		GameObject thePlayer = GameObject.Find("Agent_7");
 		playerScript = thePlayer.GetComponent<PlatformerCharacter2D>();
+		controlUI = thePlayer.GetComponent<Agent7ControlUI> ();
 		anim = GetComponent<Animator>();
 		thePlayer = GameObject.Find ("Door");
 		door = thePlayer.GetComponent<DoorScript> ();
@@ -102,7 +104,10 @@ public class Enemy1Behaviour : MonoBehaviour {
 				Destroy (transform.gameObject);
 				playerScript.GainScore(50);
 				AchievementManager.Instance.RegisterEvent(AchievementType.Enemy);
-				if(transform.localScale.y == 2){
+				if(transform.localScale.y == 2 && controlUI.getCurrentLevel() == 1){
+					door.OpenDoor();
+				}
+				if(transform.localScale.y == 2.5 && controlUI.getCurrentLevel() == 2) {
 					door.OpenDoor();
 				}
 				//Drop random item
