@@ -42,6 +42,11 @@ public class PlatformerCharacter2D : MonoBehaviour
 
 	public AudioSource audio;
 	public AudioClip jump;
+	public AudioClip gainScore;
+	public AudioClip x2shoot;
+	public AudioClip gainHealth;
+	public AudioClip getHurt;
+
 
 	float cooldownPeriod = 0f;
 
@@ -262,7 +267,11 @@ public class PlatformerCharacter2D : MonoBehaviour
 			// If Agent_7 is not facing right, rotate the missile prefab 180 around the z-axis
 			Instantiate (Agent7ControlUI.hasX2MissilesPickup ? SuperMissilePrefab : MissilePrefab, firePoint.position, rotateOneEightyAroundZ * firePoint.rotation);
 		}
-		audio.Play ();
+		if (Agent7ControlUI.hasX2MissilesPickup == true) {
+			audio.PlayOneShot(x2shoot, 0.25f);
+		} else {
+			audio.Play ();
+		}
 		// achievements
 		AchievementManager.Instance.RegisterEvent (AchievementType.Shoot);
 	}
@@ -285,10 +294,12 @@ public class PlatformerCharacter2D : MonoBehaviour
 		if (!Agent7ControlUI.hasInvulnerabilityPickup && cooldownPeriod == 0) {
 			statsUi.setHp (statsUi.getHp() - 1);
 			cooldownPeriod = 1f;
+			audio.PlayOneShot(getHurt,0.25f);
 		}
 	}
 
 	public void GainHealth() {
+		audio.PlayOneShot (gainHealth, 0.5f);
 		statsUi.setHp (statsUi.getHp() + 1);
 	}
 
@@ -299,6 +310,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 	}
 	
 	public void GainScore(int amount) {
+		audio.PlayOneShot (gainScore);
 		statsUi.setScore (statsUi.getScore() + amount);
 	}
 }

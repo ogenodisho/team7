@@ -437,7 +437,7 @@
 					hasX2MissilesPickup = true;
 					PickupScript pus =(PickupScript) collider.gameObject.GetComponent(typeof(PickupScript));
 					if(!pus.getCollected()){
-						audio.PlayOneShot(pickupFX);
+						audio.PlayOneShot(pickupFX,0.5f);
 					}
 					pus.setCollected();
 					X2MissilesPickupTimeLeft = 10f;
@@ -446,7 +446,7 @@
 					hasInvulnerabilityPickup = true;
 					PickupScript pus =(PickupScript) collider.gameObject.GetComponent(typeof(PickupScript));
 					if(!pus.getCollected()){
-						audio.PlayOneShot(pickupFX);
+						audio.PlayOneShot(pickupFX,0.5f);
 					}
 					pus.setCollected();
 					invulnerabilityTimeLeft = 10f;	
@@ -455,7 +455,7 @@
 					hasFireRatePickup = true;
 					PickupScript pus =(PickupScript) collider.gameObject.GetComponent(typeof(PickupScript));
 					if(!pus.getCollected()){
-						audio.PlayOneShot(pickupFX);
+						audio.PlayOneShot(pickupFX,0.5f);
 					}
 					pus.setCollected();
 					// this pickup lasts for 10 seconds
