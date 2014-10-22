@@ -94,7 +94,7 @@ public class WelcomeMenuScene : MonoBehaviour{
 			GUI.Box (new Rect(Screen.width / 4, Screen.height / 6, Screen.width / 2, Screen.height / 7), "Please login");
 		}
 		// sound options
-		if (GUI.Button (new Rect (Screen.width * .887f, Screen.height * .91f, 150, 50), soundBtnText)) {
+		if (GUI.Button (new Rect (0, 0, 150, 50), soundBtnText)) {
 			if (sound) { // sound is currently on, so turn off
 				soundBtnText = SOUND_OFF;
 				sound = false;
