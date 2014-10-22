@@ -210,7 +210,7 @@ Screen.height / 2 - 20, Screen.width / 6 );
 				}
 			}
 		}
-		if (!paused) {
+		if (!paused && !scout) {
 			// Perform appropriate logic based on pressed buttons
 			if (rightPressed) {
 				character.Move (1, false, false);
