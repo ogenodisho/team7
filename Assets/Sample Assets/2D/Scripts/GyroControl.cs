@@ -40,6 +40,10 @@ public class GyroControl : MonoBehaviour
 			currentBounds = new SceneBounds(0.0f, 130.0f, 65.0f, 0.0f);
 		} else if (Application.loadedLevelName == "EndlessRunnerSpacious") {
 			currentBounds = new SceneBounds(0.0f, 220.0f, 15.0f, -15.0f);
+		} else if (Application.loadedLevelName == "EndlessRunnerCorridors") {
+			currentBounds = new SceneBounds(0.0f, 545.0f, 15.0f, -340.0f);
+		} else if (Application.loadedLevelName == "EndlessRunnerValley") {
+			currentBounds = new SceneBounds(-10.0f, 140.0f, 15.0f, -95.0f);
 		} else { // default
 			currentBounds = new SceneBounds(-20.0f, 220.0f, 70.0f, -15.0f);
 		}
