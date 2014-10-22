@@ -25,21 +25,19 @@ public class GyroControl : MonoBehaviour
 		}
 
 		if (Application.loadedLevelName == "TutorialLevelScene") {
-			currentBounds = new SceneBounds(-10.0f, 115.0f, 25.0f, -1.0f); // tutorial bounds
-		}
-	}
-
-	float getX() {
-		return (gs.gravity.x + tiltCalibrationX) / slowGravityFactorX;
-	}
-
-	float getY() {
-		return (gs.gravity.y + tiltCalibrationY) / slowGravityFactorY;
+			currentBounds = new SceneBounds(-10.0f, 115.0f, 25.0f, -1.0f);
+		} else if (Application.loadedLevelName == "EasyLevelScene") {
+			currentBounds = new SceneBounds(-20.0f, 60.0f, 15.0f, -1.0f);
+		} else if (Application.loadedLevelName == "NormalLevelScene") {
+			currentBounds = new SceneBounds(-15.0f, 100.0f, 70.0f, -1.0f);
+		} else if (Application.loadedLevelName == "HardLevelScene") {
+			currentBounds = new SceneBounds(-20.0f, 60.0f, 15.0f, -1.0f);
+		} 
 	}
 
 	public Vector3 transformPosition(Vector3 position) {
-		position.x += this.getX ();
-		position.y += this.getY ();
+		position.x += ((gs.gravity.x + tiltCalibrationX) / slowGravityFactorX);
+		position.y += ((gs.gravity.y + tiltCalibrationY) / slowGravityFactorY);
 
 		// bounds checking
 		if (position.x >= currentBounds.right) { // right
