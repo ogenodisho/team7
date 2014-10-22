@@ -42,7 +42,6 @@ public class PlatformerCharacter2D : MonoBehaviour
 
 	public AudioSource audio;
 	public AudioClip jump;
-	public AudioClip gainScore;
 	public AudioClip x2shoot;
 	public AudioClip gainHealth;
 	public AudioClip getHurt;
@@ -310,7 +309,6 @@ public class PlatformerCharacter2D : MonoBehaviour
 	}
 	
 	public void GainScore(int amount) {
-		audio.PlayOneShot (gainScore);
 		statsUi.setScore (statsUi.getScore() + amount);
 	}
 }
