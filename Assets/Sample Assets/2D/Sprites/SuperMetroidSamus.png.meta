@@ -22,10 +22,10 @@ TextureImporter:
     21300034: SuperMetroidSamus_16
     21300036: SuperMetroidSamus_17
     21300038: SuperMetroidSamus_18
-    21300040: SuperMetroidSamus_19
-    21300042: SuperMetroidSamus_20
-    21300044: SuperMetroidSamus_21
-    21300046: SuperMetroidSamus_22
+    21300040: kogdamage1
+    21300042: kogdamage2
+    21300044: kogdamage3
+    21300046: kogdamage4
     21300048: SuperMetroidSamus_23
     21300050: SuperMetroidSamus_24
     21300052: SuperMetroidSamus_25
@@ -309,7 +309,7 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -3
-  maxTextureSize: 2048
+  maxTextureSize: 4096
   textureSettings:
     filterMode: 0
     aniso: 1
@@ -520,7 +520,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SuperMetroidSamus_19
+    - name: kogdamage1
       rect:
         serializedVersion: 2
         x: 278
@@ -530,7 +530,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SuperMetroidSamus_20
+    - name: kogdamage2
       rect:
         serializedVersion: 2
         x: 302
@@ -540,7 +540,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SuperMetroidSamus_21
+    - name: kogdamage3
       rect:
         serializedVersion: 2
         x: 324
@@ -550,7 +550,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SuperMetroidSamus_22
+    - name: kogdamage4
       rect:
         serializedVersion: 2
         x: 345

@@ -73,6 +73,8 @@
 		private bool submitted = false;
 		private string submitText = "Submit Score";
 
+		private System.Random rng = new System.Random ();
+
 		GUIStyle scoreFont;
 
 		int currentLevel;	// Used to store current level 
@@ -408,10 +410,24 @@
 			if (collider.gameObject.name.Equals ("HealthPickup")) {
 					// Agent_7 collided with a health pickup. Increment health
 					// and destroy the pickup
-					Debug.Log ("+1 HP!");
-					character.GainHealth ();
-					Destroy (collider.gameObject, 0);
-					
+					if (statsUi.getHp() == 3){
+						Debug.Log ("CAN'T GAIN HEALTH");
+					} else {
+						Debug.Log ("+1 HP!");
+						character.GainHealth ();
+						Destroy (collider.gameObject, 0);
+					}
+
+			// Door collision logic; has different outcome depending on whether game is in Story
+			// mode or Endless Runner mode
+			} else if (collider.gameObject.name.Equals ("Door")) {
+					Debug.Log ("End of level reached...");
+					// For an endless runner level...
+					character.LoseHealth (); //debug, remove eventually (testing why/where collision event not occuring)
+					if (Application.loadedLevelName.StartsWith("EndlessRunner")) {
+						// Go to a random level
+						Application.LoadLevel (rng.Next(5,7));
+					}					
 			} else if (collider.gameObject.name.Equals ("X2MissilesPickup")) {
 					Debug.Log ("X2 Missile Damage!");
 					hasX2MissilesPickup = true;
