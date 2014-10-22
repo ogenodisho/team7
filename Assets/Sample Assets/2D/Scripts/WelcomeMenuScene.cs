@@ -19,6 +19,9 @@ public class WelcomeMenuScene : MonoBehaviour{
 	public const string SOUND_ON = "Sound: ON";
 	public const string SOUND_OFF = "Sound: OFF";
 	private string soundBtnText = SOUND_ON;
+
+	public const string GAME_MODE = "Game_mode"; // 0 = story, 1 = endless
+	public const string SCORE_KEY = "Current_score";
 	
 	void Update(){
 		if (pleaseLogin) {
@@ -43,6 +46,9 @@ public class WelcomeMenuScene : MonoBehaviour{
 			soundBtnText = WelcomeMenuScene.SOUND_OFF;
 			
 		}
+
+		// reset score
+		PlayerPrefs.SetInt(SCORE_KEY, 0);
 
 	}
 
@@ -145,12 +151,14 @@ public class WelcomeMenuScene : MonoBehaviour{
 
 		// Displays 'Story' button 
 		if (GUI.Button (new Rect ((280 - 230) / 2, (200 - 30) / 2 + 40, 150, 30), "Story")) {
-				Application.LoadLevel (1);	
+			Application.LoadLevel (1);
+			PlayerPrefs.SetInt(GAME_MODE, 0);
 		}
 
 		// Displays 'Endless Runner' button 
 		if (GUI.Button (new Rect ((280 - 230) / 2 + 200, (200 - 30) / 2 + 40, 150, 30), "Endless Runner")) {
-				Application.LoadLevel (6);	
+			Application.LoadLevel (6);
+			PlayerPrefs.SetInt(GAME_MODE, 1);
 		}
 
 		GUI.EndGroup ();
