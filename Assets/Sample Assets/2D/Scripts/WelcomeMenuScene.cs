@@ -13,6 +13,7 @@ public class WelcomeMenuScene : MonoBehaviour{
 	bool pleaseLogin = false;
 	private float timer = 0.0f;
 	private float timerMax = 3.0f;
+	
 
 	private bool sound = true;
 	private string soundBtnText = "Sound: ON";
@@ -26,6 +27,8 @@ public class WelcomeMenuScene : MonoBehaviour{
 				// reset timer
 				timer = 0.0f;
 			}
+
+
 		}
 	}
 
@@ -108,12 +111,12 @@ public class WelcomeMenuScene : MonoBehaviour{
 			if (sound) { // sound is currently on, so turn off
 				soundBtnText = "Sound: OFF";
 				sound = false;
-
+				AudioListener.volume = 0f;
 
 			} else { // sound is currently off, so turn on
 				soundBtnText = "Sound: ON";
 				sound = true;
-
+				AudioListener.volume = 1f;
 
 			}
 		}
