@@ -41,10 +41,12 @@ public class Agent7ControlUI : MonoBehaviour
 	bool scout = false; // gyro scout
 	bool storyMode = false;
 	bool endlessMode = false;
+	bool finishedStory = false;
 	float lastShotTime = 0f;
 	float shootingThreshold = 0.7f;
 	public Texture gameoverBg;
 	public Texture lvlclearedBg;
+	public Texture storycleardBg;
 	// these two variables are just used for type checks
 	private CircleCollider2D dummyCircleCollider;
 	private BoxCollider2D dummyBoxCollider;
@@ -278,7 +280,18 @@ Screen.height / 2 - 20, Screen.width / 6 );
 			} else if (backPressed) {
 				Time.timeScale = 1;
 				Application.LoadLevel(0);
-			}
+			} else if (finishedStory && submitPresssed && !submitted) {
+				submitted = true;
+				Social.ReportScore(statsUi.getScore(), "CgkIltz5q7wNEAIQCg", (bool success) => {
+				// handle success or failure
+				if (success) {
+					submitText = "Submitted!";
+				} else {
+					submitted = false;
+					submitText = "Failed, submit again?";
+				}
+			});
+		}
 		} else {
 			if (resumePressed) {
 				paused = false;
@@ -357,10 +370,16 @@ Screen.height / 2 - 20, Screen.width / 6 );
 			GUI.Button (submitButton, submitText);
 			GUI.Button (backButton, "Quit to Title");
 		} else if (end) {
-			GUI.DrawTexture (new Rect (0, 0, Screen.width, Screen.height), lvlclearedBg);
+			if (finishedStory) {
+				GUI.DrawTexture (new Rect (0, 0, Screen.width, Screen.height), storycleardBg);
+				GUI.Button (nextButton, "Start all over again");
+				GUI.Button (submitButton, submitText);
+			} else {
+				GUI.DrawTexture (new Rect (0, 0, Screen.width, Screen.height), lvlclearedBg);
+				GUI.Button (nextButton, "Next level");
+			}
 			GUI.Label (new Rect (0, Screen.height * .5f, Screen.width, Screen.height *.2f), "" + statsUi.
 			           getScore(), scoreFont);
-			GUI.Button (nextButton, "Next level");
 			GUI.Button (backButton, "Quit to Title");
 		} else {
 			GUI.Box(menuBackground, "PAUSED");
@@ -433,6 +452,9 @@ Screen.height / 2 - 20, Screen.width / 6 );
 				// Go to a random level
 				Application.LoadLevel (rng.Next(5,7));
 			} else {
+				if (currentLevel == 4) {
+					finishedStory = true;
+				}
 				Debug.Log("LEVEL END!");
 				end = true;
 				paused = true;
