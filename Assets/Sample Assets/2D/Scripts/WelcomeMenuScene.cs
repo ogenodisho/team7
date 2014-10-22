@@ -16,7 +16,9 @@ public class WelcomeMenuScene : MonoBehaviour{
 	
 
 	private bool sound = true;
-	private string soundBtnText = "Sound: ON";
+	public const string SOUND_ON = "Sound: ON";
+	public const string SOUND_OFF = "Sound: OFF";
+	private string soundBtnText = SOUND_ON;
 	
 	void Update(){
 		if (pleaseLogin) {
@@ -109,12 +111,12 @@ public class WelcomeMenuScene : MonoBehaviour{
 		// sound options
 		if (GUI.Button (new Rect (Screen.width * .887f, Screen.height * .91f, 150, 50), soundBtnText)) {
 			if (sound) { // sound is currently on, so turn off
-				soundBtnText = "Sound: OFF";
+				soundBtnText = SOUND_OFF;
 				sound = false;
 				AudioListener.volume = 0f;
 
 			} else { // sound is currently off, so turn on
-				soundBtnText = "Sound: ON";
+				soundBtnText = SOUND_ON;
 				sound = true;
 				AudioListener.volume = 1f;
 

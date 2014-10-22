@@ -13,7 +13,7 @@
 		Rect shootButton;
 		Rect menuButton;
 		Rect resumeButton;
-		Rect optionsButton;
+		Rect soundButton;
 		Rect quitButton;
 		Rect menuBackground;
 		Rect nextButton;
@@ -33,7 +33,7 @@
 		bool shootPressed = false;
 		bool menuPressed = false;
 		bool resumePressed = false;
-		bool optionsPressed = false;
+		bool soundPressed = false;
 		bool quitPressed = false;
 		bool nextPressed = false;
 		bool againPressed = false;
@@ -74,6 +74,9 @@
 		private bool submitted = false;
 		private string submitText = "Submit Score";
 
+		private bool sound = true;
+		private string soundBtnText = WelcomeMenuScene.SOUND_ON;
+
 		private System.Random rng = new System.Random ();
 
 		GUIStyle scoreFont;
@@ -113,7 +116,7 @@
 	Screen.width / 2     , 2 * Screen.height / 3);
 				resumeButton = new Rect  (Screen.width / 4 + 10,         Screen.height / 6 + 20 + 10       , 
 	Screen.width / 2 - 20,   Screen.height / 6  );
-				optionsButton = new Rect (Screen.width / 4 + 10,       Screen.height / 3 + 20 + 10 + 10    , 
+			soundButton = new Rect (Screen.width / 4 + 10,       Screen.height / 3 + 20 + 10 + 10    , 
 	Screen.width / 2 - 20,   Screen.height / 6  );
 				quitButton = new Rect    (Screen.width / 4 + 10,    Screen.height / 2 + 20 + 10 + 10 + 10  , 
 	Screen.width / 2 - 20,   Screen.height / 6  );
@@ -141,7 +144,7 @@
 	Screen.height / 2     , 2 * Screen.width / 3);
 				resumeButton = new Rect  (Screen.height / 4 + 10,         Screen.width / 6 + 20 + 10       , 
 	Screen.height / 2 - 20,   Screen.width / 6  );
-				optionsButton = new Rect (Screen.height / 4 + 10,       Screen.width / 3 + 20 + 10 + 10    , 
+				soundButton = new Rect (Screen.height / 4 + 10,       Screen.width / 3 + 20 + 10 + 10    , 
 	Screen.height / 2 - 20,   Screen.width / 6  );
 				quitButton = new Rect    (Screen.height / 4 + 10,    Screen.width / 2 + 20 + 10 + 10 + 10  , 
 	Screen.height / 2 - 20,   Screen.width / 6  );
@@ -156,7 +159,7 @@
 			shootPressed = false;
 			menuPressed = false;
 			resumePressed = false;
-			optionsPressed = false;
+			soundPressed = false;
 			quitPressed = false;
 			nextPressed = false;
 			againPressed = false;
@@ -229,9 +232,9 @@
 	GetTouch(i).position.y, 0))) {
 						resumePressed = true;
 					}
-					if (optionsButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.
+					if (soundButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.
 	GetTouch(i).position.y, 0))) {
-						optionsPressed = true;
+						soundPressed = true;
 					}
 					if (quitButton.Contains(new Vector3(Input.GetTouch(i).position.x, Screen.height-Input.
 	GetTouch(i).position.y, 0))) {
@@ -309,8 +312,8 @@
 					paused = false;
 					Time.timeScale = 1;
 				}
-				else if (optionsPressed) {
-					// options menu
+				else if (soundPressed) {
+
 				}
 				else if (quitPressed) {
 					// quit to title
@@ -383,7 +386,19 @@
 			} else {
 				GUI.Box(menuBackground, "PAUSED");
 				GUI.Button (resumeButton, "Resume");
-				GUI.Button (optionsButton, "Options");
+				if (GUI.Button (soundButton, soundBtnText)) {
+					if (sound) { // sound is currently on, so turn off
+						soundBtnText = WelcomeMenuScene.SOUND_OFF;
+						sound = false;
+						
+						
+					} else { // sound is currently off, so turn on
+						soundBtnText = WelcomeMenuScene.SOUND_ON;
+						sound = true;
+						
+						
+					}
+				}
 				GUI.Button (quitButton, "Quit to Title");
 			}
 		}
