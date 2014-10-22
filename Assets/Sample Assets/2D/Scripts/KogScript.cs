@@ -19,6 +19,8 @@ public class KogScript : MonoBehaviour {
 
 	PlatformerCharacter2D playerScript;
 
+	Agent7ControlUI controlUI;
+
 	DoorScript door;
 
 	public Transform ExplosionPrefab;
@@ -45,6 +47,7 @@ public class KogScript : MonoBehaviour {
 		anim = GetComponent<Animator>();
 		GameObject thePlayer = GameObject.Find("Agent_7");
 		playerScript = thePlayer.GetComponent<PlatformerCharacter2D>();
+		controlUI = thePlayer.GetComponent<Agent7ControlUI> ();
 		thePlayer = GameObject.Find ("Door");
 		door = thePlayer.GetComponent<DoorScript> ();
 		oozeFirePoint = transform.FindChild ("OozeFirePoint");
@@ -131,7 +134,9 @@ public class KogScript : MonoBehaviour {
 				// Destroy the enemy if his health is 0 and gain score
 				Destroy (transform.gameObject);
 				playerScript.GainScore(200);
-				door.OpenDoor();
+				if(controlUI.getCurrentLevel() == 3){
+					door.OpenDoor();
+				}
 				AchievementManager.Instance.RegisterEvent(AchievementType.Enemy);
 			}
 		}
