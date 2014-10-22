@@ -31,7 +31,7 @@ public class GyroControl : MonoBehaviour
 		} else if (Application.loadedLevelName == "NormalLevelScene") {
 			currentBounds = new SceneBounds(-15.0f, 100.0f, 70.0f, -1.0f);
 		} else if (Application.loadedLevelName == "HardLevelScene") {
-			currentBounds = new SceneBounds(-20.0f, 60.0f, 15.0f, -1.0f);
+			currentBounds = new SceneBounds(-5.0f, 75.0f, 40.0f, 0.0f);
 		} else if (Application.loadedLevelName == "EasyKogScene") {
 			currentBounds = new SceneBounds(-15.0f, 445.0f, 25.0f, 0.0f);
 		} else if (Application.loadedLevelName == "EndlessRunnerBeginning") {
