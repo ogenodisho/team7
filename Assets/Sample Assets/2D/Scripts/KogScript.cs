@@ -70,7 +70,7 @@ public class KogScript : MonoBehaviour {
 
 	void FixedUpdate() {
 		// Dont interact if too far away or if agent_7 is far away
-		if (Mathf.Abs(playerScript.transform.position.x - transform.position.x) >= 30f) {
+		if (Mathf.Abs(playerScript.transform.position.x - transform.position.x) >= 18f || (transform.position.y - playerScript.transform.position.y) >= 2f) {
 			anim.SetBool("Attack", false);
 			return;
 		} else {
