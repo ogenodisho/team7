@@ -15,6 +15,13 @@ public class FlyingEnemyScript : MonoBehaviour {
 	private bool activated = false;
 	bool agent7GotOozed = false;
 	private bool skyfall = false;
+
+	private bool soundOnceDROP = false;
+	private bool soundOnceFLY = false;
+	
+	public AudioSource audio;
+	public AudioClip fly;
+	public AudioClip drop;
 	public int getHealth() {
 		return health;
 	}
@@ -48,11 +55,20 @@ public class FlyingEnemyScript : MonoBehaviour {
 			activated = true;
 		}
 		if (!skyfall) {
+			if(!audio.isPlaying){
+				audio.PlayOneShot(fly,0.25f);
+				//		audio.Play ();
+			}
 			translation = playerScript.transform.position - transform.position;
 			translation.x = facingRight ? 5f : -5f;
 			translation.y = 0;
 			transform.Translate (translation * Time.deltaTime * moveSpeed);
 		} else {
+			while(soundOnceDROP == false){
+				audio.Stop();
+				audio.PlayOneShot(drop, 0.25f);
+				soundOnceDROP = true;
+			}
 			transform.Translate (new Vector3(0, -5f, 0) * Time.deltaTime * moveSpeed);
 		}
 	}
@@ -75,12 +91,14 @@ public class FlyingEnemyScript : MonoBehaviour {
 				Destroy (transform.gameObject);
 				playerScript.GainScore(50);
 				AchievementManager.Instance.RegisterEvent(AchievementType.Enemy);
+				audio.Stop ();
 			}
 		} else if (collision.collider.name.Equals("Agent_7")) {
 			// the flying enemy suicided into agent 7. You lose hp and you get no score.
 			explosion = (Transform)Instantiate (ExplosionPrefab, collision.collider.transform.position, collision.collider.transform.rotation);
 			Destroy (explosion.gameObject, 0.4f);
 			Destroy (transform.gameObject);
+			audio.Stop ();
 		}
 	}
 

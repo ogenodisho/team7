@@ -268,7 +268,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 			Instantiate (Agent7ControlUI.hasX2MissilesPickup ? SuperMissilePrefab : MissilePrefab, firePoint.position, rotateOneEightyAroundZ * firePoint.rotation);
 		}
 		if (Agent7ControlUI.hasX2MissilesPickup == true) {
-			audio.PlayOneShot(x2shoot, 0.25f);
+			audio.PlayOneShot(x2shoot, 0.125f);
 		} else {
 			audio.Play ();
 		}
