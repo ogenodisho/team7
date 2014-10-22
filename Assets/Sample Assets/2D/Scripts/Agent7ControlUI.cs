@@ -326,6 +326,12 @@
 		void Start(){
 			// The time at this very moment, plus the 30 seconds we want to wait 
 			StartTime = Time.time + m_waitInSeconds;
+
+			if (AudioListener.volume.Equals(0f)) { // if sound is currently off, then set buttons appropriately.. etc.
+				sound = false;
+				soundBtnText = WelcomeMenuScene.SOUND_OFF;
+				
+			}
 		}
 		
 		void FixedUpdate() {
@@ -390,12 +396,12 @@
 					if (sound) { // sound is currently on, so turn off
 						soundBtnText = WelcomeMenuScene.SOUND_OFF;
 						sound = false;
-						
+
 						
 					} else { // sound is currently off, so turn on
 						soundBtnText = WelcomeMenuScene.SOUND_ON;
 						sound = true;
-						
+
 						
 					}
 				}

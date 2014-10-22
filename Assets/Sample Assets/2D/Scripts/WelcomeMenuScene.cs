@@ -38,6 +38,12 @@ public class WelcomeMenuScene : MonoBehaviour{
 
 		Screen.orientation = ScreenOrientation.LandscapeLeft;
 
+		if (AudioListener.volume.Equals(0f)) { // if sound is currently off, then set buttons appropriately.. etc.
+			sound = false;
+			soundBtnText = WelcomeMenuScene.SOUND_OFF;
+			
+		}
+
 	}
 
 	// toggle between two scenes
