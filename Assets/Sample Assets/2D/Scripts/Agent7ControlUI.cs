@@ -431,6 +431,12 @@
 					if (Application.loadedLevelName.StartsWith("EndlessRunner")) {
 						// Go to a random level
 						Application.LoadLevel (rng.Next(5,7));
+					} else {
+						Debug.Log("LEVEL END!");
+						end = true;
+						paused = true;
+						Time.timeScale = 0;
+						exitSceneWait = true;
 					}
 			} else if (collider.gameObject.name.Equals ("X2MissilesPickup")) {
 					Debug.Log ("X2 Missile Damage!");
@@ -460,12 +466,6 @@
 					pus.setCollected();
 					// this pickup lasts for 10 seconds
 					fireRateTimeLeft = 10f;
-			} else if (collider.gameObject.name.Equals ("Door")) {
-					Debug.Log("LEVEL END!");
-					end = true;
-					paused = true;
-					Time.timeScale = 0;
-					exitSceneWait = true;
 			} else if (collider.gameObject.name.Equals ("DNACollectible")) {
 					Debug.Log ("Got a DNACollectible");
 					Destroy (collider.gameObject, 0);
