@@ -123,8 +123,8 @@ public class AchievementManager
 
 		checkAchievements (type, count);
 
-		Debug.Log("Achievement stats; play: " + play + "; die: " + die + "; jump: " + jump
-		          + "; shoot: " + shoot + "; enemy: " + enemy + "; collectable: " + collectable);
+		//Debug.Log("Achievement stats; play: " + play + "; die: " + die + "; jump: " + jump
+		//         + "; shoot: " + shoot + "; enemy: " + enemy + "; collectable: " + collectable);
 	}
 
 	// returns an achievement message if just unlocked otherwise null

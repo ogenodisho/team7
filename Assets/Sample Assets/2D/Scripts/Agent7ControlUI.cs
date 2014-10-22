@@ -43,6 +43,7 @@
 		bool paused = false;
 		bool dead = false;
 		bool end = false;
+		bool scout = false; // gyro scout
 		
 		float lastShotTime = 0f;
 		float shootingThreshold = 0.7f;
@@ -349,12 +350,23 @@
 
 		// This method is called by Unity and just draws the boxes
 		void OnGUI() {
-			if (!paused) {
+			if (!paused && !scout) {
 				GUI.Button (leftButton, "<-");
 				GUI.Button (rightButton, "->");
 				GUI.Button (menuButton, "Menu");
 				GUI.Button (jumpButton, "Jump");
 				GUI.Button (shootButton, "Shoot");
+				if (GUI.Button (new Rect ( Screen.width - 150, 55, 150, 50), "Scout")) {
+					scout = true;
+					PlayerPrefs.SetInt("SCOUT", 1);
+					Time.timeScale = 0;
+				}
+			} else if (scout) {
+				if (GUI.Button (new Rect ( Screen.width - 150, 55, 150, 50), "Un-Scout")) {
+					scout = false;
+					PlayerPrefs.SetInt("SCOUT", 0);
+					Time.timeScale = 1;
+				}
 			} else if (dead) {
 				GUI.DrawTexture (new Rect (0, 0, Screen.width, Screen.height), gameoverBg);
 				GUI.Label (new Rect (0, Screen.height * .5f, Screen.width, Screen.height *.2f), "" + statsUi.
