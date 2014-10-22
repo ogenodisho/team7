@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Enemy1Behaviour : MonoBehaviour {
@@ -14,6 +14,11 @@ public class Enemy1Behaviour : MonoBehaviour {
 
 	public Transform ExplosionPrefab;
 	private Transform explosion;
+
+	public Transform damagePickup;
+	public Transform fireRatePickup;
+	public Transform invulnerabilityPickup;
+	public Transform healthPickup;
 
 	PlatformerCharacter2D playerScript;
 
@@ -100,6 +105,25 @@ public class Enemy1Behaviour : MonoBehaviour {
 				if(transform.localScale.y == 2){
 					door.OpenDoor();
 				}
+				//Drop random item
+				System.Random rng = new System.Random();
+				switch (rng.Next(1,11)) {
+				case 1:
+					Instantiate (damagePickup, transform.position, transform.rotation);
+					break;
+				case 2:
+					Instantiate (healthPickup, transform.position, transform.rotation);
+					break;
+				case 3:
+					Instantiate (fireRatePickup, transform.position, transform.rotation);
+					break;
+				case 4:
+					Instantiate (invulnerabilityPickup, transform.position, transform.rotation);
+					break;
+				default:
+					break;
+				}
+
 			}
 		}
 	}
