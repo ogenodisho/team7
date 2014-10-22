@@ -114,10 +114,10 @@ public class Enemy1Behaviour : MonoBehaviour {
 				System.Random rng = new System.Random();
 				switch (rng.Next(1,11)) {
 				case 1:
-					Instantiate (damagePickup, transform.position, transform.rotation);
+					Instantiate (healthPickup, transform.position, transform.rotation);
 					break;
 				case 2:
-					Instantiate (healthPickup, transform.position, transform.rotation);
+					Instantiate (damagePickup, transform.position, transform.rotation);
 					break;
 				case 3:
 					Instantiate (fireRatePickup, transform.position, transform.rotation);

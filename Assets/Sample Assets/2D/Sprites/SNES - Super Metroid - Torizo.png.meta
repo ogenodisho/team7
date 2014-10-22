@@ -1,0 +1,785 @@
+fileFormatVersion: 2
+guid: ebad508b363a6c74aa3f23c5a7caac9e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SNES - Super Metroid - Torizo
+    21300002: SNES - Super Metroid - Torizo_0
+    21300004: SNES - Super Metroid - Torizo_1
+    21300006: SNES - Super Metroid - Torizo_2
+    21300008: SNES - Super Metroid - Torizo_3
+    21300010: SNES - Super Metroid - Torizo_4
+    21300012: SNES - Super Metroid - Torizo_5
+    21300014: SNES - Super Metroid - Torizo_6
+    21300016: SNES - Super Metroid - Torizo_7
+    21300018: SNES - Super Metroid - Torizo_8
+    21300020: SNES - Super Metroid - Torizo_9
+    21300022: SNES - Super Metroid - Torizo_10
+    21300024: SNES - Super Metroid - Torizo_11
+    21300026: SNES - Super Metroid - Torizo_12
+    21300028: SNES - Super Metroid - Torizo_13
+    21300030: SNES - Super Metroid - Torizo_14
+    21300032: SNES - Super Metroid - Torizo_15
+    21300034: SNES - Super Metroid - Torizo_16
+    21300036: SNES - Super Metroid - Torizo_17
+    21300038: SNES - Super Metroid - Torizo_18
+    21300040: SNES - Super Metroid - Torizo_19
+    21300042: SNES - Super Metroid - Torizo_20
+    21300044: SNES - Super Metroid - Torizo_21
+    21300046: SNES - Super Metroid - Torizo_22
+    21300048: SNES - Super Metroid - Torizo_23
+    21300050: SNES - Super Metroid - Torizo_24
+    21300052: SNES - Super Metroid - Torizo_25
+    21300054: SNES - Super Metroid - Torizo_26
+    21300056: SNES - Super Metroid - Torizo_27
+    21300058: SNES - Super Metroid - Torizo_28
+    21300060: SNES - Super Metroid - Torizo_29
+    21300062: SNES - Super Metroid - Torizo_30
+    21300064: SNES - Super Metroid - Torizo_31
+    21300066: SNES - Super Metroid - Torizo_32
+    21300068: SNES - Super Metroid - Torizo_33
+    21300070: SNES - Super Metroid - Torizo_34
+    21300072: SNES - Super Metroid - Torizo_35
+    21300074: SNES - Super Metroid - Torizo_36
+    21300076: SNES - Super Metroid - Torizo_37
+    21300078: SNES - Super Metroid - Torizo_38
+    21300080: SNES - Super Metroid - Torizo_39
+    21300082: SNES - Super Metroid - Torizo_40
+    21300084: SNES - Super Metroid - Torizo_41
+    21300086: SNES - Super Metroid - Torizo_42
+    21300088: SNES - Super Metroid - Torizo_43
+    21300090: SNES - Super Metroid - Torizo_44
+    21300092: SNES - Super Metroid - Torizo_45
+    21300094: SNES - Super Metroid - Torizo_46
+    21300096: SNES - Super Metroid - Torizo_47
+    21300098: SNES - Super Metroid - Torizo_48
+    21300100: SNES - Super Metroid - Torizo_49
+    21300102: SNES - Super Metroid - Torizo_50
+    21300104: SNES - Super Metroid - Torizo_51
+    21300106: SNES - Super Metroid - Torizo_52
+    21300108: SNES - Super Metroid - Torizo_53
+    21300110: SNES - Super Metroid - Torizo_54
+    21300112: SNES - Super Metroid - Torizo_55
+    21300114: SNES - Super Metroid - Torizo_56
+    21300116: SNES - Super Metroid - Torizo_57
+    21300118: SNES - Super Metroid - Torizo_58
+    21300120: SNES - Super Metroid - Torizo_59
+    21300122: SNES - Super Metroid - Torizo_60
+    21300124: SNES - Super Metroid - Torizo_61
+    21300126: SNES - Super Metroid - Torizo_62
+    21300128: SNES - Super Metroid - Torizo_63
+    21300130: SNES - Super Metroid - Torizo_64
+    21300132: SNES - Super Metroid - Torizo_65
+    21300134: SNES - Super Metroid - Torizo_66
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 15
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SNES - Super Metroid - Torizo_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1371
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1371
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1371
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1371
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1371
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_5
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1371
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1296
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_7
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1302
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_8
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1301
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_9
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1301
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_10
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1302
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_11
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1296
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1200
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1199
+        width: 42
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_14
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1205
+        width: 45
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_15
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1205
+        width: 45
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_16
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1199
+        width: 42
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_17
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1200
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_18
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1100
+        width: 56
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_19
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1100
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_20
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1100
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_21
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1100
+        width: 56
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_22
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1000
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_23
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 999
+        width: 46
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_24
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 999
+        width: 46
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_25
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1000
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_26
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 900
+        width: 75
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_27
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 900
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_28
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 900
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_29
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 900
+        width: 75
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_30
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 800
+        width: 57
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_31
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 800
+        width: 72
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_32
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 800
+        width: 72
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_33
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 800
+        width: 57
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_34
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 700
+        width: 57
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_35
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 699
+        width: 45
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_36
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 699
+        width: 45
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_37
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 700
+        width: 57
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_38
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 599
+        width: 66
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_39
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 599
+        width: 66
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_40
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 599
+        width: 66
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_41
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 599
+        width: 66
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 82
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_43
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 501
+        width: 32
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_44
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 501
+        width: 32
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_45
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 501
+        width: 32
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_46
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 500
+        width: 82
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 82
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_48
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 400
+        width: 82
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_49
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 82
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_50
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 400
+        width: 82
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 82
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_52
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 300
+        width: 82
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_53
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 82
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_54
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 82
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_55
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 200
+        width: 72
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_56
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 200
+        width: 88
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_57
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 200
+        width: 88
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_58
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 200
+        width: 72
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_59
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 100
+        width: 71
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_60
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 100
+        width: 71
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_61
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 100
+        width: 71
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_62
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 100
+        width: 71
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_63
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 71
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_64
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 71
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_65
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 71
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SNES - Super Metroid - Torizo_66
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 0
+        width: 71
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

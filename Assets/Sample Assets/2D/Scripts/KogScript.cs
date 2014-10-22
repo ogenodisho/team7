@@ -48,8 +48,8 @@ public class KogScript : MonoBehaviour {
 		GameObject thePlayer = GameObject.Find("Agent_7");
 		playerScript = thePlayer.GetComponent<PlatformerCharacter2D>();
 		controlUI = thePlayer.GetComponent<Agent7ControlUI> ();
-		thePlayer = GameObject.Find ("Door");
-		door = thePlayer.GetComponent<DoorScript> ();
+		GameObject theDoor = GameObject.Find ("Door");
+		door = theDoor.GetComponent<DoorScript> ();
 		oozeFirePoint = transform.FindChild ("OozeFirePoint");
 		if (playerScript.transform.position.x > transform.position.x) {
 			facingRight = true; //agent in front of kog

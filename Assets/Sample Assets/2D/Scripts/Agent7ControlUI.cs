@@ -432,7 +432,7 @@ Screen.height / 2 - 20, Screen.width / 6 );
 		}
 	}
 	void OnTriggerEnter2D(Collider2D collider) {
-		if (collider.gameObject.name.Equals ("HealthPickup")) {
+		if (collider.gameObject.name.StartsWith ("HealthPickup")) {
 			// Agent_7 collided with a health pickup. Increment health
 			// and destroy the pickup
 			if (statsUi.getHp() == 3){
@@ -450,7 +450,7 @@ Screen.height / 2 - 20, Screen.width / 6 );
 			//character.LoseHealth (); //debug, remove eventually (testing why/where collision event not occuring)
 			if (Application.loadedLevelName.StartsWith("EndlessRunner")) {
 				// Go to a random level
-				Application.LoadLevel (rng.Next(5,7));
+				Application.LoadLevel (rng.Next(5,10));
 			} else {
 				if (currentLevel == 4) {
 					finishedStory = true;
@@ -461,7 +461,7 @@ Screen.height / 2 - 20, Screen.width / 6 );
 				Time.timeScale = 0;
 				exitSceneWait = true;
 			}
-		} else if (collider.gameObject.name.Equals ("X2MissilesPickup")) {
+		} else if (collider.gameObject.name.StartsWith ("X2MissilesPickup")) {
 			Debug.Log ("X2 Missile Damage!");
 			hasX2MissilesPickup = true;
 			PickupScript pus =(PickupScript) collider.gameObject.GetComponent(typeof(PickupScript));
@@ -470,7 +470,7 @@ Screen.height / 2 - 20, Screen.width / 6 );
 			}
 			pus.setCollected();
 			X2MissilesPickupTimeLeft = 10f;
-		} else if (collider.gameObject.name.Equals ("InvulnerabilityPickup")) {
+		} else if (collider.gameObject.name.StartsWith ("InvulnerabilityPickup")) {
 			Debug.Log ("INVULNERABLE!");
 			hasInvulnerabilityPickup = true;
 			PickupScript pus =(PickupScript) collider.gameObject.GetComponent(typeof(PickupScript));
@@ -479,7 +479,7 @@ Screen.height / 2 - 20, Screen.width / 6 );
 			}
 			pus.setCollected();
 			invulnerabilityTimeLeft = 10f;	
-		} else if (collider.gameObject.name.Equals ("FireRatePickup")) {
+		} else if (collider.gameObject.name.StartsWith ("FireRatePickup")) {
 			Debug.Log ("MORE FIREPOWER!");
 			hasFireRatePickup = true;
 			PickupScript pus =(PickupScript) collider.gameObject.GetComponent(typeof(PickupScript));

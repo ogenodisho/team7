@@ -5,7 +5,7 @@ using System.Collections;
 public class Agent7StatsUI : MonoBehaviour {
 	
 	private PlatformerCharacter2D character;
-	public float fallingThreshold = -100;
+	public float fallingThreshold;
 
 	public Texture threeHp;
 	public Texture twoHp;
