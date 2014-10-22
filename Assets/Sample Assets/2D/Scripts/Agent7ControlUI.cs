@@ -427,7 +427,7 @@
 					if (Application.loadedLevelName.StartsWith("EndlessRunner")) {
 						// Go to a random level
 						Application.LoadLevel (rng.Next(5,7));
-					}					
+					}
 			} else if (collider.gameObject.name.Equals ("X2MissilesPickup")) {
 					Debug.Log ("X2 Missile Damage!");
 					hasX2MissilesPickup = true;
