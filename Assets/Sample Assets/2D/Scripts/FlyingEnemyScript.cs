@@ -52,7 +52,7 @@ public class FlyingEnemyScript : MonoBehaviour {
 	}
 
 	void FixedUpdate() {
-		if (Mathf.Abs(playerScript.transform.position.x - transform.position.x) > 20f) {
+		if (Mathf.Abs(playerScript.transform.position.x - transform.position.x) > 10f || (transform.position.y - playerScript.transform.position.y) < 5f) {
 			if (!activated) {
 				return;
 			}
