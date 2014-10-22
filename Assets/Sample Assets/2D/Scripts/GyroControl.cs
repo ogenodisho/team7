@@ -9,8 +9,8 @@ public class GyroControl : MonoBehaviour
 
 	private float tiltCalibrationX = 0.0f;
 	private float tiltCalibrationY = 0.3f;
-	private float slowGravityFactorX = 2.0f;
-	private float slowGravityFactorY = 2.5f;
+	private float slowGravityFactorX = 1.1f;
+	private float slowGravityFactorY = 1.6f;
 
 	private SceneBounds currentBounds;
 	
@@ -32,7 +32,9 @@ public class GyroControl : MonoBehaviour
 			currentBounds = new SceneBounds(-15.0f, 100.0f, 70.0f, -1.0f);
 		} else if (Application.loadedLevelName == "HardLevelScene") {
 			currentBounds = new SceneBounds(-20.0f, 60.0f, 15.0f, -1.0f);
-		} 
+		} else if (Application.loadedLevelName == "EasyKogScene") {
+			currentBounds = new SceneBounds(-15.0f, 445.0f, 25.0f, 0.0f);
+		}
 	}
 
 	public Vector3 transformPosition(Vector3 position) {
