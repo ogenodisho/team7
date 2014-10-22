@@ -390,12 +390,13 @@
 					if (sound) { // sound is currently on, so turn off
 						soundBtnText = WelcomeMenuScene.SOUND_OFF;
 						sound = false;
-						
+						AudioListener.volume = 0f;
 						
 					} else { // sound is currently off, so turn on
 						soundBtnText = WelcomeMenuScene.SOUND_ON;
 						sound = true;
-						
+						AudioListener.volume = 1f;
+
 						
 					}
 				}
