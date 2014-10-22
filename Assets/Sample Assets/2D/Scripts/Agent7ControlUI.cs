@@ -253,7 +253,11 @@ Screen.height / 2 - 20, Screen.width / 6 );
 				Application.LoadLevel(0);
 			} else if (submitPresssed && !submitted) {
 				submitted = true;
-				Social.ReportScore(statsUi.getScore(), "CgkIltz5q7wNEAIQCg", (bool success) => {
+				string leaderboardId = "CgkIltz5q7wNEAIQCg"; // story leaderboard
+				if (!storyMode) {
+					leaderboardId = "CgkIltz5q7wNEAIQCw"; // endless leaderboard
+				}
+				Social.ReportScore(statsUi.getScore(), leaderboardId, (bool success) => {
 					// handle success or failure
 					if (success) {
 						submitText = "Submitted!";
