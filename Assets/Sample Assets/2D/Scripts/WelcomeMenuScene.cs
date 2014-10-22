@@ -13,6 +13,9 @@ public class WelcomeMenuScene : MonoBehaviour{
 	bool pleaseLogin = false;
 	private float timer = 0.0f;
 	private float timerMax = 3.0f;
+
+	private bool sound = true;
+	private string soundBtnText = "Sound: ON";
 	
 	void Update(){
 		if (pleaseLogin) {
@@ -79,7 +82,7 @@ public class WelcomeMenuScene : MonoBehaviour{
 		}
 		
 		//Display 'Options' button
-		if (GUI.Button (new Rect (Screen.width * .17f, Screen.height * .78f, Screen.width * .25f, Screen.height * .1f), "Options/Achievements")){
+		if (GUI.Button (new Rect (Screen.width * .17f, Screen.height * .78f, Screen.width * .25f, Screen.height * .1f), "Achievements")){
 			print("Clicked Options");
 
 			// show achievements UI for testing
@@ -98,6 +101,21 @@ public class WelcomeMenuScene : MonoBehaviour{
 		// user tries to view leaderboards and achievements without having logged in
 		if (pleaseLogin) {
 			GUI.Box (new Rect(Screen.width / 4, Screen.height / 6, Screen.width / 2, Screen.height / 7), "Please login");
+		}
+
+		// sound options
+		if (GUI.Button (new Rect (Screen.width * .887f, Screen.height * .91f, 150, 50), soundBtnText)) {
+			if (sound) { // sound is currently on, so turn off
+				soundBtnText = "Sound: OFF";
+				sound = false;
+
+
+			} else { // sound is currently off, so turn on
+				soundBtnText = "Sound: ON";
+				sound = true;
+
+
+			}
 		}
 	}
 
