@@ -460,7 +460,7 @@
 			} else if (collider.gameObject.name.Equals ("Door")) {
 					Debug.Log ("End of level reached...");
 					// For an endless runner level...
-					character.LoseHealth (); //debug, remove eventually (testing why/where collision event not occuring)
+					//character.LoseHealth (); //debug, remove eventually (testing why/where collision event not occuring)
 					if (Application.loadedLevelName.StartsWith("EndlessRunner")) {
 						// Go to a random level
 						Application.LoadLevel (rng.Next(5,7));
