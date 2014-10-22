@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class PickupScript : MonoBehaviour {
@@ -28,4 +28,8 @@ public class PickupScript : MonoBehaviour {
 		gameObject.renderer.enabled = false;
 		AchievementManager.Instance.RegisterEvent(AchievementType.Collectable);
 	}
+	public bool getCollected(){
+		return collected;
+	}
+
 }

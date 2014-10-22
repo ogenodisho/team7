@@ -80,6 +80,10 @@
 		int currentLevel;	// Used to store current level 
 
 		//public static bool testingUsingUnityRemote = true;
+
+		public AudioSource audio;
+		public AudioClip DNApickup;
+		public AudioClip pickupFX;
 		
 		void Awake()
 		{
@@ -432,18 +436,27 @@
 					Debug.Log ("X2 Missile Damage!");
 					hasX2MissilesPickup = true;
 					PickupScript pus =(PickupScript) collider.gameObject.GetComponent(typeof(PickupScript));
+					if(!pus.getCollected()){
+						audio.PlayOneShot(pickupFX);
+					}
 					pus.setCollected();
 					X2MissilesPickupTimeLeft = 10f;
 			} else if (collider.gameObject.name.Equals ("InvulnerabilityPickup")) {
 					Debug.Log ("INVULNERABLE!");
 					hasInvulnerabilityPickup = true;
 					PickupScript pus =(PickupScript) collider.gameObject.GetComponent(typeof(PickupScript));
+					if(!pus.getCollected()){
+						audio.PlayOneShot(pickupFX);
+					}
 					pus.setCollected();
 					invulnerabilityTimeLeft = 10f;	
 			} else if (collider.gameObject.name.Equals ("FireRatePickup")) {
 					Debug.Log ("MORE FIREPOWER!");
 					hasFireRatePickup = true;
 					PickupScript pus =(PickupScript) collider.gameObject.GetComponent(typeof(PickupScript));
+					if(!pus.getCollected()){
+						audio.PlayOneShot(pickupFX);
+					}
 					pus.setCollected();
 					// this pickup lasts for 10 seconds
 					fireRateTimeLeft = 10f;
@@ -458,6 +471,7 @@
 					Destroy (collider.gameObject, 0);
 					character.GainScore(10);
 					AchievementManager.Instance.RegisterEvent(AchievementType.Collectable);
+					audio.PlayOneShot(DNApickup);
 			} 
 		}
 
